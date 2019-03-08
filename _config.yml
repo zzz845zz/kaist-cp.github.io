@@ -41,6 +41,8 @@ navigation_header:
 navigation_footer:
   Back to top: "#top"
 
+google_analytics: 'UA-135907456-1'
+
 # Collections
 # collections:
 #   posts:
