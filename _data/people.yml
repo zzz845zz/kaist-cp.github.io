@@ -1,7 +1,8 @@
-- name: Jeehoon Kang
-  info: Assistant Professor, PI
+- id: jeehoon.kang
+  name: Jeehoon Kang
+  status: present
+  title: Assistant Professor, PI
   place: Rm 4433, Bldg E3, KAIST (+82-42-350-3578)
-  kaist_id: jeehoon.kang
   github: jeehoonkang
   dblp: https://dblp.org/pers/hd/k/Kang:Jeehoon
   google_scholar: https://scholar.google.co.kr/citations?user=qixw538AAAAJ
@@ -9,3 +10,98 @@
     "(2019) Ph.D. in Computer Science and Engineering. Seoul National University (supervisor: Prof. [Chung-Kil Hur](https://sf.snu.ac.kr/gil.hur)).",
     "(2013) B.S. in Computer Science and Engineering and Mathematical Science. Seoul National University.",
   ]
+
+- id: Suh-Ryung Kim
+  name: Suh-Ryung Kim
+  status: external
+  website: http://edu.snu.ac.kr/node/373
+
+- id: Boram Park
+  name: Boram Park
+  status: external
+  website: https://sites.google.com/site/borampark22/
+
+- id: Hakjoo Oh
+  name: Hakjoo Oh
+  status: external
+  website: http://prl.korea.ac.kr/~pronto/home/
+
+- id: Kihong Heo
+  name: Kihong Heo
+  status: external
+  website: https://www.cis.upenn.edu/~kheo/
+
+- id: Wonchan Lee
+  name: Wonchan Lee
+  status: external
+  website: https://ropas.snu.ac.kr/~wclee/
+
+- id: Woosuk Lee
+  name: Woosuk Lee
+  status: external
+  website: http://psl.hanyang.ac.kr/
+
+- id: Daejun Park
+  name: Daejun Park
+  status: external
+  website: https://daejunpark.github.io/
+
+- id: Kwangkeun Yi
+  name: Kwangkeun Yi
+  status: external
+  website: http://ropas.snu.ac.kr/~kwang/
+
+- id: Chung-Kil Hur
+  name: Chung-Kil Hur
+  status: external
+  website: https://sf.snu.ac.kr/gil.hur
+
+- id: William Mansky
+  name: William Mansky
+  status: external
+  website: http://www.cs.princeton.edu/~wmansky/
+
+- id: Dmitri Garbuzov
+  name: Dmitri Garbuzov
+  status: external
+  website: https://dblp.uni-trier.de/pers/hd/g/Garbuzov:Dmitri
+
+- id: Steve Zdancewic
+  name: Steve Zdancewic
+  status: external
+  website: http://www.cis.upenn.edu/~stevez/
+
+- id: Viktor Vafeiadis
+  name: Viktor Vafeiadis
+  status: external
+  website: https://people.mpi-sws.org/~viktor/
+
+- id: Yoonseung Kim
+  name: Yoonseung Kim
+  status: external
+  website: https://sf.snu.ac.kr/yoonseung.kim
+
+- id: Derek Dreyer
+  name: Derek Dreyer
+  status: external
+  website: https://people.mpi-sws.org/~dreyer/
+
+- id: Ori Lahav
+  name: Ori Lahav
+  status: external
+  website: https://www.cs.tau.ac.il/~orilahav/
+
+- id: Christopher Pulte
+  name: Christopher Pulte
+  status: external
+  website: https://www.cl.cam.ac.uk/~cp526/
+
+- id: Jean Pichon-Pharabod
+  name: Jean Pichon-Pharabod
+  status: external
+  website: https://www.cl.cam.ac.uk/~jp622/
+
+- id: Sung-Hwan Lee
+  name: Sung-Hwan Lee
+  status: external
+  website: https://sf.snu.ac.kr/sunghwan.lee/

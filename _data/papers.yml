@@ -1,0 +1,78 @@
+- title: "Promising-ARM/RISC-V: a simpler and faster operational concurrency model"
+  authors: [
+    "Christopher Pulte",
+    "Jean Pichon-Pharabod",
+    "jeehoon.kang",
+    "Sung-Hwan Lee",
+    "Chung-Kil Hur",
+  ]
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation (**PLDI**)"
+  year: 2019
+  status: conditionally accepted
+
+- title: "Repairing Sequential Consistency in C/C++11"
+  authors: [
+    "Ori Lahav",
+    "Viktor Vafeiadis",
+    "jeehoon.kang",
+    "Chung-Kil Hur",
+    "Derek Dreyer",
+  ]
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation (**PLDI**)"
+  year: 2017
+
+- title: "A Promising Semantics for Relaxed-Memory Concurrency"
+  authors: [
+    "jeehoon.kang",
+    "Chung-Kil Hur",
+    "Ori Lahav",
+    "Viktor Vafeiadis",
+    "Derek Dreyer",
+  ]
+  venue: "ACM SIGPLAN Symposium on Principles of Programming Languages (**POPL**)"
+  year: 2017
+
+- title: "Lightweight Verification of Separate Compilation"
+  authors: [
+    "jeehoon.kang",
+    "Yoonseung Kim",
+    "Chung-Kil Hur",
+    "Derek Dreyer",
+    "Viktor Vafeiadis",
+  ]
+  venue: "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (**POPL**)"
+  year: 2016
+
+- title: "A Formal C Memory Model Supporting Integer-Pointer Casts"
+  authors: [
+    "jeehoon.kang",
+    "Chung-Kil Hur",
+    "William Mansky",
+    "Dmitri Garbuzov",
+    "Steve Zdancewic",
+    "Viktor Vafeiadis",
+  ]
+  venue: "ACM SIGPLAN Conference on Programming Languages Design and Implementation (**PLDI**)"
+  year: 2015
+
+- title: "Global Sparse Analysis Framework"
+  authors: [
+    "Hakjoo Oh",
+    "Kihong Heo",
+    "Wonchan Lee",
+    "Woosuk Lee",
+    "Daejun Park",
+    "jeehoon.kang",
+    "Kwangkeun Yi",
+  ]
+  venue: "ACM Transactions on Programming Languages and Systems Volume 36, Issue 3 (**TOPLAS**)"
+  year: 2014
+
+- title: "A Dice Rolling Game on a Set of Tori"
+  authors: [
+    "jeehoon.kang",
+    "Suh-Ryung Kim",
+    "Boram Park",
+  ]
+  venue: "Electrical Journal of Combinatorics Volume 19, Issue 1"
+  year: 2012

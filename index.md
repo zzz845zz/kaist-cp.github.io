@@ -20,12 +20,15 @@ TODO
 ## People
 
 {% for person in site.data.people %}
+{% if person.status == "present" %}
 
-- [{{ person.name }}]({{ site.baseurl }}{% link people.md %}#{{ person.kaist_id}})
+- {{ person.name }}
+  [:house:]({{ person | to_website_url }})
   [:e-mail:](mailto:{{ person.kaist_id }}@kaist.ac.kr)
   [:octocat:](https://github.com/{{ person.github }})
-  ({{ person.info }})
+  ({{ person.title }})
 
+{% endif %}
 {% endfor %}
 
 
