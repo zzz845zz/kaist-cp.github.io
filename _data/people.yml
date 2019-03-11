@@ -1,9 +1,10 @@
 - name: Jeehoon Kang
-  info: PI, Assistant Professor
+  info: Assistant Professor, PI
   place: Rm 4433, Bldg E3, KAIST (+82-42-350-3578)
-  email: jeehoon.kang@kaist.ac.kr
+  kaist_id: jeehoon.kang
   github: jeehoonkang
   dblp: https://dblp.org/pers/hd/k/Kang:Jeehoon
+  google_scholar: https://scholar.google.co.kr/citations?user=qixw538AAAAJ
   educations: [
     "(2019) Ph.D. in Computer Science and Engineering. Seoul National University (supervisor: Prof. [Chung-Kil Hur](https://sf.snu.ac.kr/gil.hur)).",
     "(2013) B.S. in Computer Science and Engineering and Mathematical Science. Seoul National University.",

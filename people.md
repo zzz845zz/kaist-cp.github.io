@@ -5,19 +5,24 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 
 {% for person in site.data.people %}
 
-### {{ person.name }} ({{ person.info }})
+### <a name="{{ person.kaist_id }}"></a> {{ person.name }} ({{ person.info }})
 
-##### Contact Information
+##### Contact
 
-- Email :e-mail:: [{{ person.email }}](mailto:{{ person.email }})
-- GitHub :octocat:: <a href="https://github.com/{{ person.github }}">{{ person.github }}</a>
-- [DBLP]({{ person.dblp }})
+- Email: [{{ person.kaist_id }}@kaist.ac.kr](mailto:{{ person.kaist_id }}@kaist.ac.kr)
+- GitHub: [{{ person.github }}](https://github.com/{{ person.github }})
+- [DBLP]({{ person.dblp }}) [Google Scholar]({{ person.google_scholar }})
 - Place: {{ person.place }}
 
-##### Educations
+##### Education
 
 {% for education in person.educations %}
 - {{ education }}
 {% endfor %}
 
+{% endfor %}
+
+##### Publications
+
+{% for paper in site.data.papers %}
 {% endfor %}
