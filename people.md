@@ -6,7 +6,7 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 {% for person in site.data.people %}
 {% if person.status == "present" %}
 
-### <a name="{{ person.id }}"></a> {{ person.name }} ({{ person.title }})
+### <a name="{{ person.id }}"></a> {{ person.name }} / {{ person.korean_name }} ({{ person.title }})
 
 ##### Contact
 
