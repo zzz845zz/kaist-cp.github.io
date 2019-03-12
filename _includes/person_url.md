@@ -2,6 +2,6 @@
 {%- if person.status == "external" %}
   {%- assign url = person.website %}
 {%- else %}
-  {%- capture url %}{{ site.baseurl }}/people/#{{ person.id }}{% endcapture %}
+  {%- capture url %}{{ site.baseurl }}/{{ person.id }}/{% endcapture %}
 {%- endif %}
 {{ url }}

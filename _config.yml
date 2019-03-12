@@ -37,7 +37,6 @@ paginate_path: blog/page:num
 # Header nav
 navigation_header:
   Home: /
-  People: /people/
   Publications: /publications/
 
 # Footer nav
