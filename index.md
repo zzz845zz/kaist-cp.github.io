@@ -2,16 +2,16 @@
 layout: page
 feature_text: |
   ## Concurrency and Parallelism Laboratory
-  #### @ School of Computing, KAIST
-feature_image: "https://picsum.photos/1300/400?image=989"
+  #### @ KAIST School of Computing
 excerpt: "TODO"
 ---
 
 {% capture pi_url %}{% include person_link.md person_id="jeehoon.kang" %}{% endcapture %}
 {% assign pi_url = pi_url | strip %}
 
-Welcome to Concurrency and Parallelism Laboratory at KAIST. We are designing and verifying
-concurrent and parallel software that fully realizes the performance potential offered by hardware.
+Welcome to Concurrency and Parallelism Laboratory at [KAIST](https://www.kaist.ac.kr) [School of
+Computing](https://cs.kaist.ac.kr). We are designing and verifying concurrent and parallel software
+that fully realizes the performance potential offered by hardware.
 
 **We are actively recruiting motivated students of all levels interested in concurrency,
 parallelism, verification, and compiler.** If interested, please send an email to {{ pi_url }}.
