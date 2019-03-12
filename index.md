@@ -72,7 +72,8 @@ projects:
   workloads.  To better serve the target workloads, Accelerators break the common abstrction layers
   established for general-purpose hardware like CPU.  So it is unclear which programming languages
   and compilers for deep learning accelerators are easy for programmers and yet efficient in
-  hardware at the same time. We are designing such a programming language and a compiler.
+  hardware at the same time. We are designing such a programming language and a compiler in close
+  collaboration with Furiosa AI.
 
 
 
