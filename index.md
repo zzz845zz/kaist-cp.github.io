@@ -11,7 +11,7 @@ excerpt: "TODO"
 {% assign pi_url = pi_url | strip %}
 
 Welcome to Concurrency and Parallelism Laboratory at KAIST. We are designing and verifying
-concurrent and parallel software that realizes the performance potential offered by hardware.
+concurrent and parallel software that fully realizes the performance potential offered by hardware.
 
 **We are actively recruiting motivated students of all levels interested in concurrency,
 parallelism, verification, and compiler.** If interested, please send an email to {{ pi_url }}.
@@ -47,7 +47,24 @@ parallelism, verification, and compiler.** If interested, please send an email t
 
 ## Research
 
-We are designing and verifying concurrent and parallel software that realizes the full performance
+<!-- TODO: revive it -->
+<!-- My mission as a computer scientist is to <strong>formally understand</strong> the underlying -->
+<!-- principles of real-world computer systems, thereby <strong>helping programmers</strong> to -->
+<!-- write and reason about those systems.For my Ph.D., I have primarily focused on formally -->
+<!-- understanding non-blocking <strong>concurrent programming</strong>, which is an essential -->
+<!-- ingredient for exploiting <strong>parallelism</strong> and is becoming more and more important -->
+<!-- since the slowdown of Moore's law.In the future, as an independent researcher, I would like -->
+<!-- to apply the understanding of concurrency to building practical verification/analysis tools -->
+<!-- for concurrent programs.I believe my research will have far-reaching impact on the way the -->
+<!-- IT industry develops system software. -->
+
+<!-- I am maintaining <a href="https://github.com/crossbeam-rs"><strong>the Crossbeam -->
+<!-- project</strong></a>, which serves as the <em>de facto</em> standard concurrency library -->
+<!-- for <a href="https://rust-lang.org">the Rust programming language</a>.I am also writing a -->
+<!-- compiler for <strong>Furiosa AI's MadRun deep learning accelerator</strong>. -->
+
+
+We are designing and verifying concurrent and parallel software that fully realizes the performance
 potential offered by hardware. Specifically, we are working on or going to work on the following
 projects:
 
