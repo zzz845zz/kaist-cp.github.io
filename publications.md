@@ -9,7 +9,7 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 {% assign author_links = "" | split: "" %}
 {% for author_id in paper.authors %}
 
-  {% capture link %}{% include person_link.html person_id=author_id %}{% endcapture %}
+  {% capture link %}{% include person_link.md person_id=author_id %}{% endcapture %}
   {% assign link = link | strip %}
 
   {% if paper.cofirst_authors contains forloop.index %}

@@ -21,5 +21,18 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 - {{ education }}
 {% endfor %}
 
+
+{% if person.experiences %}
+
+##### Experience
+
+{% for experience in person.experiences %}
+- {{ experience.title }}. {{ experience.institute }}. {{ experience.duration }}{% if experience.comment %}{{ experience.comment }}{% endif %}.
+{% endfor %}
+
+{% endif %}
+
+{% include {{ person.id }}.md %}
+
 {% endif %}
 {% endfor %}
