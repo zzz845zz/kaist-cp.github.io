@@ -22,9 +22,12 @@ TODO
 {% for person in site.data.people %}
 {% if person.status == "present" %}
 
+{% assign person_id = person.id %}
+{% capture person_url %}{% include person_url.html person_id=person_id %}{% endcapture %}
+
 - {{ person.name }}
-  [:house:]({{ person | to_website_url }})
-  [:e-mail:](mailto:{{ person.kaist_id }}@kaist.ac.kr)
+  [:house:]({{ person_url }})
+  [:e-mail:](mailto:{{ person.id }}@kaist.ac.kr)
   [:octocat:](https://github.com/{{ person.github }})
   ({{ person.title }})
 
@@ -56,7 +59,7 @@ TODO
 
 ## Contact
 
-- Rm. 4432 (Jeehoon) and 4433 (students), Bldg. E3-1
+- Rm. 4432 (Jeehoon) and Rm. 4433 (students), Bldg. E3-1
 
   School of Computing, KAIST
 

@@ -6,20 +6,22 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 {% for paper in site.data.papers %}
 {% if paper.authors contains "jeehoon.kang" %}
 
-{% assign authors = "" | split: "" %}
-{% for author in paper.authors %}
-  {% assign author_link = author | to_person | to_website_link %}
-  
+{% assign author_links = "" | split: "" %}
+{% for author_id in paper.authors %}
+
+  {% capture link %}{% include person_link.html person_id=author_id %}{% endcapture %}
+  {% assign link = link | strip %}
+
   {% if paper.cofirst_authors contains forloop.index %}
-    {% assign author_link = author_link | append: "\*" %}
+    {% assign link = link | append: "\*" %}
   {% endif %}
 
-  {% assign authors = authors | push: author_link %}
+  {% assign author_links = author_links | push: link %}
 {% endfor %}
 
 - **{{ paper.title }}**.
 
-  {{ authors | join: ", " }}{% if paper.cofirst_authors %} (\*: co-first authors in alphabetical order){% endif %}.
+  {{ author_links | join: ", " }}{% if paper.cofirst_authors %} (\*: co-first authors in alphabetical order){% endif %}.
 
   In {{ paper.venue }}, **{{ paper.year }}**{% if paper.status %} ({{ paper.status }}){% endif %}.
 
