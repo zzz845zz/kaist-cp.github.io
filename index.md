@@ -7,12 +7,14 @@ feature_image: "https://picsum.photos/1300/400?image=989"
 excerpt: "TODO"
 ---
 
+{% capture pi_url %}{% include person_link.md person_id="jeehoon.kang" %}{% endcapture %}
+{% assign pi_url = pi_url | strip %}
+
 Welcome to Concurrency and Parallelism Laboratory at KAIST. We are designing and verifying
 concurrent and parallel software that realizes the performance potential offered by hardware.
 
 **We are actively recruiting motivated students of all levels interested in concurrency,
-parallelism, verification, and compiler.** If interested, please send an email to {%- include
-person_link.md person_id="jeehoon.kang" %}.
+parallelism, verification, and compiler.** If interested, please send an email to {{ pi_url }}.
 
 
 
@@ -53,7 +55,9 @@ projects:
   concurrent data structures, because efficient data structures should allow concurrent accesses
   from multiple threads that complicate the reasoning of safety. We are designing "design patterns"
   for coordinating concurrent accesses, and using the design patterns, developing practical
-  concurrent data structures.
+  concurrent data structures. For this project, we are using
+  [Crossbeam](https://github.com/crossbeam-rs/crossbeam), a [Rust](https://www.rust-lang.org)
+  concurrency library, as the playground.
 
   <br />
 
@@ -66,13 +70,12 @@ projects:
   
   <br />
 
-- **Designing compilers for deep learning hardware accelerator**: Accelerators like [Google
-  TPU](https://cloud.google.com/tpu/) are specialized hardware for deep learning workloads,
-  purpose-built to achieve high performance by exploiting the intrinsic parallelism of the
-  workloads.  To better serve the target workloads, Accelerators break the common abstrction layers
-  established for general-purpose hardware like CPU.  So it is unclear which programming languages
-  and compilers for deep learning accelerators are easy for programmers and yet efficient in
-  hardware at the same time. We are designing such a programming language and a compiler in close
+- **Designing compilers for deep learning hardware accelerator**: Deep learning accelerators like
+  [Google TPU](https://cloud.google.com/tpu/) are specialized hardware purpose-built to achieve high
+  performance by exploiting the intrinsic parallelism of the workloads. To better serve the target
+  workloads, accelerators break the common abstraction layers established for general-purpose
+  hardware like CPU. So it is difficult to design compilers for those accelerators that achieve
+  programmability and efficiency at the same time. We are developing such a compiler in close
   collaboration with Furiosa AI.
 
 
