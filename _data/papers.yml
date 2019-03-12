@@ -10,6 +10,31 @@
   year: 2019
   status: conditionally accepted
 
+  copy_local: https://sf.snu.ac.kr/publications/promising-arm-riscv.pdf
+  website: https://sf.snu.ac.kr/promising-arm-riscv/
+
+- title: "Crellvm: Verified Credible Compilation for LLVM"
+  authors: [
+    "jeehoon.kang",
+    "Yoonseung Kim",
+    "Youngju Song",
+    "Juneyoung Lee",
+    "Sanghoon Park",
+    "Mark Dongyeon Shin",
+    "Yonghyun Kim",
+    "Sungkeun Cho",
+    "Joonwon Choi",
+    "Chung-Kil Hur",
+    "Kwangkeun Yi",
+  ]
+  cofirst_authors: [1, 2, 3]
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation (**PLDI**)"
+  year: 2018
+
+  copy_local: https://sf.snu.ac.kr/publications/crellvm.pdf
+  copy_publisher: https://dl.acm.org/citation.cfm?id=3192377
+  website: https://sf.snu.ac.kr/crellvm/
+
 - title: "Repairing Sequential Consistency in C/C++11"
   authors: [
     "Ori Lahav",
@@ -20,6 +45,11 @@
   ]
   venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation (**PLDI**)"
   year: 2017
+  status: "**Distinguished Paper Award**"
+
+  copy_local: https://plv.mpi-sws.org/scfix/paper.pdf
+  copy_publisher: https://dl.acm.org/citation.cfm?id=3062352
+  website: https://plv.mpi-sws.org/scfix/
 
 - title: "A Promising Semantics for Relaxed-Memory Concurrency"
   authors: [
@@ -32,6 +62,10 @@
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages (**POPL**)"
   year: 2017
 
+  copy_local: https://sf.snu.ac.kr/publications/promising.pdf
+  copy_publisher: https://dl.acm.org/citation.cfm?id=3009850
+  website: https://sf.snu.ac.kr/promise-concurrency/
+
 - title: "Lightweight Verification of Separate Compilation"
   authors: [
     "jeehoon.kang",
@@ -42,6 +76,10 @@
   ]
   venue: "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (**POPL**)"
   year: 2016
+
+  copy_local: https://sf.snu.ac.kr/publications/sepcompcert.pdf
+  copy_publisher: https://dl.acm.org/citation.cfm?id=2837642
+  website: https://sf.snu.ac.kr/sepcompcert/
 
 - title: "A Formal C Memory Model Supporting Integer-Pointer Casts"
   authors: [
@@ -54,6 +92,10 @@
   ]
   venue: "ACM SIGPLAN Conference on Programming Languages Design and Implementation (**PLDI**)"
   year: 2015
+
+  copy_local: https://sf.snu.ac.kr/publications/intptrcast.pdf
+  copy_publisher: https://dl.acm.org/citation.cfm?id=2738005
+  website: https://sf.snu.ac.kr/intptrcast/
 
 - title: "Global Sparse Analysis Framework"
   authors: [
@@ -68,6 +110,9 @@
   venue: "ACM Transactions on Programming Languages and Systems Volume 36, Issue 3 (**TOPLAS**)"
   year: 2014
 
+  copy_publisher: https://dl.acm.org/citation.cfm?id=2590811
+  website: http://ropas.snu.ac.kr/sparseanalysis/
+
 - title: "A Dice Rolling Game on a Set of Tori"
   authors: [
     "jeehoon.kang",
@@ -76,3 +121,5 @@
   ]
   venue: "Electrical Journal of Combinatorics Volume 19, Issue 1"
   year: 2012
+
+  copy_publisher: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i1p54
