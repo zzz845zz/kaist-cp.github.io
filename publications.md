@@ -23,9 +23,11 @@ excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projec
 
   {{ author_links | join: ", " }}{% if paper.cofirst_authors %} (\*: co-first authors in alphabetical order){% endif %}.
 
-  In {{ paper.venue }}, **{{ paper.year }}**{% if paper.status %} ({{ paper.status }}){% endif %}.
+  {{ paper.venue }}, **{{ paper.year }}**{% if paper.status %} ({{ paper.status }}){% endif %}.
 
-  {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %} {% if paper.copy_local %}\[[paper]({{ paper.copy_local }})\]{% endif %} {% if paper.copy_publisher %}\[[publisher's page]({{ paper.copy_publisher }})\]{% endif %}
+  {% if paper.copy_local %}\[[paper]({{ paper.copy_local }})\]{% endif %}
+  {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %}
+  {% if paper.copy_publisher %}\[[publisher's page]({{ paper.copy_publisher }})\]{% endif %}
 
   <br />
 

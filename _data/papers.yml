@@ -1,3 +1,13 @@
+- title: "Reconciling low-level features of C with compiler optimizations"
+  authors: [
+    "jeehoon.kang",
+  ]
+  venue: "Department of Computer Science and Engineering, Seoul National University, Korea (**Ph.D. Dissertation**)"
+  year: 2019
+
+  copy_local: https://sf.snu.ac.kr/jeehoon.kang/thesis/jeehoon.kang.phd.thesis.pdf
+  website: https://sf.snu.ac.kr/jeehoon.kang/thesis/
+
 - title: "Promising-ARM/RISC-V: a simpler and faster operational concurrency model"
   authors: [
     "Christopher Pulte",
