@@ -20,12 +20,15 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
+encoding: 'utf-8'
+lang: 'en-US'
+title: 'KAIST Concurrency and Parallelism Laboratory'
+logo: "/assets/logo.svg"
+# description: 'This is my new website'
 url: 'https://cp.kaist.ac.kr'
 baseurl: ''
-title: 'KAIST Concurrency and Parallelism Laboratory'
-# description: 'This is my new website'
 permalink: pretty
-# logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+# avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
 
 # Pagination
 paginate: 5
