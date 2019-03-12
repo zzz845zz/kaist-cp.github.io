@@ -45,3 +45,7 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 - Champion, ACM International Collegiate Programming Contest (ICPC) Regional Contest---Seoul, 2007.
 
 - Gold Medal, International Olympiad in Informatics (IOI), 2005.
+
+#### Calendar
+
+<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;mode=WEEK&amp;height=768&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=jeehoon.kang%40cp.kaist.ac.kr&amp;color=%23125A12&amp;ctz=Asia%2FSeoul" style="border-width:0; margin-top:15pt;" width="1024" height="768" frameborder="0" scrolling="no"></iframe>
