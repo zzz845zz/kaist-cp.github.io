@@ -1,6 +1,6 @@
 ---
 layout: page
-excerpt: "TODO"
+excerpt: "Jeehoon Kang's website"
 ---
 
 {% assign person_id = "jeehoon.kang" %}
@@ -12,9 +12,15 @@ excerpt: "TODO"
 
 - Chief Scientist and Founder, Furiosa AI, September, 2017 - current.
 
-- Intern, MPI-SWS, September, 2015 - December, 2015 (advisor: Dr. [Derek Dreyer](https://people.mpi-sws.org/~dreyer/))
+  (topic: deep learning accelerator and its compiler)
+
+- Intern, MPI-SWS, September, 2015 - December, 2015
+
+  (topic: relaxed-memory concurrency, advisor: Dr. [Derek Dreyer](https://people.mpi-sws.org/~dreyer/))
 
 - Software Engineer Intern, Google Korea, June, 2008 – August, 2008.
+
+  (topic: machine translation)
 
 
 #### Publications
@@ -25,6 +31,15 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 #### Professional Activities
 
 - Co-chair, [2020 ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2020)](https://popl20.sigplan.org/) Artifact Evaluation Committee.
+
+
+#### Open Source Contributions
+
+- [Crossbeam](https://github.com/crossbeam-rs/crossbeam): a concurrency library in [Rust](https://www.rust-lang.org)
+
+- [Crellvm](https://sf.snu.ac.kr/crellvm): a verified credible compilation framework for LLVM
+
+- [SepCompCert](https://sf.snu.ac.kr/sepcompcert): verification of separate compilation of CompCert
 
 
 #### Invited Talks
