@@ -38,6 +38,7 @@ paginate_path: blog/page:num
 # Header nav
 navigation_header:
   Home: /
+  Jeehoon Kang: /jeehoon.kang/
   Publications: /publications/
 
 # Footer nav
