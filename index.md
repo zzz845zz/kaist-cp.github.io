@@ -3,7 +3,7 @@ layout: page
 feature_text: |
   ## Concurrency and Parallelism Laboratory
   #### @ KAIST School of Computing
-excerpt: "TODO"
+excerpt: "Where theory meets practice"
 ---
 
 {% capture pi_url %}{% include person_link.md person_id="jeehoon.kang" %}{% endcapture %}
@@ -47,32 +47,16 @@ parallelism, verification, and compiler.** If interested, please send an email t
 
 ## Research
 
-<!-- TODO: revive it -->
-<!-- My mission as a computer scientist is to <strong>formally understand</strong> the underlying -->
-<!-- principles of real-world computer systems, thereby <strong>helping programmers</strong> to -->
-<!-- write and reason about those systems.For my Ph.D., I have primarily focused on formally -->
-<!-- understanding non-blocking <strong>concurrent programming</strong>, which is an essential -->
-<!-- ingredient for exploiting <strong>parallelism</strong> and is becoming more and more important -->
-<!-- since the slowdown of Moore's law.In the future, as an independent researcher, I would like -->
-<!-- to apply the understanding of concurrency to building practical verification/analysis tools -->
-<!-- for concurrent programs.I believe my research will have far-reaching impact on the way the -->
-<!-- IT industry develops system software. -->
-
-<!-- I am maintaining <a href="https://github.com/crossbeam-rs"><strong>the Crossbeam -->
-<!-- project</strong></a>, which serves as the <em>de facto</em> standard concurrency library -->
-<!-- for <a href="https://rust-lang.org">the Rust programming language</a>.I am also writing a -->
-<!-- compiler for <strong>Furiosa AI's MadRun deep learning accelerator</strong>. -->
-
-
 We are designing and verifying concurrent and parallel software that fully realizes the performance
-potential offered by hardware. Specifically, we are working on or going to work on the following
-projects:
+potential offered by hardware. Our general strategy in attacking this goal is to discover the
+underlying principles and to develop formal methods. Specifically, we are working on or going to
+work on the following projects:
 
 - **Designing concurrent data structures**: It is difficult to develop efficient and yet safe
   concurrent data structures, because efficient data structures should allow concurrent accesses
-  from multiple threads that complicate the reasoning of safety. We are designing "design patterns"
-  for coordinating concurrent accesses, and using the design patterns, developing practical
-  concurrent data structures. For this project, we are using
+  from multiple threads (so-called "non-blocking") that complicate the reasoning of safety. We are
+  designing "design patterns" for coordinating concurrent accesses, and using the design patterns,
+  developing practical concurrent data structures. For this project, we are using
   [Crossbeam](https://github.com/crossbeam-rs/crossbeam), a [Rust](https://www.rust-lang.org)
   concurrency library, as the playground.
 
@@ -95,6 +79,10 @@ projects:
   programmability and efficiency at the same time. We are developing such a compiler in close
   collaboration with Furiosa AI.
 
+
+## Publications
+
+See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 
 
 ## Lectures
