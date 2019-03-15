@@ -23,7 +23,7 @@ plugins:
 encoding: 'utf-8'
 lang: 'en-US'
 title: 'KAIST Concurrency and Parallelism Laboratory'
-logo: "/assets/logo.svg"
+logo: "/assets/logos/logo.svg"
 logo_name: "CP Lab @ KAIST SoC"
 description: 'Where theory meets practice'
 url: 'https://cp.kaist.ac.kr'
