@@ -8,7 +8,7 @@
 #### Contact <img align="right" style="width: 25%;" src="{{ site.baseurl}}/assets/{{ person.id }}.jpg" alt="{{ person.name }}">
 
 
-- Email: [{{ person.id }}@kaist.ac.kr](mailto:{{ person.kaist_id }}@kaist.ac.kr)
+- Email: [{{ person.id }}@kaist.ac.kr](mailto:{{ person.id }}@kaist.ac.kr)
 - GitHub: [{{ person.github }}](https://github.com/{{ person.github }})
 - [DBLP]({{ person.dblp }}) [Google Scholar]({{ person.google_scholar }})
 - Place: {{ person.place }}
