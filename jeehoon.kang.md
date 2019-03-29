@@ -31,6 +31,8 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 #### Professional Activities
 
 - Co-chair, [2020 ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2020)](https://popl20.sigplan.org/) Artifact Evaluation Committee.
+- Member, [2020 International Conference on Software Engineering (ICSE 2020)](https://conf.researchr.org/home/icse-2020) New Ideas and Emerging Results Track (NIER) Program Committee.
+- Member, [2020 ACM SIGPLAN Symposium on Principles of Programming Languages (POPL 2019)](https://popl19.sigplan.org/) Artifact Evaluation Committee.
 
 
 #### Open Source Contributions
