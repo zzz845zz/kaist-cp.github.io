@@ -11,7 +11,7 @@ excerpt: "Where theory meets practice"
 
 Welcome to Concurrency and Parallelism Laboratory at [KAIST](https://www.kaist.ac.kr) [School of
 Computing](https://cs.kaist.ac.kr). We are designing and verifying concurrent and parallel software
-that fully realizes the performance potential offered by hardware.
+and hardware that greatly improve performance and significantly reduce power consumption.
 
 **We are actively recruiting motivated students of all levels interested in concurrency,
 parallelism, verification, and compiler.** If interested, please send an email to {{ pi_url }}.
@@ -47,28 +47,30 @@ parallelism, verification, and compiler.** If interested, please send an email t
 
 ## Research
 
-We are designing and verifying concurrent and parallel software that fully realizes the performance
-potential offered by hardware. Our general strategy in attacking this goal is to discover the
-underlying principles and to develop formal methods. Specifically, we are working on or going to
-work on the following projects:
+We are designing and verifying concurrent and parallel software and hardware that greatly improve
+performance and significantly reduce power consumption. Our general strategy in attacking this goal
+is to discover the underlying principles and to develop formal methods. Specifically, we are working
+on or going to work on the following projects:
 
-- **Designing concurrent data structures**: It is difficult to develop efficient and yet safe
-  concurrent data structures, because efficient data structures should allow concurrent accesses
-  from multiple threads (so-called "non-blocking") that complicate the reasoning of safety. We are
+- **Designing concurrent systems**: It is difficult to develop efficient and yet safe concurrent
+  software/hardware, because efficient systems should allow concurrent accesses from multiple
+  threads/components (so-called "non-blocking") that complicate the reasoning of safety. We are
   designing "design patterns" for coordinating concurrent accesses, and using the design patterns,
-  developing practical concurrent data structures. For this project, we are using
+  developing practical concurrent systems. For this project, we are using
   [Crossbeam](https://github.com/crossbeam-rs/crossbeam), a [Rust](https://www.rust-lang.org)
-  concurrency library, as the playground.
+  concurrency library, as the playground for concurrent software. We are taking seriously into
+  account persistent memory in this project.
 
   <br />
 
-- **Verifying concurrent programs**: It is difficult to ensure the safety of concurrent programs by
-  testing because they exhibit so many behaviors due to non-deterministic scheduling or
-  compiler/hardware optimizations. To address this problem, we are going to design verification
-  techniques for proving the correctness of concurrent programs and verify real-world operating
-  systems or database systems, thereby answering the following research question: is verification
-  more cost-effective than testing for concurrent programs?
-  
+- **Verifying concurrent systems**: It is difficult to ensure the safety of concurrent
+  software/hardware by testing because they exhibit so many behaviors due to inherent nondeterminism
+  arising from scheduling, optimization, or other factors. To address this problem, we are going to
+  design verification techniques for proving the correctness of concurrent systems and verify
+  real-world systems---such as operating systems, database systems, or cache coherence protocols,
+  thereby answering the following research question: is verification more cost-effective than
+  testing for concurrent systems?
+
   <br />
 
 - **Designing compilers for deep learning hardware accelerator**: Deep learning accelerators like
