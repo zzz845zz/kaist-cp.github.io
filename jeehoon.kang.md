@@ -55,6 +55,8 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 
 #### Awards and Honors
 
+- Doctoral Dissertation Award, Dept. of Computer Science and Engineering, Seoul National University, 2019.
+
 - Distinguished Paper Award, ACM SIGPLAN conference on Programming Languages Design and Implementation (PLDI), 2017.
 
 - 23rd place, ACM International Collegiate Programming Contest (ICPC) World Finals, 2008.
