@@ -10,11 +10,13 @@ excerpt: "Where theory meets practice"
 {% assign pi_url = pi_url | strip %}
 
 Welcome to Concurrency and Parallelism Laboratory at [KAIST](https://www.kaist.ac.kr) [School of
-Computing](https://cs.kaist.ac.kr). We are designing and verifying concurrent and parallel software
-and hardware that greatly improve performance and significantly reduce power consumption.
+Computing](https://cs.kaist.ac.kr). We are designing concurrent and parallel systems that greatly
+improve performance and significantly reduce power consumption, thereby serving as the basis for the
+next-generation massive data processing.
 
-**We are actively recruiting motivated students of all levels interested in concurrency,
-parallelism, verification, and compiler.** If interested, please send an email to {{ pi_url }}.
+**We are actively recruiting motivated students of all levels interested in designing concurrent and
+parallel systems,** ranging from (hardware) caches to garbage collectors to deep learning
+accelerators.  If interested, please send an email to {{ pi_url }}.
 
 
 
@@ -47,10 +49,11 @@ parallelism, verification, and compiler.** If interested, please send an email t
 
 ## Research
 
-We are designing and verifying concurrent and parallel software and hardware that greatly improve
-performance and significantly reduce power consumption. Our general strategy in attacking this goal
-is to discover the underlying principles and to develop formal methods. Specifically, we are working
-on or going to work on the following projects:
+We are designing concurrent and parallel systems that greatly improve performance and significantly
+reduce power consumption, thereby serving as the basis for the next-generation massive data
+processing. Our general strategy in attacking this goal is (1) to holistically understand computer
+systems from microarchitectures to algorithms, and (2) to develop abstraction layers that realize
+the intrinsic parallelism of the workloads. Specifically, we are working on the following projects:
 
 - **Designing concurrent systems**: It is difficult to develop efficient and yet safe concurrent
   software/hardware, because efficient systems should allow concurrent accesses from multiple

@@ -18,7 +18,7 @@
 
   {{ author_links | join: ", " }}{% if paper.cofirst_authors %} (\*: co-first authors in alphabetical order){% endif %}.
 
-  {{ paper.venue }}, **{{ paper.year }}**{% if paper.status %} ({{ paper.status }}){% endif %}.
+  **({% if paper.venue_short %}{{ paper.venue_short }} {% endif %}{{ paper.year }})** {{ paper.venue }}{% if paper.status %} ({{ paper.status }}){% endif %}.
 
   {% if paper.copy_local %}\[[paper]({{ paper.copy_local }})\]{% endif %}
   {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %}

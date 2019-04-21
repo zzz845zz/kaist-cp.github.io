@@ -7,6 +7,16 @@ excerpt: "Jeehoon Kang's website"
 
 {% include person_header.md person_id=person_id %}
 
+I am an Assistant Professor at [KAIST School of Computing](https://cs.kaist.ac.kr) and the Principal
+Investigator of [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr). I received my
+Ph.D. from Seoul National University under the supervision of [Prof. Chung-Kil
+Hur](https://sf.snu.ac.kr/gil.hur). I am interested in concurrency and parallelism broadly
+construed, from microarchitectures to programming languages to algorithms, since concurrency and
+parallelism are at the heart of massive data processing.
+
+{% include person_contact.md person_id=person_id %}
+{% include person_education.md person_id=person_id %}
+
 
 #### Experiences
 

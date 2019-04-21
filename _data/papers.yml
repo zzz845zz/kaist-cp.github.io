@@ -2,7 +2,8 @@
   authors: [
     "jeehoon.kang",
   ]
-  venue: "Department of Computer Science and Engineering, Seoul National University, Korea (**Ph.D. Dissertation**)"
+  venue: "Department of Computer Science and Engineering, Seoul National University, Korea"
+  venue_short: "Ph.D. Dissertation"
   year: 2019
 
   copy_local: https://sf.snu.ac.kr/jeehoon.kang/thesis/jeehoon.kang.phd.thesis.pdf
@@ -16,7 +17,8 @@
     "Sung-Hwan Lee",
     "Chung-Kil Hur",
   ]
-  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation (**PLDI**)"
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
+  venue_short: "PLDI"
   year: 2019
   status: conditionally accepted
 
@@ -38,7 +40,8 @@
     "Kwangkeun Yi",
   ]
   cofirst_authors: [1, 2, 3]
-  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation (**PLDI**)"
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
+  venue_short: "PLDI"
   year: 2018
 
   copy_local: https://sf.snu.ac.kr/publications/crellvm.pdf
@@ -53,7 +56,8 @@
     "Chung-Kil Hur",
     "Derek Dreyer",
   ]
-  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation (**PLDI**)"
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
+  venue_short: "PLDI"
   year: 2017
   status: "**Distinguished Paper Award**"
 
@@ -69,7 +73,8 @@
     "Viktor Vafeiadis",
     "Derek Dreyer",
   ]
-  venue: "ACM SIGPLAN Symposium on Principles of Programming Languages (**POPL**)"
+  venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
+  venue_short: "POPL"
   year: 2017
 
   copy_local: https://sf.snu.ac.kr/publications/promising.pdf
@@ -84,7 +89,8 @@
     "Derek Dreyer",
     "Viktor Vafeiadis",
   ]
-  venue: "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages (**POPL**)"
+  venue: "ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages"
+  venue_short: "POPL"
   year: 2016
 
   copy_local: https://sf.snu.ac.kr/publications/sepcompcert.pdf
@@ -100,7 +106,8 @@
     "Steve Zdancewic",
     "Viktor Vafeiadis",
   ]
-  venue: "ACM SIGPLAN Conference on Programming Languages Design and Implementation (**PLDI**)"
+  venue: "ACM SIGPLAN Conference on Programming Languages Design and Implementation"
+  venue_short: "PLDI"
   year: 2015
 
   copy_local: https://sf.snu.ac.kr/publications/intptrcast.pdf
@@ -117,7 +124,8 @@
     "jeehoon.kang",
     "Kwangkeun Yi",
   ]
-  venue: "ACM Transactions on Programming Languages and Systems Volume 36, Issue 3 (**TOPLAS**)"
+  venue: "ACM Transactions on Programming Languages and Systems Volume 36, Issue 3"
+  venue_short: "TOPLAS"
   year: 2014
 
   copy_publisher: https://dl.acm.org/citation.cfm?id=2590811
