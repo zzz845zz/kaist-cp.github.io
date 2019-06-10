@@ -1,16 +1,18 @@
-cp.kaist.ac.kr   # Your site's address
+cp.kaist.ac.kr {
+    ext .html   # Clean URLs
+    errors error.log {       # Error log
+        404 404.html   # Custom error page
+    }
 
-ext .html   # Clean URLs
-errors error.log {       # Error log
-    404 404.html   # Custom error page
-}
+    proxy / kaist-cp.github.io {
+        except /mm /breaking-bad
+        transparent
+    }
 
-proxy / kaist-cp.github.io {
-    except /mm
-    transparent
-}
+    proxy /mm localhost:8000 {
+        transparent
+        websocket
+    }
 
-proxy /mm localhost:8000 {
-    transparent
-    websocket
+    browse /breaking-bad
 }
