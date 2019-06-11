@@ -40,10 +40,11 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 
 #### Professional Activities
 
-- Member, [2020 ASPLOS ERC](https://asplos-conference.org/): International Conference on Architectural Support for  Programming Languages and Operating Systems External Review Committee.
-- Co-chair, [2020 POPL AEC](https://popl20.sigplan.org/): Symposium on Principles of Programming Languages Artifact Evaluation Committee.
-- Member, [2020 ICSE NIER](https://conf.researchr.org/home/icse-2020): International Conference on Software Engineering New Ideas and Emerging Results Track Program Committee.
-- Member, [2019 POPL AEC](https://popl19.sigplan.org/): Symposium on Principles of Programming Languages Artifact Evaluation Committee.
+- Co-chair, [2020 POPL AEC](https://popl20.sigplan.org/): Symposium on Principles of Programming Languages, Artifact Evaluation Committee.
+- Member, [2020 ASPLOS ERC](https://asplos-conference.org/): International Conference on Architectural Support for  Programming Languages and Operating Systems, External Review Committee.
+- Member, [2020 ICSE NIER PC](https://conf.researchr.org/home/icse-2020): International Conference on Software Engineering, New Ideas and Emerging Results Track, Program Committee.
+- Member, [2020 ICSE SEIP PC](https://conf.researchr.org/home/icse-2020): International Conference on Software Engineering, Software Engineering in Practice Track, Program Committee.
+- Member, [2019 POPL AEC](https://popl19.sigplan.org/): Symposium on Principles of Programming Languages, Artifact Evaluation Committee.
 
 #### Open Source Contributions
 
