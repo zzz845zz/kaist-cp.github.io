@@ -93,7 +93,7 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 ## Lectures
 
 - [CS500: Design and Analysis of Algorithm (2019 Spring)](https://github.com/kaist-cp/cs500-2019s)
-
+- [CS492: Design and Analysis of Concurrent Programs (2019 Fall)](https://github.com/kaist-cp/cs492-concur)
 
 
 ## Contact
