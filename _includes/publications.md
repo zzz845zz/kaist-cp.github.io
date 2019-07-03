@@ -14,11 +14,12 @@
   {% assign author_links = author_links | push: link %}
 {% endfor %}
 
-- **{{ paper.title }}**.
+- <span style="font-size: 110%; font-weight: bold;">({% if paper.venue_short %}{{ paper.venue_short }} {% endif %}{{ paper.year }})</span>
+  <span style="font-size: 110%;">{{ paper.title }}.</span>
 
   {{ author_links | join: ", " }}{% if paper.cofirst_authors %} (\*: co-first authors in alphabetical order){% endif %}.
 
-  **({% if paper.venue_short %}{{ paper.venue_short }} {% endif %}{{ paper.year }})** {{ paper.venue }}{% if paper.status %} ({{ paper.status }}){% endif %}.
+  {{ paper.venue }}{% if paper.status %} ({{ paper.status }}){% endif %}.
 
   {% if paper.copy_local %}\[[paper]({{ paper.copy_local }})\]{% endif %}
   {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %}
