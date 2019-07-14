@@ -2,7 +2,7 @@
   name: Jeehoon Kang
   korean_name: 강지훈
   status: present
-  title: Assistant Professor, PI
+  title: PI, Assistant Professor
   place: Rm. 4433, Bldg. E3-1, KAIST (+82-42-350-3578)
   github: jeehoonkang
   dblp: https://dblp.org/pers/hd/k/Kang:Jeehoon
@@ -10,6 +10,39 @@
   educations: [
     "(2019) Ph.D. in Computer Science and Engineering. Seoul National University (supervisor: Prof. [Chung-Kil Hur](https://sf.snu.ac.kr/gil.hur)).",
     "(2013) B.S. in Computer Science and Engineering and Mathematical Science. Seoul National University.",
+  ]
+
+- id: kyeongmin.cho
+  name: Kyeongmin Cho
+  korean_name: 조경민
+  status: present
+  title: Master Student
+  place: Rm. TODO, Bldg. E3-1, KAIST (+82-42-350-TODO)
+  github: drzix
+  educations: [
+    "(2019) B.S. in Computer Science. Inha University.",
+  ]
+
+- id: jaehwang.jung
+  name: Jaehwang Jung
+  korean_name: 정재황
+  status: present
+  title: Undergraduate Student
+  place: Rm. TODO, Bldg. E3-1, KAIST (+82-42-350-TODO)
+  github: tomtomjhj
+  educations: [
+    "(2020) B.S. in Computer Science. KAIST (expected).",
+  ]
+
+- id: jiseung.hong
+  name: Jiseung Hong
+  korean_name: 홍지승
+  status: present
+  title: Undergraduate Student
+  place: Rm. TODO, Bldg. E3-1, KAIST (+82-42-350-TODO)
+  github: JiseungHong
+  educations: [
+    "(2021) B.S. in Computer Science. KAIST (expected).",
   ]
 
 - id: Suh-Ryung Kim
