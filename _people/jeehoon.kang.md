@@ -59,7 +59,7 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 - Committee Chairs: [2020 POPL AEC](https://popl20.sigplan.org/)
 - Committee Members: [2020 ICSE NIER](https://conf.researchr.org/home/icse-2020), [2020 ICSE
   SEIP](https://conf.researchr.org/home/icse-2020), [2020 ASPLOS
-  (ERC)](https://asplos-conference.org/), [2019 POPL (AEC)](https://popl19.sigplan.org/)
+  (ERC)](https://asplos-conference.org/), [2019 POPL AEC](https://popl19.sigplan.org/)
 
 #### Open Source Contributions
 
