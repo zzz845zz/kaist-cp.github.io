@@ -1,20 +1,30 @@
 ---
 layout: page
+title: Jeehoon Kang (강지훈)
 excerpt: "Jeehoon Kang's website"
 ---
 
-{% assign person_id = "jeehoon.kang" %}
+{%- assign person_id = "jeehoon.kang" %}
+{%- assign person = site.data.people | where:"id",person_id | sample %}
 
-{% include person_header.md person_id=person_id %}
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl}}/assets/jeehoon.kang.jpg" alt="{{ person.name }}">
 
-I am an Assistant Professor at [KAIST School of Computing](https://cs.kaist.ac.kr) and the Principal
-Investigator of [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr). I received my
-Ph.D. from Seoul National University under the supervision of [Prof. Chung-Kil
-Hur](https://sf.snu.ac.kr/gil.hur). I am interested in concurrency and parallelism broadly
-construed, from microarchitectures to programming languages to algorithms, since concurrency and
-parallelism are at the heart of massive data processing.
+I am an **Assistant Professor at [KAIST School of Computing](https://cs.kaist.ac.kr)** and the
+**Principal Investigator of [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr)**. I
+received my Ph.D. from Seoul National University under the supervision of [Prof. Chung-Kil
+Hur](https://sf.snu.ac.kr/gil.hur). I am designing and verifying concurrent and parallel systems,
+from microarchitectures to programming languages to algorithms, that greatly improve performance and
+significantly reduce power consumption, thereby serving as the basis for the upcoming era of massive
+data processing.
+
+**I am recruiting motivated students of all levels interested in designing and verifying concurrent
+and parallel systems.** See the [index page]({{ site.baseurl }}{% link index.md %}#research) for
+more details on the research we are doing. If interested, please send me an email.
+
 
 {% include person_contact.md person_id=person_id %}
+
+
 {% include person_education.md person_id=person_id %}
 
 
@@ -46,11 +56,10 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 
 #### Professional Activities
 
-- Co-chair, [2020 POPL AEC](https://popl20.sigplan.org/): Symposium on Principles of Programming Languages, Artifact Evaluation Committee.
-- Member, [2020 ASPLOS ERC](https://asplos-conference.org/): International Conference on Architectural Support for  Programming Languages and Operating Systems, External Review Committee.
-- Member, [2020 ICSE NIER PC](https://conf.researchr.org/home/icse-2020): International Conference on Software Engineering, New Ideas and Emerging Results Track, Program Committee.
-- Member, [2020 ICSE SEIP PC](https://conf.researchr.org/home/icse-2020): International Conference on Software Engineering, Software Engineering in Practice Track, Program Committee.
-- Member, [2019 POPL AEC](https://popl19.sigplan.org/): Symposium on Principles of Programming Languages, Artifact Evaluation Committee.
+- Committee Chairs: [2020 POPL AEC](https://popl20.sigplan.org/)
+- Committee Members: [2020 ICSE NIER](https://conf.researchr.org/home/icse-2020), [2020 ICSE
+  SEIP](https://conf.researchr.org/home/icse-2020), [2020 ASPLOS
+  (ERC)](https://asplos-conference.org/), [2019 POPL (AEC)](https://popl19.sigplan.org/)
 
 #### Open Source Contributions
 

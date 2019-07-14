@@ -50,7 +50,11 @@ navigation_footer:
 
 google_analytics: 'UA-135907456-1'
 
-# collections:
+collections:
+  people:
+    output: true
+    permalink: /:path/
+
 #   posts:
 #     title: Posts
 #     output: true

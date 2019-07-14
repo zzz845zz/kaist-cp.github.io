@@ -6,5 +6,5 @@
 
 - Email: [{{ person.id }}@kaist.ac.kr](mailto:{{ person.id }}@kaist.ac.kr)
 - GitHub: [{{ person.github }}](https://github.com/{{ person.github }})
-- [DBLP]({{ person.dblp }}) [Google Scholar]({{ person.google_scholar }})
+- Bibliography: [DBLP]({{ person.dblp }}), [Google Scholar]({{ person.google_scholar }})
 - Place: {{ person.place }}
