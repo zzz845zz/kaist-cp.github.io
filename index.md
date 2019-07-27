@@ -1,8 +1,9 @@
 ---
 layout: page
 feature_text: |
-  ## Concurrency and Parallelism Laboratory
-  #### @ KAIST School of Computing
+  <h2 style="color: white;">Concurrency and Parallelism Laboratory</h2>
+  <h4 style="color: white;">@ KAIST School of Computing</h4>
+feature_image: "/assets/kaist.jpg"
 excerpt: "Where theory meets practice"
 ---
 
