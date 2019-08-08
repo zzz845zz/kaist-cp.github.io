@@ -10,6 +10,7 @@
   ]
   submitted: true
   copy_local: https://drive.google.com/uc?export=download&id=19V-EV9IchPe-MeVHc-rl94epMibYDv8o
+  artifact_local: https://drive.google.com/uc?export=download&id=14MWxSQyXN0cg4KLvmtenyUPW8oXOnB7I
 
   abstract: "All pointer-based nonblocking concurrent data structures should deal with the problem
              of <em>safe memory reclamation</em>: before reclaiming a memory block, a thread should

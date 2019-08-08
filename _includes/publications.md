@@ -23,9 +23,10 @@
 
   {{ paper.venue }}{% if paper.status %} ({{ paper.status }}){% endif %}.
 
-  {% if paper.copy_local %}\[[paper]({{ paper.copy_local }})\]{% endif %}
-  {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %}
-  {% if paper.copy_publisher %}\[[publisher's page]({{ paper.copy_publisher }})\]{% endif %}
+  {% if paper.copy_local %}\[[paper]({{ paper.copy_local }})\]{% endif %} ​
+  {% if paper.artifact_local %}\[[artifact]({{ paper.artifact_local }})\]{% endif %} ​
+  {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %} ​
+  {% if paper.copy_publisher %}\[[publisher's page]({{ paper.copy_publisher }})\]{% endif %} ​
 
   {% if include.abstract and paper.abstract %}
   <p><b>Abstract</b>: {{ paper.abstract }}</p>
