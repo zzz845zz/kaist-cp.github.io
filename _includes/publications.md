@@ -29,7 +29,7 @@
   {% if paper.copy_publisher %}\[[publisher's page]({{ paper.copy_publisher }})\]{% endif %} ​
 
   {% if include.abstract and paper.abstract %}
-  <p><b>Abstract</b>: {{ paper.abstract }}</p>
+  <p style="margin: 20px;"><b>Abstract</b>: {{ paper.abstract }}</p>
   {% endif %}
 
   <br />

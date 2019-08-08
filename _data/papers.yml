@@ -25,6 +25,7 @@
              using only widely available features; and <em>(vi) versatile</em>: it is widely
              applicable to many data structures.
              <br />
+             <br />
              We introduce PEBR, which we believe is the first scheme that satisfies all the
              properties above.  The key idea is designing a <em>hybrid</em> of pointer- and
              epoch-based reclamation schemes (PBR and EBR, respectively) that is robust like PBR and
