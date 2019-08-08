@@ -41,6 +41,8 @@ navigation_header:
   url: /
 - title: Jeehoon Kang
   url: /jeehoon.kang/
+- title: Research
+  url: /research/
 - title: Publications
   url: /publications/
 
@@ -52,6 +54,9 @@ google_analytics: 'UA-135907456-1'
 
 collections:
   people:
+    output: true
+    permalink: /:path/
+  projects:
     output: true
     permalink: /:path/
 

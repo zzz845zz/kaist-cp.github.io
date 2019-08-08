@@ -18,8 +18,8 @@ significantly reduce power consumption, thereby serving as the basis for the upc
 data processing.
 
 **I am recruiting motivated students of all levels interested in designing and verifying concurrent
-and parallel systems.** See the [index page]({{ site.baseurl }}{% link index.md %}#research) for
-more details on the research we are doing. If interested, please send me an email.
+and parallel systems.** See the [research]({{ site.baseurl }}{% link research.md %}) page for more
+details on the research we are doing. If interested, please send me an email.
 
 
 {% include person_contact.md person_id=person_id %}
@@ -45,7 +45,8 @@ more details on the research we are doing. If interested, please send me an emai
 
 #### Publications
 
-See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
+See the [research]({{ site.baseurl }}{% link research.md %}) and [publications]({{ site.baseurl }}{%
+link publications.md %}) pages.
 
 
 #### Lectures

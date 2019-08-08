@@ -1,5 +1,7 @@
 {% for paper in site.data.papers %}
-{% if paper.authors contains include.author_id %}
+{% if include.author_id == null or paper.authors contains include.author_id %}
+{% if include.tag == null or paper.tags contains include.tag %}
+{% if include.submitted or paper.submitted == null %}
 
 {% assign author_links = "" | split: "" %}
 {% for author_id in paper.authors %}
@@ -25,7 +27,13 @@
   {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %}
   {% if paper.copy_publisher %}\[[publisher's page]({{ paper.copy_publisher }})\]{% endif %}
 
+  {% if include.abstract and paper.abstract %}
+  <p><b>Abstract</b>: {{ paper.abstract }}</p>
+  {% endif %}
+
   <br />
 
+{% endif %}
+{% endif %}
 {% endif %}
 {% endfor %}
