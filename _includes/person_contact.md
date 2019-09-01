@@ -4,7 +4,7 @@
 
 #### Contact
 
-- Email: [{{ person.id }}@kaist.ac.kr](mailto:{{ person.id }}@kaist.ac.kr)
+- Email: [{{ person.id }}{{ person.code }}@kaist.ac.kr](mailto:{{ person.id }}{{ person.code }}@kaist.ac.kr)
 - GitHub: [{{ person.github }}](https://github.com/{{ person.github }})
 - Bibliography: [DBLP]({{ person.dblp }}), [Google Scholar]({{ person.google_scholar }})
 - Place: {{ person.place }}
