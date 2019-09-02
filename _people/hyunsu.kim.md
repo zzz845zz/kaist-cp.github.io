@@ -12,7 +12,7 @@ excerpt: "Hyunsu Kim's website"
 I am an **Undergraduate Student at [KAIST School of Computing](https://cs.kaist.ac.kr)**.
 I once used to be interested in machine learning and data mining algorithms.
 Now, I'm getting attracted to concurrent programming that really drives the scalable system and applications.
-Trying to become **[RUST](rust-lang.org)** enthusiast:fire:
+Trying to become **[Rust](rust-lang.org)** enthusiast:fire:
 
 
 {% include person_contact.md person_id=person_id %}
