@@ -41,9 +41,15 @@ concurrent and parallel systems.** If interested, please send an email to {{ pi_
 {% assign person_id = person.id %}
 {% capture person_url %}{% include person_url.md person_id=person_id %}{% endcapture %}
 
+{% if person.kaist_id %}
+{% assign mail_id = person.kaist_id %}
+{% else %}
+{% assign mail_id = person.id %}
+{% endif %}
+
 - {{ person.name }}
   [:house:]({{ person_url }})
-  [:e-mail:](mailto:{{ person.id }}@kaist.ac.kr)
+  [:e-mail:](mailto:{{ mail_id }}@kaist.ac.kr)
   [:octocat:](https://github.com/{{ person.github }})
   ({{ person.title }})
 
