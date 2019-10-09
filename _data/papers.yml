@@ -1,3 +1,42 @@
+- title: "CompCertM: CompCert with Lightweight Modular Verification and Multi-Language Linking"
+  authors: [
+    "Youngju Song",
+    "Minki Cho",
+    "Dongjoo Kim",
+    "Yonghyun Kim",
+    "jeehoon.kang",
+    "Chung-Kil Hur",
+  ]
+  venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
+  venue_short: "POPL"
+  year: 2019
+  status: conditionally accepted
+
+- title: "Stacked Borrows: An Aliasing Model for Rust"
+  authors: [
+    "Ralf Jung",
+    "Hoang-Hai Dang",
+    "jeehoon.kang",
+    "Derek Dreyer",
+  ]
+  venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
+  venue_short: "POPL"
+  year: 2019
+  status: conditionally accepted
+
+- title: "Enveloping Implicit Assumptions of Intrusive Data Structures within Ownership Type System"
+  authors: [
+    "Keunhong Lee",
+    "jeehoon.kang",
+    "Wonsup Yoon",
+    "Joongi Kim",
+    "Sue Moon",
+  ]
+  venue: "Workshop on Programming Languages and Operating Systems"
+  venue_short: "PLOS"
+  year: 2019
+  status: accepted
+
 - title: "A Marriage of Pointer- and Epoch-Based Reclamation"
   authors: [
     "jeehoon.kang",
