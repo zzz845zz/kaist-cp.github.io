@@ -90,7 +90,7 @@
   educations: [
     "(2020) B.S. in Computer Science. KAIST (expected).",
   ]
-  
+
 - id: seoyun.son
   name: Seoyun Son
   korean_name: 손서윤
@@ -241,3 +241,43 @@
   name: Joonwon Choi
   status: external
   website: http://joonwon.net/c/
+
+- id: Minki Cho
+  name: Minki Cho
+  status: external
+  website: https://sf.snu.ac.kr/minki.cho
+
+- id: Dongjoo Kim
+  name: Dongjoo Kim
+  status: external
+  website: https://sf.snu.ac.kr/dongjoo.kim
+
+- id: Hoang-Hai Dang
+  name: Hoang-Hai Dang
+  status: external
+  website: https://people.mpi-sws.org/~haidang/
+
+- id: Ralf Jung
+  name: Ralf Jung
+  status: external
+  website: https://people.mpi-sws.org/~jung/
+
+- id: Keunhong Lee
+  name: Keunhong Lee
+  status: external
+  website: https://an.kaist.ac.kr/~khlee/
+
+- id: Wonsup Yoon
+  name: Wonsup Yoon
+  status: external
+  website: http://an.kaist.ac.kr/member.html
+
+- id: Joongi Kim
+  name: Joongi Kim
+  status: external
+  website: http://an.kaist.ac.kr/~joongi/
+
+- id: Sue Moon
+  name: Sue Moon
+  status: external
+  website: http://an.kaist.ac.kr/~sbmoon/
