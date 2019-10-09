@@ -1,3 +1,39 @@
+- title: "A Marriage of Pointer- and Epoch-Based Reclamation"
+  authors: [
+    "jeehoon.kang",
+    "jaehwang.jung",
+  ]
+  venue: "Submitted"
+  year: 2019
+  tags: [
+    "gc",
+  ]
+  submitted: true
+  copy_local: https://drive.google.com/uc?export=download&id=19V-EV9IchPe-MeVHc-rl94epMibYDv8o
+  artifact_local: https://drive.google.com/uc?export=download&id=14MWxSQyXN0cg4KLvmtenyUPW8oXOnB7I
+
+  abstract: "All pointer-based nonblocking concurrent data structures should deal with the problem
+             of <em>safe memory reclamation</em>: before reclaiming a memory block, a thread should
+             make sure that no other threads are concurrently dereferencing the block.  Various safe
+             memory reclamation schemes have been proposed in the literature, but none of them
+             satisfy the following desiderata at the same time: the scheme should be <em>(i)
+             nonblocking</em>: a non-cooperative thread does not prevent the other threads from
+             making progress; <em>(ii) robust</em>: a non-cooperative thread does not prevent the
+             other threads from reclaiming an unbounded number of blocks; <em>(iii) fast</em>: it
+             does not incur significant time overhead; <em>(iv) compact</em>: it does not incur
+             significant space overhead; <em>(v) portable</em>: it is efficiently implementable
+             using only widely available features; and <em>(vi) versatile</em>: it is widely
+             applicable to many data structures.
+             <br />
+             <br />
+             We introduce PEBR, which we believe is the first scheme that satisfies all the
+             properties above.  The key idea is designing a <em>hybrid</em> of pointer- and
+             epoch-based reclamation schemes (PBR and EBR, respectively) that is robust like PBR and
+             fast and versatile like EBR, while being nonblocking, compact, and portable like both
+             of them.  We experimentally evaluate whether PEBR is fast and robust using data
+             structure microbenchmarks, for which PEBR performs comparably to the state-of-the-art
+             schemes."
+
 - title: "CompCertM: CompCert with Lightweight Modular Verification and Multi-Language Linking"
   authors: [
     "Youngju Song",
@@ -37,53 +73,6 @@
   year: 2019
   status: accepted
 
-- title: "A Marriage of Pointer- and Epoch-Based Reclamation"
-  authors: [
-    "jeehoon.kang",
-    "jaehwang.jung",
-  ]
-  venue: "Submitted"
-  year: 2019
-  tags: [
-    "gc",
-  ]
-  submitted: true
-  copy_local: https://drive.google.com/uc?export=download&id=19V-EV9IchPe-MeVHc-rl94epMibYDv8o
-  artifact_local: https://drive.google.com/uc?export=download&id=14MWxSQyXN0cg4KLvmtenyUPW8oXOnB7I
-
-  abstract: "All pointer-based nonblocking concurrent data structures should deal with the problem
-             of <em>safe memory reclamation</em>: before reclaiming a memory block, a thread should
-             make sure that no other threads are concurrently dereferencing the block.  Various safe
-             memory reclamation schemes have been proposed in the literature, but none of them
-             satisfy the following desiderata at the same time: the scheme should be <em>(i)
-             nonblocking</em>: a non-cooperative thread does not prevent the other threads from
-             making progress; <em>(ii) robust</em>: a non-cooperative thread does not prevent the
-             other threads from reclaiming an unbounded number of blocks; <em>(iii) fast</em>: it
-             does not incur significant time overhead; <em>(iv) compact</em>: it does not incur
-             significant space overhead; <em>(v) portable</em>: it is efficiently implementable
-             using only widely available features; and <em>(vi) versatile</em>: it is widely
-             applicable to many data structures.
-             <br />
-             <br />
-             We introduce PEBR, which we believe is the first scheme that satisfies all the
-             properties above.  The key idea is designing a <em>hybrid</em> of pointer- and
-             epoch-based reclamation schemes (PBR and EBR, respectively) that is robust like PBR and
-             fast and versatile like EBR, while being nonblocking, compact, and portable like both
-             of them.  We experimentally evaluate whether PEBR is fast and robust using data
-             structure microbenchmarks, for which PEBR performs comparably to the state-of-the-art
-             schemes."
-
-- title: "Reconciling low-level features of C with compiler optimizations"
-  authors: [
-    "jeehoon.kang",
-  ]
-  venue: "Department of Computer Science and Engineering, Seoul National University, Korea"
-  venue_short: "Ph.D. Dissertation"
-  year: 2019
-
-  copy_local: https://sf.snu.ac.kr/jeehoon.kang/thesis/jeehoon.kang.phd.thesis.pdf
-  website: https://sf.snu.ac.kr/jeehoon.kang/thesis/
-
 - title: "Promising-ARM/RISC-V: a simpler and faster operational concurrency model"
   authors: [
     "Christopher Pulte",
@@ -99,6 +88,17 @@
 
   copy_local: https://sf.snu.ac.kr/publications/promising-arm-riscv.pdf
   website: https://sf.snu.ac.kr/promising-arm-riscv/
+
+- title: "Reconciling low-level features of C with compiler optimizations"
+  authors: [
+    "jeehoon.kang",
+  ]
+  venue: "Department of Computer Science and Engineering, Seoul National University, Korea"
+  venue_short: "Ph.D. Dissertation"
+  year: 2019
+
+  copy_local: https://sf.snu.ac.kr/jeehoon.kang/thesis/jeehoon.kang.phd.thesis.pdf
+  website: https://sf.snu.ac.kr/jeehoon.kang/thesis/
 
 - title: "Crellvm: Verified Credible Compilation for LLVM"
   authors: [
