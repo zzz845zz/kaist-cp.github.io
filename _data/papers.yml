@@ -46,6 +46,7 @@
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
   year: 2020
+  website: https://sf.snu.ac.kr/compcertm/
   status: conditionally accepted
 
 - title: "Stacked Borrows: An Aliasing Model for Rust"
