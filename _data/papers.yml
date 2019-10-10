@@ -45,7 +45,7 @@
   ]
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
-  year: 2019
+  year: 2020
   status: conditionally accepted
 
 - title: "Stacked Borrows: An Aliasing Model for Rust"
@@ -57,7 +57,7 @@
   ]
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
-  year: 2019
+  year: 2020
   status: conditionally accepted
 
 - title: "Enveloping Implicit Assumptions of Intrusive Data Structures within Ownership Type System"
@@ -70,7 +70,7 @@
   ]
   venue: "Workshop on Programming Languages and Operating Systems"
   venue_short: "PLOS"
-  year: 2019
+  year: 2020
   status: accepted
 
 - title: "Promising-ARM/RISC-V: a simpler and faster operational concurrency model"
