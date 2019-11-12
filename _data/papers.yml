@@ -46,8 +46,10 @@
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
   year: 2020
+  status: accepted
+
+  copy_local: https://sf.snu.ac.kr/publications/compcertm.pdf
   website: https://sf.snu.ac.kr/compcertm/
-  status: conditionally accepted
 
 - title: "Stacked Borrows: An Aliasing Model for Rust"
   authors: [
@@ -59,7 +61,10 @@
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
   year: 2020
-  status: conditionally accepted
+  status: accepted
+
+  copy_local: https://plv.mpi-sws.org/rustbelt/stacked-borrows/paper.pdf
+  website: https://plv.mpi-sws.org/rustbelt/stacked-borrows/
 
 - title: "Enveloping Implicit Assumptions of Intrusive Data Structures within Ownership Type System"
   authors: [
@@ -72,7 +77,6 @@
   venue: "Workshop on Programming Languages and Operating Systems"
   venue_short: "PLOS"
   year: 2019
-  status: accepted
 
 - title: "Promising-ARM/RISC-V: a simpler and faster operational concurrency model"
   authors: [
@@ -85,7 +89,6 @@
   venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
   venue_short: "PLDI"
   year: 2019
-  status: conditionally accepted
 
   copy_local: https://sf.snu.ac.kr/publications/promising-arm-riscv.pdf
   website: https://sf.snu.ac.kr/promising-arm-riscv/
