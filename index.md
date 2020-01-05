@@ -23,13 +23,9 @@ concurrent and parallel systems.** If interested, please send an email to {{ pi_
 
 ## News
 
-#### 2019
-
-- June, 2019: {%- include person_link.md person_id="kyeongmin.cho" %} joined as a master student,
-  and {%- include person_link.md person_id="jaehwang.jung" %}, {%- include person_link.md
-  person_id="jiseung.hong" %}, {%- include person_link.md
-  person_id="adi.yerembessov" %} joined as undergraduate students. Welcome!
-- February, 2019: Concurrency and Parallelism Laboratory was born.
+<div style="width: 50%; height:auto;">
+    <a class="twitter-timeline" href="https://twitter.com/kaist_cp?ref_src=twsrc%5Etfw">Tweets by kaist_cp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+</div>
 
 
 
@@ -80,6 +76,7 @@ See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
 
 - [CS500: Design and Analysis of Algorithm (2019 Spring)](https://github.com/kaist-cp/cs500-2019s)
 - [CS492: Design and Analysis of Concurrent Programs (2019 Fall)](https://github.com/kaist-cp/cs492-concur)
+
 
 
 ## Contact
