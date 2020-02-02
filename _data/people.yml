@@ -40,7 +40,7 @@
   name: Jaehwang Jung
   korean_name: 정재황
   status: present
-  title: Undergraduate Student
+  title: Master Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: tomtomjhj
   educations: [
@@ -51,7 +51,7 @@
   name: Dongwoo Oh
   korean_name: 오동우
   status: present
-  title: Undergraduate Student
+  title: Master Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: garamceleste
   educations: [
@@ -68,28 +68,6 @@
   educations: [
     "(2021) B.S. in Computer Science. KAIST (expected).",
   ]
-
-- id: jiseung.hong
-  name: Jiseung Hong
-  korean_name: 홍지승
-  status: present
-  title: Undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: JiseungHong
-  educations: [
-    "(2021) B.S. in Computer Science. KAIST (expected).",
-  ]
-
-- id: adi.yerembessov
-  name: Adi Yerembessov
-  status: present
-  title: Undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: hydium
-  educations: [
-    "(2020) B.S. in Computer Science. KAIST (expected).",
-  ]
-
 
 - id: hyunsu.kim
   kaist_id: hyunsu.kim00
@@ -113,9 +91,30 @@
     "(2021) B.S. in Computer Science. KAIST (expected).",
   ]
 
+- id: jiseung.hong
+  name: Jiseung Hong
+  korean_name: 홍지승
+  status: external
+  title: Undergraduate Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: JiseungHong
+  educations: [
+    "(2021) B.S. in Computer Science. KAIST (expected).",
+  ]
+
+- id: adi.yerembessov
+  name: Adi Yerembessov
+  status: external
+  title: Undergraduate Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: hydium
+  educations: [
+    "(2020) B.S. in Computer Science. KAIST (expected).",
+  ]
+
 - id: batzorig.zorigoo
   name: Batzorig Zorigoo
-  status: present
+  status: external
   title: Undergraduate Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: qvntm
