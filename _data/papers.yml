@@ -48,7 +48,6 @@
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
   year: 2020
-  status: accepted
 
   copy_local: https://sf.snu.ac.kr/publications/compcertm.pdf
   website: https://sf.snu.ac.kr/compcertm/
@@ -63,7 +62,6 @@
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
   year: 2020
-  status: accepted
 
   copy_local: https://plv.mpi-sws.org/rustbelt/stacked-borrows/paper.pdf
   website: https://plv.mpi-sws.org/rustbelt/stacked-borrows/
