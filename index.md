@@ -109,8 +109,10 @@ programming environment at the same time. Specifically, we are working on the fo
 
 
 ## Publications
+<div id="publications"></div>
 
-See the [publications]({{ site.baseurl }}{% link publications.md %}) page.
+{% include publications.md %}
+<!-- See the [publications]({{ site.baseurl }}{% link publications.md %}) page. -->
 
 
 

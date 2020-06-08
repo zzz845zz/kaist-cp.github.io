@@ -46,7 +46,7 @@ navigation_header:
 - title: Research
   url: /#research
 - title: Publications
-  url: /publications/
+  url: /#publications
 - title: Lectures
   url: /#lectures
 - title: Contact

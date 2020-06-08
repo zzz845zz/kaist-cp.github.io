@@ -80,6 +80,8 @@
   venue_short: "PLOS"
   year: 2019
 
+  copy_publisher: https://dl.acm.org/doi/10.1145/3365137.3365403
+
 - title: "Promising-ARM/RISC-V: a simpler and faster operational concurrency model"
   authors: [
     "Christopher Pulte",
