@@ -30,7 +30,7 @@ details on the research we are doing. If interested, please send me an email.
 
 #### Experiences
 
-- Chief Scientist and Founder, Furiosa AI, September, 2017 - current.
+- Chief R&D Officer and Founder, Furiosa AI, September, 2017 - current.
 
   (topic: deep learning accelerator and its compiler)
 
