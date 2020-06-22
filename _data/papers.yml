@@ -6,7 +6,6 @@
   venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
   venue_short: "PLDI"
   year: 2020
-  status: "accepted"
 
   tags: [
     "gc",
