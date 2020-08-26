@@ -91,11 +91,11 @@ link publications.md %}) pages.
 
 - Distinguished Paper Award, ACM SIGPLAN conference on Programming Languages Design and Implementation (PLDI), 2017.
 
-- 23rd place, ACM International Collegiate Programming Contest (ICPC) World Finals, 2008.
+<!-- - 23rd place, ACM International Collegiate Programming Contest (ICPC) World Finals, 2008. -->
 
-- Champion, ACM International Collegiate Programming Contest (ICPC) Regional Contest---Seoul, 2007.
+<!-- - Champion, ACM International Collegiate Programming Contest (ICPC) Regional Contest---Seoul, 2007. -->
 
-- Gold Medal, International Olympiad in Informatics (IOI), 2005.
+<!-- - Gold Medal, International Olympiad in Informatics (IOI), 2005. -->
 
 #### Calendar
 
