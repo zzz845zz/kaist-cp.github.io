@@ -13,8 +13,10 @@ excerpt: "Where theory meets practice"
 Welcome to Concurrency and Parallelism Laboratory at [KAIST](https://www.kaist.ac.kr) [School of
 Computing](https://cs.kaist.ac.kr). **We are actively recruiting motivated students of all levels
 interested in designing and verifying concurrent and parallel systems.** If interested, please visit
-a [recruit page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"}
-and send an email to {{ pi_url }}.
+a [recruit
+page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"}
+and send an email to {{ pi_url }}. **If you're interested in joining as a graduate student, please
+contact Jeehoon as soon as possible.**
 
 In the era of big data, artificial intelligence, and internet of things, humankind requires more and
 more computing resources, but they are becoming more and more scarce due to the slowing of Dennard
