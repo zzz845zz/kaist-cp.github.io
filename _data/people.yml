@@ -47,17 +47,6 @@
     "(2020) B.S. in Computer Science. KAIST (expected).",
   ]
 
-- id: dongwoo.oh
-  name: Dongwoo Oh
-  korean_name: 오동우
-  status: present
-  title: Master Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: garamceleste
-  educations: [
-    "(2020) B.S. in Mathematical Science. KAIST (expected).",
-  ]
-  
 - id: sunghyuk.kay
   name: Sunghyuk Kay
   korean_name: 계성혁
@@ -70,15 +59,27 @@
     "(2019) B.S. in Computer Engineering. Ajou University.",
   ]
 
-- id: jihoon.hyun
-  name: Jihoon Hyun
-  korean_name: 현지훈
+- id: jaemin.choi
+  kaist_id: jaemin.choi98
+  name: Jaemin Choi
+  korean_name: 최재민
+  status: present
+  title: Undergraduate Student
+  place: Rm. 4432, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: jh05013
+  educations: [
+    "(2021) B.S. in Computer Science. KAIST (expected).",
+  ]
+
+- id: sungsoo.han
+  name: Sungsoo Han
+  korean_name: 한성수
   status: present
   title: Undergraduate Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: qawbecrdtey
+  github: lomotos10
   educations: [
-    "(2021) B.S. in Computer Science. KAIST (expected).",
+    "(2021) B.S. in Electrical Engineering & Computer Science. KAIST (expected).",
   ]
 
 - id: seoyun.son
@@ -88,6 +89,17 @@
   title: Undergraduate Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: anemoneflower
+  educations: [
+    "(2021) B.S. in Computer Science. KAIST (expected).",
+  ]
+
+- id: jungwoo.kim
+  name: Jungwoo Kim
+  korean_name: 김정우
+  status: present
+  title: Undergraduate Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: kimjungwow
   educations: [
     "(2021) B.S. in Computer Science. KAIST (expected).",
   ]
@@ -103,15 +115,24 @@
     "(2021) B.S. in Mathematical Science & Computer Science. KAIST (expected).",
   ]
 
-
-- id: jaemin.choi
-  kaist_id: jaemin.choi98
-  name: Jaemin Choi
-  korean_name: 최재민
+- id: chaeeun.hwang
+  name: Chaeeun Hwang
+  korean_name: 황채은
   status: present
   title: Undergraduate Student
-  place: Rm. 4432, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: jh05013
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: navy3690
+  educations: [
+    "(2021) B.S. in Computer Science. KAIST (expected).",
+  ]
+
+- id: jihoon.hyun
+  name: Jihoon Hyun
+  korean_name: 현지훈
+  status: external
+  title: Undergraduate Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: qawbecrdtey
   educations: [
     "(2021) B.S. in Computer Science. KAIST (expected).",
   ]
@@ -161,7 +182,7 @@
 - id: bonjune.jang
   name: Bongjun Jang
   korean_name: 장봉준
-  status: present 
+  status: external
   title: Undergraduate Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: bonjune
@@ -169,48 +190,15 @@
     "(2022) B.S. in Computer Science and Mathematics. KAIST (expected).",
   ]
 
-- id: jungwoo.kim
-  name: Jungwoo Kim
-  korean_name: 김정우
-  status: present 
-  title: Undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: kimjungwow
-  educations: [
-    "(2021) B.S. in Computer Science. KAIST (expected).",
-  ]
-  
 - id: jeongwoon.choi
-  name: Jeong Woon Choi 
-  status: present 
+  name: Jeong Woon Choi
+  status: external
   title: Undergraduate Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: isyangban
   educations: [
     "(2021) B.S. in Computer Science. KAIST (expected).",
     "(2017) Exchange Student, Georgia Institute of Technology.",
-  ]
-
-- id: chaeeun.hwang
-  name: Chaeeun Hwang
-  korean_name: 황채은
-  status: present
-  title: Undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: navy3690
-  educations: [
-    "(2021) B.S. in Computer Science. KAIST (expected).",
-  ]
-
-- id: sungsoo.han
-  name: Sungsoo Han
-  korean_name: 한성수
-  status: present
-  title: Undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: lomotos10
-  educations: [
-    "(2021) B.S. in Electrical Engineering & Computer Science. KAIST (expected).",
   ]
 
 - id: Suh-Ryung Kim
@@ -383,3 +371,13 @@
   status: external
   website: http://an.kaist.ac.kr/~sbmoon/
 
+- id: dongwoo.oh
+  name: Dongwoo Oh
+  korean_name: 오동우
+  status: external
+  title: Master Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: garamceleste
+  educations: [
+    "(2020) B.S. in Mathematical Science. KAIST (expected).",
+  ]
