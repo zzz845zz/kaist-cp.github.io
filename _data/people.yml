@@ -16,7 +16,7 @@
   name: Kyeongmin Cho
   korean_name: 조경민
   status: present
-  title: Master Student
+  title: PhD Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: drzix
   google_scholar: https://scholar.google.co.kr/citations?user=KJd2XC4AAAAJ
@@ -40,7 +40,7 @@
   name: Jaehwang Jung
   korean_name: 정재황
   status: present
-  title: Master Student
+  title: PhD Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: tomtomjhj
   educations: [
@@ -64,8 +64,8 @@
   name: Jaemin Choi
   korean_name: 최재민
   status: present
-  title: Undergraduate Student
-  place: Rm. 4432, Bldg. E3-1, KAIST (+82-42-350-7878)
+  title: Master Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: jh05013
   educations: [
     "(2021) B.S. in Computer Science. KAIST (expected).",
@@ -75,11 +75,22 @@
   name: Sungsoo Han
   korean_name: 한성수
   status: present
-  title: Undergraduate Student
+  title: Master Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: lomotos10
   educations: [
     "(2021) B.S. in Electrical Engineering & Computer Science. KAIST (expected).",
+  ]
+
+- id: sunghwan.shim
+  name: Sunghwan Shim
+  korean_name: 심성환
+  status: present
+  title: Master Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: gabriel4256
+  educations: [
+    "(2021) B.S. in Computer Science & Engineering. Hanyang university (expected)."
   ]
 
 - id: seoyun.son
@@ -96,7 +107,7 @@
 - id: jungwoo.kim
   name: Jungwoo Kim
   korean_name: 김정우
-  status: present
+  status: alumni
   title: Undergraduate Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: kimjungwow
@@ -113,28 +124,6 @@
   github: coolofficials
   educations: [
     "(2021) B.S. in Mathematical Science & Computer Science. KAIST (expected).",
-  ]
-
-- id: soowon.jeong
-  name: Soowon Jeong
-  korean_name: 정수원
-  status: present
-  title: Undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: jeong0982
-  educations: [
-    "(2023) B.S. in Computer Science. KAIST (expected).",
-  ]
-
-- id: sunghwan.shim
-  name: Sunghwan Shim
-  korean_name: 심성환
-  status: present
-  title: undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: gabriel4256
-  educations: [
-    "(2021) B.S. in Computer Science & Engineering. Hanyang university (expected)."
   ]
 
 - id: taewoo.an
@@ -192,6 +181,17 @@
   github: Lee-Janggun
   educations: [
     "(2021) B.S. in Mathematical Sciences & Computer Science. KAIST (expected).",
+  ]
+
+- id: soowon.jeong
+  name: Soowon Jeong
+  korean_name: 정수원
+  status: external
+  title: Undergraduate Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: jeong0982
+  educations: [
+    "(2023) B.S. in Computer Science. KAIST (expected).",
   ]
 
 - id: chaeeun.hwang
