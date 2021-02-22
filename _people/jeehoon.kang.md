@@ -60,7 +60,7 @@ link publications.md %}) pages.
 
 - Program Committee Chairs: [2021 POPL AEC](https://popl21.sigplan.org/), [2020 POPL AEC](https://popl20.sigplan.org/)
 
-- Program Committee Members: 2022 ESOP, 2021 HOPE, [2021 POPL](https://popl21.sigplan.org/), 2021 OOPSLA, [2020 ICSE NIER](https://conf.researchr.org/home/icse-2020), [2020 ICSE
+- Program Committee Members: 2022 ESOP, [2021 HOPE](https://icfp21.sigplan.org/home/hope-2021), [2021 POPL](https://popl21.sigplan.org/), 2021 OOPSLA, [2020 ICSE NIER](https://conf.researchr.org/home/icse-2020), [2020 ICSE
   SEIP](https://conf.researchr.org/home/icse-2020), [2020 ASPLOS
   (ERC)](https://asplos-conference.org/), [2019 POPL AEC](https://popl19.sigplan.org/)
   
