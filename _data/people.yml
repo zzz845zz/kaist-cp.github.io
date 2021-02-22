@@ -47,18 +47,6 @@
     "(2020) B.S. in Computer Science. KAIST (expected).",
   ]
 
-- id: sunghyuk.kay
-  name: Sunghyuk Kay
-  korean_name: 계성혁
-  status: present
-  title: Master Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: lkaybob
-  google_scholar: https://scholar.google.co.kr/citations?user=rizoj1IAAAAJ
-  educations: [
-    "(2019) B.S. in Computer Engineering. Ajou University.",
-  ]
-
 - id: jaemin.choi
   kaist_id: jaemin.choi98
   name: Jaemin Choi
@@ -93,24 +81,24 @@
     "(2021) B.S. in Computer Science & Engineering. Hanyang university (expected)."
   ]
 
+- id: haroon.ahmed
+  name: Haroon Ahmed
+  status: present
+  title: PhD Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: haroonrl
+  educations: [
+    "(2017) M.E in Electrical Engineering. Southeast University, China.",
+    "(2012) B.S in Electronics Engineering. Sarhad University, Pakistan.",
+      ]
+
 - id: seoyun.son
   name: Seoyun Son
   korean_name: 손서윤
-  status: present
+  status: external
   title: Undergraduate Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: anemoneflower
-  educations: [
-    "(2021) B.S. in Computer Science. KAIST (expected).",
-  ]
-
-- id: jungwoo.kim
-  name: Jungwoo Kim
-  korean_name: 김정우
-  status: alumni
-  title: Undergraduate Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: kimjungwow
   educations: [
     "(2021) B.S. in Computer Science. KAIST (expected).",
   ]
@@ -181,6 +169,29 @@
   github: Lee-Janggun
   educations: [
     "(2021) B.S. in Mathematical Sciences & Computer Science. KAIST (expected).",
+  ]
+
+- id: sunghyuk.kay
+  name: Sunghyuk Kay
+  korean_name: 계성혁
+  status: alumni
+  title: Master Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: lkaybob
+  google_scholar: https://scholar.google.co.kr/citations?user=rizoj1IAAAAJ
+  educations: [
+    "(2019) B.S. in Computer Engineering. Ajou University.",
+  ]
+
+- id: jungwoo.kim
+  name: Jungwoo Kim
+  korean_name: 김정우
+  status: alumni
+  title: Undergraduate Student
+  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
+  github: kimjungwow
+  educations: [
+    "(2021) B.S. in Computer Science. KAIST (expected).",
   ]
 
 - id: soowon.jeong
@@ -480,14 +491,3 @@
   name: Abid A. Naqvi
   status: external
   website: http://nls.sjtu.edu.cn
-    
-- id: haroon.ahmed
-  name: Haroon Ahmed
-  status: present
-  title: PhD Student
-  place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
-  github: haroonrl
-  educations: [
-    "(2017) M.E in Electrical Engineering. Southeast University, China.",
-    "(2012) B.S in Electronics Engineering. Sarhad University, Pakistan.",
-      ]
