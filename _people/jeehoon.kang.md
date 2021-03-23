@@ -64,7 +64,7 @@ link publications.md %}) pages.
   SEIP](https://conf.researchr.org/home/icse-2020), [2020 ASPLOS
   (ERC)](https://asplos-conference.org/), [2019 POPL AEC](https://popl19.sigplan.org/)
   
-- Others: [2022 POPL](https://popl22.sigplan.org/series/POPL) Student Research Competition Co-Chair, [2021 CGO](https://conf.researchr.org/home/cgo-2021) Proceedings Chair, [2020 ICSE](https://conf.researchr.org/home/icse-2020) Virtualization Technology Chair
+- Others: [2022 POPL](https://popl22.sigplan.org/series/POPL) Student Research Competition Co-Chair, 2022 CGO Proceedings Chair, [2021 CGO](https://conf.researchr.org/home/cgo-2021) Proceedings Chair, [2020 ICSE](https://conf.researchr.org/home/icse-2020) Virtualization Technology Chair
 
 
 #### Open Source Contributions
