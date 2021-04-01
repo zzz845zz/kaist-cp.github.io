@@ -83,7 +83,7 @@
 
 - id: haroon.ahmed
   name: Haroon Ahmed
-  status: present
+  status: external
   title: PhD Student
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: haroonrl
