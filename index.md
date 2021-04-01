@@ -12,11 +12,8 @@ excerpt: "Where theory meets practice"
 
 Welcome to Concurrency and Parallelism Laboratory at [KAIST](https://www.kaist.ac.kr) [School of
 Computing](https://cs.kaist.ac.kr). **We are actively recruiting motivated students of all levels
-interested in designing and verifying concurrent and parallel systems.** If interested, please visit
-a [recruit
-page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"}
-and send an email to {{ pi_url }}. **If you're interested in joining as a graduate student, please
-read [an instruction](https://github.com/kaist-cp/helpdesk/#advice-for-potential-lab-members) and
+interested in designing and verifying concurrent and parallel systems.** If you're interested,
+please **read [an instruction]({{ site.baseurl }}/helpdesk/#advice-for-potential-lab-members) and
 contact Jeehoon NOW.**
 
 In the era of big data, artificial intelligence, and internet of things, humankind requires more and
@@ -35,11 +32,11 @@ verify** such abstraction layers so that the users can use the them safely and f
 
 
 
-## News
+<!-- ## News -->
 
-<div id="news" style="width: 50%; height:auto;">
-    <a class="twitter-timeline" href="https://twitter.com/kaist_cp?ref_src=twsrc%5Etfw">Tweets by kaist_cp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-</div>
+<!-- <div id="news" style="width: 50%; height:auto;"> -->
+<!--     <a class="twitter-timeline" href="https://twitter.com/kaist_cp?ref_src=twsrc%5Etfw">Tweets by kaist_cp</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  -->
+<!-- </div> -->
 
 
 

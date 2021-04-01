@@ -39,8 +39,8 @@ paginate_path: blog/page:num
 navigation_header:
 - title: Home
   url: /
-- title: News
-  url: /#news
+# - title: News
+#   url: /#news
 - title: People
   url: /#people
 - title: Research
@@ -49,6 +49,10 @@ navigation_header:
   url: /#publications
 - title: Lectures
   url: /#lectures
+- title: Join
+  url: /join
+- title: Helpdesk
+  url: /helpdesk
 - title: Contact
   url: /#contact
 
