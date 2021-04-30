@@ -60,11 +60,16 @@ link publications.md %}) pages.
 
 - Program Committee Chairs: [2021 POPL AEC](https://popl21.sigplan.org/), [2020 POPL AEC](https://popl20.sigplan.org/)
 
-- Program Committee Members: 2022 ESOP, [2021 HOPE](https://icfp21.sigplan.org/home/hope-2021), [2021 POPL](https://popl21.sigplan.org/), 2021 OOPSLA, [2020 ICSE NIER](https://conf.researchr.org/home/icse-2020), [2020 ICSE
-  SEIP](https://conf.researchr.org/home/icse-2020), [2020 ASPLOS
-  (ERC)](https://asplos-conference.org/), [2019 POPL AEC](https://popl19.sigplan.org/)
-  
-- Others: [2022 POPL](https://popl22.sigplan.org/series/POPL) Student Research Competition Co-Chair, 2022 CGO Proceedings Chair, [2021 CGO](https://conf.researchr.org/home/cgo-2021) Proceedings Chair, [2020 ICSE](https://conf.researchr.org/home/icse-2020) Virtualization Technology Chair
+- Program Committee Members
+  + 2022: ESOP
+  + 2021: [POPL](https://popl21.sigplan.org/), [OOPSLA](https://2021.splashcon.org/track/splash-2021-oopsla), [HOPE](https://icfp21.sigplan.org/home/hope-2021), PLOS
+  + 2020: [ICSE NIER](https://conf.researchr.org/home/icse-2020), [ICSE SEIP](https://conf.researchr.org/home/icse-2020), [ASPLOS (ERC)](https://asplos-conference.org/)
+  + 2019: [POPL AEC](https://popl19.sigplan.org/)
+
+- Others: 
+  + 2022: [POPL](https://popl22.sigplan.org/series/POPL) Student Research Competition Co-Chair, CGO Proceedings Chair
+  + 2021: [CGO](https://conf.researchr.org/home/cgo-2021) Proceedings Chair
+  + 2020: [ICSE](https://conf.researchr.org/home/icse-2020) Virtualization Technology Chair
 
 
 #### Open Source Contributions
