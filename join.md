@@ -279,7 +279,7 @@ Before joining the lab, you should become familiar with a few development tools.
 
     + Server (Ubuntu): `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
-        * port: 11001, password: \<google-workspace-password\>
+        * port: 11001, 11009, password: \<google-workspace-password\>
 
         * `/kaist-cp-home/<google-workspace-id>` is the home directory, but it's network-mounted.
           Run `sudo kaist-cp-refresh.sh`, then you'll have `/local-home/<google-workspace-id>` in the local SSD.
@@ -287,6 +287,10 @@ Before joining the lab, you should become familiar with a few development tools.
         * If you want to install additional packages, make a PR to [this
           repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04), and after the
           PR is merged, run `sudo kaist-cp-refresh.sh`.
+          
+        * Configure SSH in your local machine properly.
+          See <https://www.ssh.com/academy/ssh/keygen>, <https://www.ssh.com/academy/ssh/copy-id>, <https://linuxize.com/post/using-the-ssh-config-file/>. 
+          Create ed25519 keys.
 
     + Remote desktop (Xubuntu): `cp-service.kaist.ac.kr:12001`
 
@@ -296,7 +300,7 @@ Before joining the lab, you should become familiar with a few development tools.
 
         * Credential: google workspace id/password
 
-        <!-- * SSH: `ssh -p14001 <google-workspace-id>@cp-service.kaist.ac.kr` -->
+        * (SSH: `ssh -p14001 <google-workspace-id>@cp-service.kaist.ac.kr`)
 
     + Desktop: We encourage you to install the latest Ubuntu.
 
@@ -314,22 +318,9 @@ Before joining the lab, you should become familiar with a few development tools.
                 1. Configure nimf with `nimf-settings`.
                    In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
                    In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
+
     + (If needed) Lab VPN
 
         * You can access the network inside the lab by running `ssh -p11000 <google-workspace-id>@cp-lab.kaist.ac.kr` (e.g., `ssh -p11000 jeehoon.kang@cp-lab.kaist.ac.kr`)
         * You can jump right into lab resources using `-J` ([`ProxyJump`](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump)) option. (e.g.,  `ssh -J jeehoon.kang@cp-lab.kaist.ac.kr:11000 user@target-internal-ip` )
         * Since editors are not installed on the VPN instance, use `scp` to edit `.ssh/authorized_keys`. (e.g., `scp -P11000 ~/.ssh/authorized_keys jeehoon.kang@cp-lab.kaist.ac.kr:~/.ssh`)
-
-<!--
-    + Desktop: login with your Google Workspace account.
-
-        * If you want to install additional packages, make a PR to [this
-          repository](https://github.com/kaist-cp/infra-public/tree/master/desktop), and after the
-          PR is merged, run `/usr/bin/install-packages`.
--->
-<!--
-        * (If needed) Create a virtual machine with [virt-manager](https://virt-manager.org/)
-            1. Download the ISO image of the virtual machine.
-            1. Run `virt-manager`. If it's not installed, run `/usr/bin/install-packages`. If you get "Unable to connect to libvirt" error, reboot the desktop.
-            1. To create a new virtual machine, right-click "QEMU/KVM" and click "NEW". Please note that you can choose your ISO image by clicking "Browse..." and "Browse Local" in "Step 2 of 5".
--->
