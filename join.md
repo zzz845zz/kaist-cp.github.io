@@ -279,7 +279,9 @@ Before joining the lab, you should become familiar with a few development tools.
 
     + Server (Ubuntu): `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
 
-        * port: 11001, 11009, password: \<google-workspace-password\>
+        * port: 11001, 11009, 11010
+
+        * password: \<google-workspace-password\>
 
         * `/kaist-cp-home/<google-workspace-id>` is the home directory, but it's network-mounted.
           Run `sudo kaist-cp-refresh.sh`, then you'll have `/local-home/<google-workspace-id>` in the local SSD.
