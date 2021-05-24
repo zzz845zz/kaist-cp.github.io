@@ -5,8 +5,8 @@ background: /assets/images/kaist.jpg
 permalink: /join
 ---
 
-Thank you for your interested in joining the [Concurrency and Parallelism Laboratory]({{ site.baseurl }}), either as a graduate student or as a undergraduate intern!
-This document contains all the information for joining the lab, so please read this document carefully to proceed.
+Thank you for your interest in joining the lab!
+This document contains all the information you should know, so please read it carefully to proceed on.
 
 ## Application
 
@@ -21,12 +21,13 @@ This document contains all the information for joining the lab, so please read t
       and give the document's comment access to `jeehoon.kang@cp.kaist.ac.kr`.
 
     + *What you want to do in the lab.*
-      Please read this website's [research page]({{ site.baseurl }}{% link pages/home.md %}#research) and [recruit page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"};
-      study what's going on in this lab;
+      Please read the lab's [research page]({{ site.baseurl }}{% link pages/home.md %}#research);
+      <!-- and a [recruit page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"} (Korean); -->
+      see what's going on in this lab;
       write down your plan as a Google Docs document;
       and give the document's comment access to `jeehoon.kang@cp.kaist.ac.kr`.
 
-    + *When you can meet for 30 minutes online.*
+    + *The time you're available for an online meeting for 30 minutes.*
       Please look at [Jeehoon's calendar]({{ site.baseurl }}/jeehoon.kang#calendar) for his schedule.
 
 - **Finish reading this document and do all the action items.**
@@ -34,28 +35,36 @@ This document contains all the information for joining the lab, so please read t
 
 ## Requirements
 
-- **All new graduate students are required to finish at least one of the followings before joining the lab.**
+- **All new graduate students are required to finish at least one of the followings before joining
+  the lab.** So please start working on one of them ASAP.
 
     + Homework assignments of [KAIST CS420: Compiler Design](https://github.com/kaist-cp/cs420).
       Lecture videos are uploaded to YouTube, and you can ask questions in the course repository's issue tracker.
 
-    + Homework assignments of [KAIST CS492: Concurrent Programming](https://github.com/kaist-cp/cs492-concur).
+    + Homework assignments of [KAIST CS431: Concurrent Programming](https://github.com/kaist-cp/cs492-concur).
       Lecture videos are uploaded to YouTube, and you can ask questions in the course repository's issue tracker.
 
-    + [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.
+    + Homework Assignments of [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.
+    
+    + Reading the [Corundum](https://github.com/corundum/corundum) open-source FPGA-based NIC.
 
-  So if you're interested in joining this lab as a graduate student, please start working on one of them ASAP.
-  You can ask questions in the [Helpdesk]({{ site.baseurl }}{% link pages/helpdesk.md %}).
+  **You're also strongly encouraged to join the lab as an undergraduate intern** to see what's
+  actually going on in the lab.
 
+  <!-- You can also ask questions in the [Helpdesk]({{ site.baseurl }}{% link pages/helpdesk.md %}). -->
 
-- **All undergraduate students are required to finish at least one of the above assignments before working on research projects.**
+- **Undergraduate interns don't have any requirements.**
 
-  Though you can (and are strongly encouraged to) work on them as an undergraduate intern in the lab.
+  We are widely open to all undergraduate students! If you want to join this lab as an intern,
+  you're going to do so. You are first going to do at least one of the above assignments, and then
+  starting on research projects.
+
+  <!-- Everyone is strongly encouraged to work on them as an undergraduate intern in the lab. -->
 
 
 ## Onboarding
 
-Welcome to the lab! Please read this document as the first task in this lab.
+Welcome to the lab! Please finish reading this document and do all the action items.
 
 ### What is Research?
 
@@ -183,7 +192,7 @@ So we want to keep the number of rules as low as possible.
 ##### Gitlab
 
 - Sign in <https://cp-git.kaist.ac.kr> with your Google Workspace account.
-- Maintain all research projects in the Gitlab.
+- Maintain all research projects in this Gitlab.
 
 <!-- ##### GitHub -->
 
@@ -236,32 +245,38 @@ So we want to keep the number of rules as low as possible.
 
 #### Infrastructure
 
-Use the following devices. **IMPORTANT: no password should be written here. It's a public repository.**
+<!-- Use the following devices. -->
+<!-- **IMPORTANT: no password should be written here. It's a public repository.** -->
 
-- **WiFi**: `kaist-cp` at Rm. 4432/4433/4441, Bldg. E3-1, KAIST
+- **WiFi**: `kaist-cp` at Rm. 4432, 4433, 4441, Bldg. E3-1, KAIST
+    * Password: ask people around the lab
     * SSH gateway: `ssh -p11000 <google-workspace-id>@cp-lab.kaist.ac.kr` (e.g., `ssh -p11000 jeehoon.kang@cp-lab.kaist.ac.kr`). Use it as a [proxy](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump).
 - **Printer**: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
     * You may also scan and send documents to your email address.
-- **Desktop**: Get a machine from Jeehoon. We encourage you to install the latest Ubuntu.
-    * Configure [nimf](https://github.com/hamonikr/nimf/) (Hangul input method).
-        1. In "Region & Language" > Input Sources, remove other input sources and leave English (US) only.
+- **Desktop**: Get a machine from Jeehoon. We encourage you to install the latest Ubuntu LTS.
+    * Configure the [nimf](https://github.com/hamonikr/nimf/) Hangul input method in Ubuntu.
+        1. In "Region & Language" > "Input Sources", remove other input sources and leave "English (US)" only.
         1. To check if nimf is installed, run `nimf-settings`. If it's not installed, run `/usr/bin/install-packages`.
         1. Run `im-config -n nimf` and reboot. Ensure that `nimf` process is running.
         1. Configure nimf with `nimf-settings`.
-           In "XKB options > Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
-           In "Nimf > Hotkeys for rotating input method engines", add "Hangul".
-- **Server** (Ubuntu 20.04): `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr` (e.g., `ssh -p11001 jeehoon.kang@cp-service.kaist.ac.kr`)
-    * ports: 11001, 11009, 11010
-    * password: `<google-workspace-password>`
-    * `/kaist-cp-home/<google-workspace-id>` is the network-mounted home directory.
-    * `/local-home/<google-workspace-id>` is your space in the local SSD. If it doesn't exist, run `sudo kaist-cp-refresh.sh`.
-    * If you want to install additional packages, make a PR to [this repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04).
-      After the PR is merged, run `sudo kaist-cp-refresh.sh`.
-    * Configure SSH (see above).
-- **Remote desktop** (Xubuntu 20.04): `cp-service.kaist.ac.kr:12001`
-    * Protocol: RDP (security: TLSv1.2, TLSv1.3)
+           In "XKB options" > "Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
+           In "Nimf" > "Hotkeys for rotating input method engines", add "Hangul".
+- **Server** (Ubuntu 20.04)
+    * SSH connection: `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr`
+        + Ports: 11001, 11009, **11010** (recommended)
+        + Password: `<google-workspace-password>`
+        + Example: `ssh -p11010 jeehoon.kang@cp-service.kaist.ac.kr`
+        + SSH configuration: see above. **Do it properly.**
+    * Global home directory (network mounted): `/kaist-cp-home/<google-workspace-id>`
+    * Local SSD directory (directly attached): `/local-home/<google-workspace-id>`. If it doesn't exist, run `sudo kaist-cp-refresh.sh`.
+    * Installing packages: `sudo kaist-cp-refresh.sh`
+      <br />
+      If you want to install additional packages, make a PR to [this repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04).
+- **Remote desktop** (Xubuntu 20.04)
+    * RDP connection: `cp-service.kaist.ac.kr:12001`
+    * Account: Google Workspace account
+    * Security: TLSv1.2, TLSv1.3
     * Client: [Microsoft clients](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients), [Remmina](https://remmina.org/)
-    * Credential: Google Workspace account
     * SSH: `ssh -p14001 <google-workspace-id>@cp-service.kaist.ac.kr`
 
 
