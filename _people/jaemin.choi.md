@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jaemin Choi (최재민)
 excerpt: "Jaemin Choi's website"
 ---

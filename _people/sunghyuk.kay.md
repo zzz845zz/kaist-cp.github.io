@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Sunghyuk Kay (계성혁)
 excerpt: "Sunghyuk Kay's website"
 ---
@@ -7,7 +8,7 @@ excerpt: "Sunghyuk Kay's website"
 {%- assign person_id = "sunghyuk.kay" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
-<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl}}/assets/sunghyuk.kay.jpg" alt="{{ person.name }}">
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/sunghyuk.kay.jpg" alt="{{ person.name }}">
 
 I am a **Masters Student at [KAIST Concurrency and Parallelsim Laboratory]({{ site.baseurl }}/)** under advise of [Prof. Jeehoon Kang]({{ site.baseurl}}/jeehoon.kang), and also pursuing my degree at [KAIST Software Graduate Program](http://software.kaist.ac.kr/). 
 

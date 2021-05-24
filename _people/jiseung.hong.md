@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jiseung Hong (홍지승)
 excerpt: "Jiseung Hong's website"
 ---

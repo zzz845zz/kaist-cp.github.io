@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jeong Woon Choi (최정운)
 excerpt: "Jeong Woon Choi's website"
 ---

@@ -1,7 +1,8 @@
 ---
-layout: page
-title: AI hardware accelerators and their compilers
-excerpt: "AI accelerator"
+layout: people
+title: AI serving systems
+background: /assets/images/kaist.jpg
+permalink: /ai-system
 ---
 
 In a close collaboration with [FuriosaAI](https://www.furiosa.ai/) and several companies and

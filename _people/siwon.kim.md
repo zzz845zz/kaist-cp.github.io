@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Siwon Kim (김시원)
 excerpt: "Siwon Kim's website"
 ---

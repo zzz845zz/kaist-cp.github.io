@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Taewoo Kim (김태우)
 excerpt: "Taewoo Kim's website"
 ---

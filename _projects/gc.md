@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: people
 title: Concurrent Garbage Collectors
-excerpt: "Garbage in, garbage out"
+description: Garbage in, garbage out
+background: /assets/images/kaist.jpg
+permalink: /gc
 ---
 
 

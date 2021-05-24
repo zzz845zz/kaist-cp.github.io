@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Seungmin Jeon (전승민)
 excerpt: "Seungmin Jeon's website"
 ---
 
 {%- assign person_id = "seungmin.jeon" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
+
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/seungmin.jeon.jpg" alt="{{ person.name }}">
 
 I am an **Undergraduate Student at [Chungnam National University, Department of Computer Science and Enginerring](http://cse.cnu.ac.kr/)**.
 I'm interested in designing and verifying concurrent and parallel systems for efficient data processing. To study **how to research these topics**, I joined [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr).

@@ -3,8 +3,6 @@ title: false
 styles: true
 ---
 
-@import "alembic";
-
 @media screen and (min-width: 40em) {
   .content {
     width: 100%; } }
@@ -33,6 +31,6 @@ styles: true
     height: 90%;
 }
 
-body {
-    font-family: "Lato";
+p.meta time {
+    display: none;
 }

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jaemin Yu (유재민)
 excerpt: "Jaemin Yu's website"
 ---

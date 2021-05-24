@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Seoyun Son (손서윤)
 excerpt: "Seoyun Son's website"
 ---

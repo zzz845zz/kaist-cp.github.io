@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Chaeeun Hwang (황채은)
 excerpt: "Chaeeun Hwang's website"
 ---

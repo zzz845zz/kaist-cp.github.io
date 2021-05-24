@@ -1,11 +1,14 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Sunghwan Shim (심성환)
 excerpt: "Sunghwan Shim's website"
 ---
 
 {%- assign person_id = "sunghwan.shim" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
+
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/sunghwan.shim.jpg" alt="{{ person.name }}">
 
 I am a **Master Student at [Concurrency and Parallelism Laboratory]({{ site.url }})**. I am interested in verifying concurrent and parallel systems.
 

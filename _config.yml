@@ -1,64 +1,58 @@
-# Set theme
-remote_theme: daviddarnes/alembic@main
+remote_theme: peterdesmet/petridish@1.1
 
-# File excludes
+# SITE SETTINGS
+title: KAIST Concurrency and Parallelism Laboratory   # Title in top navigation bar (navbar) and <head>
+description: Where theory meets practice              # Site description in <head>
+# author: Jeehoon Kang                                # Used for copyright statement in footer
+# url: "https://peterdesmet.github.io"                # No slash at the end
+# baseurl: "/petridish"                               # Only required if your site is on a subdomain e.g. https://username.github.io/sitename
+                                                      # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
+                                                      # A baseurl affects internal links, see http://peterdesmet.github.io/petridish/about/#links
+
+# SOCIAL PROFILES
+email: jeehoon.kang@kaist.ac.kr         # Social icon in footer
+twitter_username: kaist_cp              # Social icon in footer
+github_username: kaist-cp               # Social icon in footer
+
+# THEME SETTINGS (ALL OPTIONAL)
+posts_on_home: 3                        # Show x number of latest posts on homepage, can be 0
+tweets_on_home: true                    # Show Twitter feed of twitter_username on homepage
+archive_permalink: /blog/               # Permalink of page using archive.html layout, required when using post categories
+logo: /assets/img/petri-dish_1f9eb.png  # Logo in navbar, will be displayed with 30px height
+colors:
+  links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
+  banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
+  footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
+rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
+
+# BUILD SETTINGS
+markdown: kramdown
+plugins:                                # If you build your site on gh-pages, only use these plugins: https://pages.github.com/versions/
+  - jekyll-feed
+  - jekyll-sitemap
 exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - LICENSE
+  - package-lock.json
+  - package.json
+  - petridish.gemspec
 
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jekyll-feed
-- jemoji
-- jekyll-remote-theme
-
-# Site settings
-encoding: 'utf-8'
-lang: 'en-US'
-title: 'KAIST Concurrency and Parallelism Laboratory'
-logo: "/assets/logos/logo.svg"
-logo_name: "CP Lab @ KAIST SoC"
-description: 'Where theory meets practice'
-url: 'https://cp.kaist.ac.kr'
-baseurl: ''
-permalink: pretty
-# avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
-
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
-
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-# - title: News
-#   url: /#news
-- title: People
-  url: /#people
-- title: Research
-  url: /#research
-- title: Publications
-  url: /#publications
-- title: Lectures
-  url: /#lectures
-- title: Join
-  url: /join
-- title: Helpdesk
-  url: /helpdesk
-- title: Contact
-  url: /#contact
-
-# Footer nav
-navigation_footer:
-  Back to top: "#top"
+# FRONTMATTER DEFAULTS
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: "/blog/:year/:slug/"   # Use /blog/yyyy/{filename}/ as permalink for all posts
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"                 # Only required for Petridish website, implied for sites using a theme
 
 google_analytics: 'UA-135907456-1'
 
@@ -69,11 +63,3 @@ collections:
   projects:
     output: true
     permalink: /:path/
-
-#   posts:
-#     title: Posts
-#     output: true
-#     description: "My thoughts and ideas"
-#     feature_text: |
-#       Welcome to my blog
-#     feature_image: "https://picsum.photos/2560/600?image=866"

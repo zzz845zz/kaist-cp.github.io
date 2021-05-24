@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Yeonwoo Nam (남연우)
 excerpt: "Yeonwoo Nam's website"
 ---

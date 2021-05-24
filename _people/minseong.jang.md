@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Minseong Jang (장민성)
 excerpt: "Minseong Jang's website"
 ---

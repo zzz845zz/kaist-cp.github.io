@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Batzorig Zorigoo
 excerpt: "Batzorig Zorigoo's website"
 ---
@@ -7,7 +8,7 @@ excerpt: "Batzorig Zorigoo's website"
 {%- assign person_id = "batzorig.zorigoo" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
-<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl}}/assets/batzorig.zorigoo.jpg" alt="{{ person.name }}">
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/batzorig.zorigoo.jpg" alt="{{ person.name }}">
 
 I am an **Undergraduate Student at [KAIST School of Computing](https://cs.kaist.ac.kr)**. I
 am currently interested in optimizating all kinds of systems and algorithms using 

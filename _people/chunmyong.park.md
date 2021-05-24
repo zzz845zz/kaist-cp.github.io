@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Chunmyong Park (박천명)
 excerpt: "Chunmyong Park's website"
 ---
@@ -7,7 +8,7 @@ excerpt: "Chunmyong Park's website"
 {%- assign person_id = "chunmyong.park" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
-<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl}}/assets/chunmyong.park.jpeg" alt="{{ person.name }}">
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/chunmyong.park.jpg" alt="{{ person.name }}">
 
 I am a **Master Student at [Concurrency and Parallelism Laboratory]({{ site.url }}), [KAIST School of Computing](https://cs.kaist.ac.kr)**. I am delighted to be advised by [Prof. Jeehoon Kang]({{ site.baseurl }}{% include person_url.md person_id="jeehoon.kang" %}).
 

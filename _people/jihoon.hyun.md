@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jihoon Hyun (현지훈)
 excerpt: "Jihoon Hyun's website"
 ---

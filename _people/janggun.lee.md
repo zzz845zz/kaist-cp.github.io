@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Janggun Lee (이장건)
 excerpt: "Janggun Lee's website"
 ---

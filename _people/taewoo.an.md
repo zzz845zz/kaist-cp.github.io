@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Taewoo An (안태우)
 excerpt: "Taewoo An's website"
 ---

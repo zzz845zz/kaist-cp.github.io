@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Dongwoo Oh (오동우)
 excerpt: "Dongwoo Oh's website"
 ---

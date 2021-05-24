@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jaehwang Jung (정재황)
 excerpt: "Jaehwang Jung's website"
 ---
@@ -7,7 +8,7 @@ excerpt: "Jaehwang Jung's website"
 {%- assign person_id = "jaehwang.jung" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
-<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl}}/assets/jaehwang.jung.jpg" alt="{{ person.name }}">
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/jaehwang.jung.jpg" alt="{{ person.name }}">
 
 I am a **PhD student at [Concurrency and Parallelism Laboratory]({{ site.url }}), [KAIST School of Computing](https://cs.kaist.ac.kr)**.
 I am mainly interested in verifying programs using concurrent separation logic.

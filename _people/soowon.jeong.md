@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Soowon Jeong (정수원)
 excerpt: "Soowon Jeong's website"
 ---

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Hyunsu Kim (김현수)
 excerpt: "Hyunsu Kim's website"
 ---
@@ -7,7 +8,7 @@ excerpt: "Hyunsu Kim's website"
 {%- assign person_id = "hyunsu.kim" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
-<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl}}/assets/hyunsu.kim.jpeg" alt="{{ person.name }}">
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/hyunsu.kim.jpg" alt="{{ person.name }}">
 
 I am an **Undergraduate Student at [KAIST School of Computing](https://cs.kaist.ac.kr)**.
 I once used to be interested in machine learning and data mining algorithms.

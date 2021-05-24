@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jungwoo Kim (김정우)
 excerpt: "Jungwoo Kim's website"
 ---

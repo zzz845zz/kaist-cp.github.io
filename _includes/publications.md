@@ -18,11 +18,11 @@
 
 - <span style="font-size: 110%; font-weight: bold;">({% if paper.venue_short %}{{ paper.venue_short }} {% endif %}{{ paper.year }})</span>
   <span style="font-size: 110%;">{{ paper.title }}.</span>
-
+  <br />
   {{ author_links | join: ", " }}{% if paper.cofirst_authors %} (\*: co-first authors in alphabetical order){% endif %}.
-
+  <br />
   {{ paper.venue }}{% if paper.status %} ({{ paper.status }}){% endif %}.
-
+  <br />
   {% if paper.copy_local %}\[[paper]({{ paper.copy_local }})\]{% endif %} ​
   {% if paper.artifact_local %} ​
     {% for artifact in paper.artifact_local %} ​
@@ -31,13 +31,11 @@
   {% endif %} ​
   {% if paper.website %}\[[project page]({{ paper.website }})\]{% endif %} ​
   {% if paper.copy_publisher %}\[[publisher's page]({{ paper.copy_publisher }})\]{% endif %} ​
-
+  <br />
   {% if include.abstract and paper.abstract %}
   <p style="margin: 20px; font-size: 0.9em; line-height: 1.44em;"><b>Abstract</b>: {{ paper.abstract }}</p>
-  {% endif %}
-
   <br />
-
+  {% endif %}
 {% endif %}
 {% endif %}
 {% endif %}

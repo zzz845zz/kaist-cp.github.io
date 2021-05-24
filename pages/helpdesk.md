@@ -1,20 +1,17 @@
 ---
 title: Helpdesk
-excerpt: "Helpdesk of KAIST Concurrency and Parallelism Laboratory"
+description: We will try to answer your questions as far as we can!
+background: /assets/images/kaist.jpg
+permalink: /helpdesk
 ---
-
-Here is the helpdesk of the [Concurrency and Parallelism Laboratory]({{ site.baseurl }}) at [KAIST School of Computing](https://cs.kaist.ac.kr).
-We will try to answer your questions as far as we can!
-
-
 
 ## Questions and Answers
 
-If you have a question, please ask in [an issue tracker](https://github.com/kaist-cp/helpdesk/issues).
-Please ask questions on computing in general, laboratory, or anything you want to ask.
+If you have a question, please ask it in [this issue tracker](https://github.com/kaist-cp/helpdesk/issues).
+You may ask questions on computing in general, laboratory, or anything you want to ask.
 We will try to answer your questions as detailed as possible.
 
-### Areas of expertise
+### Technical expertise
 
 We have expertise on [Rust](https://www.rust-lang.org/), [Coq](https://coq.inria.fr/) and formal verification, compiler, and concurrent programming.
 
@@ -30,7 +27,7 @@ We have expertise on [Rust](https://www.rust-lang.org/), [Coq](https://coq.inria
 
 - To study compiler, we strongly recommend you to take [KAIST CS420: Compiler Design](https://github.com/kaist-cp/cs420).
 
-- To study concurrent programming, we strongly recommend you to take [KAIST CS492: Concurrent Programming](https://github.com/kaist-cp/cs492-concur).
+- To study concurrent programming, we strongly recommend you to take [KAIST CS431: Concurrent Programming](https://github.com/kaist-cp/cs492-concur).
 
 
 ### How to ask questions?

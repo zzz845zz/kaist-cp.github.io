@@ -1,13 +1,16 @@
 ---
-layout: page
+layout: people
+background: /assets/images/kaist.jpg
 title: Jeehoon Kang (강지훈)
-excerpt: "Jeehoon Kang's website"
 ---
 
 {%- assign person_id = "jeehoon.kang" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
-<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/jeehoon.kang.jpg" alt="{{ person.name }}">
+{: .alert .alert-info}
+**I am actively recruiting motivated students of all levels interested in designing and verifying concurrent and parallel systems.** If you're interested, please **read this [instruction]({{ site.baseurl }}/join/) and contact Jeehoon ASAP.**
+
+<img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/jeehoon.kang.jpg" alt="{{ person.name }}">
 
 I am an **Assistant Professor at [KAIST School of Computing](https://cs.kaist.ac.kr)** and the
 **Principal Investigator of [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr)**. I
@@ -16,9 +19,6 @@ Hur](https://sf.snu.ac.kr/gil.hur). I am designing and verifying concurrent and 
 from microarchitectures to programming languages to algorithms, that greatly improve performance and
 significantly reduce power consumption, thereby serving as the basis for the upcoming era of massive
 data processing.
-
-**I am recruiting motivated students of all levels interested in designing and verifying concurrent
-and parallel systems.** See [how to join]({{ site.baseurl }}/join). Most crucially: **contact Jeehoon NOW**.
 
 
 {% include person_contact.md person_id=person_id %}
@@ -30,22 +30,22 @@ and parallel systems.** See [how to join]({{ site.baseurl }}/join). Most crucial
 #### Experiences
 
 - Chief R&D Officer and Founder, Furiosa AI, September, 2017 - current.
-
+  <br />
   (topic: deep learning accelerator and its compiler)
 
 - Intern, MPI-SWS, September, 2015 - December, 2015
-
+  <br />
   (topic: relaxed-memory concurrency, advisor: Dr. [Derek Dreyer](https://people.mpi-sws.org/~dreyer/))
 
 - Software Engineer Intern, Google Korea, June, 2008 – August, 2008.
-
+  <br />
   (topic: machine translation)
 
 
 #### Publications
 
-See the [research]({{ site.baseurl }}{% link index.md %}#research) and [publications]({{ site.baseurl }}{%
-link publications.md %}) pages.
+See the [research]({{ site.baseurl }}{% link pages/home.md %}#research) and [publications]({{ site.baseurl }}{%
+link pages/home.md %}#publications) pages.
 
 
 #### Lectures
@@ -58,10 +58,12 @@ link publications.md %}) pages.
 
 #### Professional Activities
 
-- Program Committee Chairs: [2021 POPL AEC](https://popl21.sigplan.org/), [2020 POPL AEC](https://popl20.sigplan.org/)
+- Program Committee Chairs
+  + [2021 POPL AEC](https://popl21.sigplan.org/)
+  + [2020 POPL AEC](https://popl20.sigplan.org/)
 
 - Program Committee Members
-  + 2022: ESOP, CPP
+  + 2022: PLDI, ESOP, CPP
   + 2021: [POPL](https://popl21.sigplan.org/), [OOPSLA](https://2021.splashcon.org/track/splash-2021-oopsla), [HOPE](https://icfp21.sigplan.org/home/hope-2021), PLOS
   + 2020: [ICSE NIER](https://conf.researchr.org/home/icse-2020), [ICSE SEIP](https://conf.researchr.org/home/icse-2020), [ASPLOS (ERC)](https://asplos-conference.org/)
   + 2019: [POPL AEC](https://popl19.sigplan.org/)
@@ -75,18 +77,16 @@ link publications.md %}) pages.
 #### Open Source Contributions
 
 - [Crossbeam](https://github.com/crossbeam-rs/crossbeam): a concurrency library in [Rust](https://www.rust-lang.org)
-
 - [Crellvm](https://sf.snu.ac.kr/crellvm): a verified credible compilation framework for LLVM
-
 - [SepCompCert](https://sf.snu.ac.kr/sepcompcert): verification of separate compilation of CompCert
 
 
 #### Invited Talks
 
 - iRRAM-Coq: Fearless Verification of Exact Real Arithmetic Programs.
-
+  <br />
   The 1st Workshop on Real Verification (RV 2017).
-
+  <br />
   \[[development](https://github.com/jeehoonkang/iRRAM-coq)\]
 
 

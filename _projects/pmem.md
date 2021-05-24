@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: people
 title: Persistent Memory
-excerpt: "Byte-addressable & Non-volatile"
+description: The emerging class of storages between DRAM and SSD
+background: /assets/images/kaist.jpg
+permalink: /pmem
 ---
 
 
