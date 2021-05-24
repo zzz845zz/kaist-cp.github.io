@@ -142,9 +142,74 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 {% endif %}
 {% endfor %}
 
-<!-- TODO: alumni? -->
+<br />
+
+### Alumni
+
+{% for person in site.data.people %}
+{% if person.status == "alumni" %}
+
+{% assign person_id = person.id %}
+{% capture person_url %}{% include person_url.md person_id=person_id %}{% endcapture %}
+
+{% if person.kaist_id %}
+{% assign mail_id = person.kaist_id %}
+{% else %}
+{% assign mail_id = person.id %}
+{% endif %}
+
+  <div class="media team-person">
+    <div class="media-body">
+      <h5 id="{{ person.id }}">
+        {{ person.name }}
+        {% if person.role %}
+        <small class="text-muted">| {{ person.role }}</small>
+        {% endif %}
+        {% if person.job %}
+        <small class="text-muted">| first occupation: {{ person.job }}</small>
+        {% endif %}
+      </h5>
+
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="{{ person_url }}"><i class="fa fa-home"></i></a>
+        </li>
+
+        {% if person.orcid %}
+        <li class="list-inline-item">
+          <a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" src="{{ '/assets/theme/img/orcid.png' | relative_url }}"></a>
+        </li>
+        {% endif %}
+
+        <li class="list-inline-item">
+          <a href="mailto:{{ mail_id }}@kaist.ac.kr"><i class="fa fa-envelope"></i></a>
+        </li>
+
+        {% if person.twitter %}
+        <li class="list-inline-item">
+          <a href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter"></i></a>
+        </li>
+        {% endif %}
+
+        {% if person.github %}
+        <li class="list-inline-item">
+          <a href="https://github.com/{{ person.github }}"><i class="fa fa-github"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+
+      {{ person.description | markdownify }}
+    </div>
+  </div>
+
+{% endif %}
+{% endfor %}
 
 <br />
+
+
+<!-- TODO: alumni? -->
+
 
 ## Lectures
 <div id="lectures"></div>
