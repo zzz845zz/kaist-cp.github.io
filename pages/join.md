@@ -280,7 +280,7 @@ So we want to keep the number of rules as low as possible.
     * SSH: `ssh -p14001 <google-workspace-id>@cp-service.kaist.ac.kr`
 
 
-## You're Done!
+## It's Done!
 
 Please check this document again to make sure you've done all action items.
 Then send a Zulip PM to Jeehoon that you did so.
