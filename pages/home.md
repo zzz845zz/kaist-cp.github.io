@@ -10,9 +10,9 @@ permalink: /
 {% assign pi_url = pi_url | strip %}
 
 {: .alert .alert-info}
-**We are actively recruiting motivated students of all levels
+**We're actively recruiting motivated students of all levels
 interested in designing and verifying concurrent and parallel systems.** If you're interested,
-please **read this [instruction]({{ site.baseurl }}/join/) and
+please **read this [instruction]({{ site.baseurl }}/join) and
 contact Jeehoon ASAP.**
 
 

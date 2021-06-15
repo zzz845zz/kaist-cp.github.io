@@ -8,14 +8,14 @@ title: Jeehoon Kang (강지훈)
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
 {: .alert .alert-info}
-**I am actively recruiting motivated students of all levels interested in designing and verifying concurrent and parallel systems.** If you're interested, please **read this [instruction]({{ site.baseurl }}/join/) and contact Jeehoon ASAP.**
+**I'm actively recruiting motivated students of all levels interested in designing and verifying concurrent and parallel systems.** If you're interested, please **read this [instruction]({{ site.baseurl }}/join) and contact Jeehoon ASAP.**
 
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/jeehoon.kang.jpg" alt="{{ person.name }}">
 
-I am an **Assistant Professor at [KAIST School of Computing](https://cs.kaist.ac.kr)** and the
+I'm an **Assistant Professor at [KAIST School of Computing](https://cs.kaist.ac.kr)** and the
 **Principal Investigator of [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr)**. I
 received my Ph.D. from Seoul National University under the supervision of [Prof. Chung-Kil
-Hur](https://sf.snu.ac.kr/gil.hur). I am designing and verifying concurrent and parallel systems,
+Hur](https://sf.snu.ac.kr/gil.hur). I'm designing and verifying concurrent and parallel systems,
 from microarchitectures to programming languages to algorithms, that greatly improve performance and
 significantly reduce power consumption, thereby serving as the basis for the upcoming era of massive
 data processing.
