@@ -263,7 +263,7 @@ So we want to keep the number of rules as low as possible.
            In "Nimf" > "Hotkeys for rotating input method engines", add "Hangul".
 - **Server** (Ubuntu 20.04)
     * SSH connection: `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr`
-        + Ports: 11001, 11009, **11010** (recommended)
+        + Ports: 11003 (recommended for file sharing), 11010 (recommended for heavy computation)
         + Password: `<google-workspace-password>`
         + Example: `ssh -p11010 jeehoon.kang@cp-service.kaist.ac.kr`
         + SSH configuration: see above. **Do it properly.**
@@ -273,11 +273,11 @@ So we want to keep the number of rules as low as possible.
       <br />
       If you want to install additional packages, make a PR to [this repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04).
 - **Remote desktop** (Xubuntu 20.04)
-    * RDP connection: `cp-service.kaist.ac.kr:12001`
+    * RDP connection: `cp-service.kaist.ac.kr:12010`
     * Account: Google Workspace account
     * Security: TLSv1.2, TLSv1.3
     * Client: [Microsoft clients](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients), [Remmina](https://remmina.org/)
-    * SSH: `ssh -p14001 <google-workspace-id>@cp-service.kaist.ac.kr`
+    * SSH: `ssh -p12110 <google-workspace-id>@cp-service.kaist.ac.kr`
 
 
 ## It's Done!
