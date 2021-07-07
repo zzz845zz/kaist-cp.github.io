@@ -50,10 +50,7 @@ link pages/home.md %}#publications) pages.
 
 #### Lectures
 
-- [CS230: System Programming (2021 Spring)](https://cp-git.kaist.ac.kr/cs230/cs230)
-- [CS420: Compiler Design (2020 Spring)](https://github.com/kaist-cp/cs420)
-- [CS492: Design and Analysis of Concurrent Programs (2020 Fall, 2019 Fall)](https://github.com/kaist-cp/cs492-concur)
-- [CS500: Design and Analysis of Algorithm (2019 Spring)](https://cp-git.kaist.ac.kr/jeehoon.kang/cs500)
+See the [lectures]({{ site.baseurl }}{% link pages/home.md %}#lectures) page.
 
 
 #### Professional Activities
