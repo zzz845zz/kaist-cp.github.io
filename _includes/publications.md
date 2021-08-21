@@ -17,7 +17,7 @@
 {% endfor %}
 
 - <span style="font-size: 110%; font-weight: bold;">({% if paper.venue_short %}{{ paper.venue_short }} {% endif %}{{ paper.year }})</span>
-  <span style="font-size: 110%;">{{ paper.title }}.</span>
+  <span style="font-size: 110%; font-weight: bold;">{{ paper.title }}.</span>
   <br />
   {{ author_links | join: ", " }}{% if paper.cofirst_authors %} (\*: co-first authors in alphabetical order){% endif %}.
   <br />
