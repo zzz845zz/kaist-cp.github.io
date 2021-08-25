@@ -144,7 +144,7 @@
 - id: jungin.rhee
   name: Jung In Rhee
   korean_name: 이정인
-  status: present
+  status: external
   role: Undergraduate Student
   github: jirheee
   educations: [
