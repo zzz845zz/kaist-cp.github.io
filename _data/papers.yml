@@ -1,3 +1,22 @@
+- title: "Simuliris: A Separation Logic Framework for Verifying Concurrent Program Optimizations"
+  authors: [
+    "Lennard Gäher",
+    "Michael Sammler",
+    "Simon Spies",
+    "Ralf Jung",
+    "Hoang-Hai Dang",
+    "Robbert Krebbers",
+    "jeehoon.kang",
+    "Derek Dreyer",
+  ]
+  venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
+  venue_short: "POPL"
+  year: 2022
+  status: "to appear"
+
+  copy_local: https://iris-project.org/pdfs/2022-popl-simuliris.pdf
+  website: https://iris-project.org/
+
 - title: "Revamping Hardware Persistency Models: View-Based and Axiomatic Persistency Models for Intel-x86 and Armv8"
   authors: [
     "kyeongmin.cho",

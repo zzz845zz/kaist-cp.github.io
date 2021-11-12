@@ -547,3 +547,23 @@
   name: Azalea Raad
   status: external
   website: https://www.soundandcomplete.org/
+
+- id: Lennard Gäher
+  name: Lennard Gäher
+  status: external
+  website: https://people.mpi-sws.org/~gaeher/
+
+- id: Michael Sammler
+  name: Michael Sammler
+  status: external
+  website: https://people.mpi-sws.org/~msammler/
+
+- id: Simon Spies
+  name: Simon Spies
+  status: external
+  website: https://people.mpi-sws.org/~spies/
+
+- id: Robbert Krebbers
+  name: Robbert Krebbers
+  status: external
+  website: https://robbertkrebbers.nl/
