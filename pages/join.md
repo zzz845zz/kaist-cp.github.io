@@ -12,6 +12,7 @@ This document contains all the information you should know, so please read it ca
 
 - **Contact Jeehoon ASAP.** 
   There are nothing blocking you from contacting Jeehoon (e.g., GPA, seniority, ...).
+  You can also contact Jeehoon via [comments](https://cp.kaist.ac.kr/#contact)!
 
 - **Send an application to Jeehoon (`jeehoon.kang@kaist.ac.kr`)**. The application should at least contain:
 
