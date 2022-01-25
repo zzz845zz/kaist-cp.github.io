@@ -233,10 +233,7 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
   Daejeon 34141, Korea
 - **Phone**: +82-42-350-3578 (Jeehoon), +82-42-350-7878 (Students)
 - [**Helpdesk**]({{ site.baseurl }}{% link pages/helpdesk.md %})
-- **Comments**
-
-  Do you want to talk to us here? Feel free to leave a comment!
-
+- **Comments**: Do you want to talk to us here? Feel free to leave a comment!
   <script src="https://utteranc.es/client.js"
     repo="kaist-cp/kaist-cp.github.io.comments"
     issue-term="pathname"
