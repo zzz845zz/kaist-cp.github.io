@@ -292,6 +292,7 @@ So we want to keep the number of rules as low as possible.
         + `ssh -p11010 <google-workspace-id>@cp-service.kaist.ac.kr` (Ryzen 5900X)
         + `ssh -p11068 <google-workspace-id>@cp-lab.kaist.ac.kr` (SiFive HiFive Unmatched, RISC-V)
     * Password: `<google-workspace-password>`
+        + Configure SSH keys and avoid password.
     * Global home directory (network-mounted): `/kaist-cp-home/<google-workspace-id>`
     * Local SSD directory (directly attached): `/local-home/<google-workspace-id>`. If it doesn't exist, run `sudo kaist-cp-refresh.sh`.
     * Installing packages: `sudo kaist-cp-refresh.sh`
