@@ -29,7 +29,7 @@ data processing.
 
 #### Experiences
 
-- Chief R&D Officer and Founder, Furiosa AI, September, 2017 - current.
+- Chief R&D Officer, Furiosa AI, September, 2017 - .
   <br />
   (topic: deep learning accelerator and its compiler)
 

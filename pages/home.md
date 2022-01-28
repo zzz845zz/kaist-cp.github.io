@@ -216,7 +216,7 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 
 - [CS220: Programming Principles (2021 Fall)](https://cp-git.kaist.ac.kr/cs220/cs220)
 - [CS230: System Programming (2021 Spring)](https://cp-git.kaist.ac.kr/cs230/cs230)
-- [CS420: Compiler Design (2020 Spring)](https://github.com/kaist-cp/cs420)
+- [CS420: Compiler Design (2022 Spring, 2020 Spring)](https://github.com/kaist-cp/cs420)
 - [CS431: Concurrent Programming (2021 Fall, 2020 Fall, 2019 Fall)](https://github.com/kaist-cp/cs431)
 - [CS500: Design and Analysis of Algorithm (2019 Spring)](https://cp-git.kaist.ac.kr/jeehoon.kang/cs500)
 

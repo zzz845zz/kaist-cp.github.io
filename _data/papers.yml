@@ -12,9 +12,10 @@
   venue: "ACM SIGPLAN Symposium on Principles of Programming Languages"
   venue_short: "POPL"
   year: 2022
-  status: "to appear"
+  status: "**Distinguished Paper Award**"
 
   copy_local: https://iris-project.org/pdfs/2022-popl-simuliris.pdf
+  copy_publisher: https://dl.acm.org/doi/abs/10.1145/3498689
   website: https://iris-project.org/
 
 - title: "Revamping Hardware Persistency Models: View-Based and Axiomatic Persistency Models for Intel-x86 and Armv8"

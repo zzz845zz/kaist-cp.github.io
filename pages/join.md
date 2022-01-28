@@ -11,7 +11,7 @@ This document contains all the information you should know, so please read it ca
 ## Application
 
 - **Contact Jeehoon ASAP.** 
-  There are nothing blocking you from contacting Jeehoon (e.g., GPA, seniority, ...).
+  There are nothing blocking you from contacting Jeehoon (e.g., GPA, experience, ...).
   You can also contact Jeehoon via [comments](https://cp.kaist.ac.kr/#contact)!
 
 - **Send an application to Jeehoon (`jeehoon.kang@kaist.ac.kr`)**. The application should at least contain:
@@ -36,7 +36,7 @@ This document contains all the information you should know, so please read it ca
 
 ## Requirements
 
-- **All new graduate students are required to finish at least one of the followings before joining
+- **All new graduate students are required to finish at least two of the followings before joining
   the lab.** So please start working on one of them ASAP.
 
     + Homework assignments of [KAIST CS420: Compiler Design](https://github.com/kaist-cp/cs420).
@@ -78,10 +78,10 @@ a consequence, a researcher will suffer everyday from:
 - **Failures**. You don't know what you're doing, so you'll fail almost always. To deal with
   the frustration from such failures, you should be mentally tough enough to tolerate such
   frustration. If successful, from time to time you will be able to understand or design small
-  things, which accumulate to a paper and a thesis.
+  things, which accumulate to a paper and then a thesis.
 
 - **Changing plans**. You don't know what you're doing, so your goal will be changing as you make
-  progress on your project. So any long-term plan is destined to be significantly revised. Thus you
+  progress on your project. So any long-term plan is destined to be significantly revised (if not cancelled). Thus you
   should think of the goal as a ever-moving target, the current version being just the best possible
   approximation of the actual end result. Your goal should be neither too concrete nor too abstract:
   if too concrete, it will not be resilient to the revision; if too abstract, it will not guide your
@@ -135,35 +135,65 @@ So we want to keep the number of rules as low as possible.
 - **Schedule at least one meeting for at least 15 minutes a week with Jeehoon**.
   It can be about anything such as research, coursework, TA...
 
+
+#### Discussion
+
+- **Don't pretend to know something if you don't.**
+  If you do that, then you're losing an opportunity to (1) learn the knowledge; and (2) go deeper into the problem that leads to a great research topic.
+  Cherish (and even foster) your ignorance.
+  Don't assume the others will look down on you if you don't know something. I know people often do it, but it's their bad.
+  + Don't say yes (or no) if you're not sure about it.
+  + Don't say you understood something if you don't.
+  + You're encouraged to say "I don't get it" and "I don't know that."
+
+- **Be faithful to the discussion.**
+  If you disagree, say so; if you don't like it, say so; if you're happy with it, say so!
+  But don't try to *win* the argument. Research is not about winning and losing (especially within the same group).
+  Try to summarize what you want to say (e.g., "Your idea doesn't work in general") and then substantiate your argument with evidences (e.g., "for instance, let's look at this code: ...").
+
+- **Don't be angry or grumpy when the discussion is getting hotter.**
+  Research and any other creative works require different opinions clashing with each other, or in other word,s *hot discussions*.
+  But they don't need to be involved with emotions clashing with each other.
+  I know it's difficult to separate them out, but let's try to do that.
+
+- **Right after every discussion, write down and share a summary note** in the corresponding project stream in Zulip.
+  For instance:
+
+        ## discussions
+        - method A won't work because of B. (but is B really relevant?)
+        - anyway, let's first try C instead.
+        - maybe D is also worth looking at?
+
+        ## action items
+        - jeehoon: contact D's authors
+        - kyeongmin: investigate if B really matters, and document why A won't work in gitlab.
+        - seungmin: implement C, make a schedule for the next meeting
+
+  Please faithfully summarize discussions. Especially, be fair to the ideas you don't agree with.
+
+
 #### Reliability
+
+- **Make sure to share crucial details to the collaborators.**
+  Without a sufficient amount of communication, it's often difficult to make progresses on your research.
+  For instance, maybe the problem you're solving hard right now is already dealt with by the others, so frequently tell the others about your progress.
+  (Too much communication, on the other hand, may be burdensome but it can be easily and proactively addressed, so it usually doesn't cause any harm.)
 
 - **Make sure that no feedbacks or action items get ignored.**
   More concretely, when you receive a feedback, address it or give a counterargument against it.
   When you're not capable of doing action items by their deadline, please say so as early as possible.
+    + It doesn't mean you need to foresee the future and always finish your work by the time.
+      I know you're not going to make it quite often. (It's research!) 
+      Just tell the others that in a timely manner. That's it.
     + If you're reliable on this, the others can depend on you to get things done.
       If you're unreliable and you miss feedbacks or action items, the others also need to track them, which causes great management cost.
 
-- **Right after every meeting, write down and share action items** in the corresponding Zulip topics (Team stream or DM).
-  Example:
-
-        - rv6 PR #131 적정 단계에서 끊어서 마무리
-        - rv6 issue #124 검토
-        - XX에 대해 정리하여 공유
-
-- Don't say yes (or no) if you're not sure about it.
-  Don't say you understood something if you don't.
-  If there are some points that you do not understand clearly during the discussion, ask as soon as possible.
-
-- Don't be angry or grumpy when the discussion is getting hotter.
-  *Hot discussion* is absolutely necessary for research and any other creative works, but it's hot because different opinions are clashing.
-  It should not be hot because different emotions are clashing.
-
-- Cleary distinguish what you cannot agree on and what is not important.
-  Even if you don't agree with an argument, please faithfully treat and document it (esp. that you don't agree with it).
 
 #### Writing and speaking skills
 
 - **Try to be direct, top-to-bottom, and conclusion-first**.
+
+  Don't say "A, so B, and then C". Try "C, because B. Should you wonder, B is due to A."
 
 - **Read how to write papers and give talks by [Dr. Derek Dreyer](https://people.mpi-sws.org/~dreyer/)**:
     + [How to write papers so people can read them](https://people.mpi-sws.org/~dreyer/talks/talk-plmw16.pdf), PLMW@POPL 2016
@@ -171,6 +201,7 @@ So we want to keep the number of rules as low as possible.
     + [How to write papers and give talks that people can follow](https://people.mpi-sws.org/~dreyer/talks/talk-plmw17icfp.pdf), PLMW@ICFP 2017
 
 - **Use Derek's CGI model** when summarizing papers or writing proposals.
+  Analyze the context, gap, innovation, strength, and weakness of papers and proposals.
   Here's [an example](https://docs.google.com/document/d/1W8coma11JFp0JIaVqFnZYkEa0sBkgZ1ijTSh6j8c_Gw).
 
 
@@ -190,23 +221,19 @@ So we want to keep the number of rules as low as possible.
 - Zulip is asynchronous by default, but it is semi-synchronous in work hours.
   Try to reply promptly (at most by 15 minutes) in work hours. (No need to even reply in other times.)
 
-##### Gitlab
+##### GitLab/GitHub
 
-- Sign in <https://cp-git.kaist.ac.kr> with your Google Workspace account.
-- Maintain all research projects in this Gitlab.
-
-<!-- ##### GitHub -->
-
-<!-- - All work should be done in the [`kaist-cp` organization](https://github.com/kaist-cp). -->
-<!-- - Please write your name in your public profile (Settings > Profile > Name). -->
-<!-- - If you want to create a new repository, ask Jeehoon. -->
-<!-- - Configure notifications for mentions and issue/PR comments. -->
-<!--   It is usually configured in Zulip, but if not, please get email notification for them. -->
+- GitLab: Sign in <https://cp-git.kaist.ac.kr> with your Google Workspace account.
+- GitHub: We're at the [`kaist-cp` organization](https://github.com/kaist-cp).
+  + Please write your name in your public profile (Settings > Profile > Name).
+- Let's prefer GitLab to GitHub.
+- If you want to create a new organization or repository, ask Jeehoon.
+- Configure email notifications for mentions and issue/PR/MR comments.
 
 ##### Email
 
-- Forward all `{firstname}.{lastname}@kaist.ac.kr` emails to `{firstname}.{lastname}@cp.kaist.ac.kr` and check emails in [Gmail](https://www.gmail.com).
-- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). Do not markup emails.
+- Forward `{firstname}.{lastname}@kaist.ac.kr` to `{firstname}.{lastname}@cp.kaist.ac.kr` and check emails in [Gmail](https://www.gmail.com).
+- Write [proper formal emails](https://www.wikihow.com/Write-a-Formal-Email). Do not heavily markup emails.
 
 ##### Calendar
 
@@ -236,12 +263,13 @@ So we want to keep the number of rules as low as possible.
 
 #### Tools
 
-- **Learn VSCode**. (If you prefer Vim or Emacs, there you go. But just FYI, the winner of the editor war: vim vs emacs is vs(code).)
+- **Learn VSCode**. (If you prefer Vim or Emacs, there you go. But just FYI, the winner of the editor war---vim vs emacs---is vs(code).)
 - **Learn Git**. Here are good tutorials from [Atlassian](https://www.atlassian.com/git/tutorials) and [GitHub](https://lab.github.com/).
 - **Learn SSH**.
     * Generate your ed25519 SSH key: <https://www.ssh.com/academy/ssh/keygen>.
     * Authorize the key in servers: <https://www.ssh.com/academy/ssh/copy-id>. From now on, you must never write down password every time.
     * Configure your local SSH config: <https://linuxize.com/post/using-the-ssh-config-file/>
+    * Use `ssh-agent`.
 - **Study [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)** ([Korean translation](https://missing-semester-kr.github.io/)), except for "Editors (Vim)".
 
 #### Infrastructure
@@ -249,30 +277,26 @@ So we want to keep the number of rules as low as possible.
 <!-- Use the following devices. -->
 <!-- **IMPORTANT: no password should be written here. It's a public repository.** -->
 
-- **WiFi**: `kaist-cp` at Rm. 4432, 4433, 4441, Bldg. E3-1, KAIST
+- **Offices**: Rm. 4432, 4433, 4441, Bldg. E3-1, KAIST
     * Password: ask people around the lab
-    * SSH gateway: `ssh -p11000 <google-workspace-id>@cp-lab.kaist.ac.kr` (e.g., `ssh -p11000 jeehoon.kang@cp-lab.kaist.ac.kr`). Use it as a [proxy](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump).
-- **Printer**: `HP Color LaserJet Pro MFP M479fdw`; `10.12.255.2` in the WiFi network; AirPrint protocol
+- **WiFi**: `kaist-cp` around the offices
+    * Password: ask people around the lab
+    * SSH gateway: `ssh -p11000 <google-workspace-id>@cp-lab.kaist.ac.kr`. Use it as a [proxy](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump).
+- **Printer**: at Rm. 4432; `HP Color LaserJet Pro MFP M479fdw` or `10.12.255.2` in the WiFi network; AirPrint protocol
     * You may also scan and send documents to your email address.
 - **Desktop**: Get a machine from Jeehoon. We encourage you to install the latest Ubuntu LTS.
-    * Configure the [nimf](https://github.com/hamonikr/nimf/) Hangul input method in Ubuntu.
-        1. In "Region & Language" > "Input Sources", remove other input sources and leave "English (US)" only.
-        1. To check if nimf is installed, run `nimf-settings`. If it's not installed, run `/usr/bin/install-packages`.
-        1. Run `im-config -n nimf` and reboot. Ensure that `nimf` process is running.
-        1. Configure nimf with `nimf-settings`.
-           In "XKB options" > "Korean Hangul/Hanja keys", set "Make right Alt a Hangul key".
-           In "Nimf" > "Hotkeys for rotating input method engines", add "Hangul".
+    * Configure the [kime](https://github.com/Riey/kime) Hangul input method in Ubuntu.
 - **Server** (Ubuntu 20.04)
-    * SSH connection: `ssh -p<port> <google-workspace-id>@cp-service.kaist.ac.kr`
-        + Port: 11005 (Ryzen Threadripper 3990X), 11010 (Ryzen 5900X)
-        + Password: `<google-workspace-password>`
-        + Example: `ssh -p11010 jeehoon.kang@cp-service.kaist.ac.kr`
-        + SSH configuration: see above. **Do it properly.**
-    * Global home directory (network mounted): `/kaist-cp-home/<google-workspace-id>`
+    * SSH command
+        + `ssh -p11005 <google-workspace-id>@cp-service.kaist.ac.kr` (Ryzen Threadripper 3990X)
+        + `ssh -p11010 <google-workspace-id>@cp-service.kaist.ac.kr` (Ryzen 5900X)
+        + `ssh -p11068 <google-workspace-id>@cp-lab.kaist.ac.kr` (SiFive HiFive Unmatched, RISC-V)
+    * Password: `<google-workspace-password>`
+    * Global home directory (network-mounted): `/kaist-cp-home/<google-workspace-id>`
     * Local SSD directory (directly attached): `/local-home/<google-workspace-id>`. If it doesn't exist, run `sudo kaist-cp-refresh.sh`.
     * Installing packages: `sudo kaist-cp-refresh.sh`
       <br />
-      If you want to install additional packages, make a PR to [this repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox-20.04).
+      If you want to install additional packages, make a PR to [this repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox).
 
 
 ## It's Done!
