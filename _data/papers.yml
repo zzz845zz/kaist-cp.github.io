@@ -30,6 +30,10 @@
   venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
   venue_short: "PLDI"
   year: 2022
+  status: "to appear"
+
+  copy_local: https://plv.mpi-sws.org/compass/paper.pdf
+  website: https://plv.mpi-sws.org/compass/
 
 - title: "Simuliris: A Separation Logic Framework for Verifying Concurrent Program Optimizations"
   authors: [
