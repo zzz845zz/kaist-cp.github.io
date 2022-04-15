@@ -17,6 +17,20 @@
     url: https://drive.google.com/file/d/1CC5rrLHcynNWTrZKcJcN9azoasqbOSQv/view?usp=sharing
   website: memento
 
+- title: "Compass: Strong and Compositional Library Specifications in Relaxed Memory Separation Logic"
+  authors: [
+    "Hoang-Hai Dang",
+    "jaehwang.jung",
+    "jaemin.choi",
+    "Duc-Than Nguyen",
+    "William Mansky",
+    "jeehoon.kang",
+    "Derek Dreyer",
+  ]
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
+  venue_short: "PLDI"
+  year: 2022
+
 - title: "Simuliris: A Separation Logic Framework for Verifying Concurrent Program Optimizations"
   authors: [
     "Lennard Gäher",

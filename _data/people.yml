@@ -429,7 +429,7 @@
 - id: William Mansky
   name: William Mansky
   status: external
-  website: http://www.cs.princeton.edu/~wmansky/
+  website: https://mansky.lab.uic.edu/
 
 - id: Dmitri Garbuzov
   name: Dmitri Garbuzov
@@ -606,3 +606,8 @@
   name: Robbert Krebbers
   status: external
   website: https://robbertkrebbers.nl/
+
+- id: Duc-Than Nguyen
+  name: Duc-Than Nguyen
+  status: external
+  website: https://ducthann.github.io/
