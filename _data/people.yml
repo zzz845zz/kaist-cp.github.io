@@ -182,6 +182,19 @@
     "(2024) B.S. in Computer Science. KAIST (expected).",
   ]
 
+- id: haechan.an
+  kaist_id: vamoshcahn
+  name: Haechan An
+  korean_name: 안해찬
+  status: present
+  role: Undergraduate Student
+  image: assets/images/people/haechan.an.jpg
+  place: Rm. 4432, Bldg. E3-1, KAIST (+82-42-350-7878) 
+  github: AnHaechan
+  educations: [
+    "(2023) B.S. in Computer Science. KAIST (expected).",
+  ]
+
 - id: jaemin.yu
   name: Jaemin Yu
   korean_name: 유재민
