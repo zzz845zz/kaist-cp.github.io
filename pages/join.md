@@ -274,30 +274,7 @@ So we want to keep the number of rules as low as possible.
 
 #### Infrastructure
 
-<!-- Use the following devices. -->
-<!-- **IMPORTANT: no password should be written here. It's a public repository.** -->
-
-- **Offices**: Rm. 4432, 4433, 4441, Bldg. E3-1, KAIST
-    * Password: ask people around the lab
-- **WiFi**: `kaist-cp` around the offices
-    * Password: ask people around the lab
-    * SSH gateway: `ssh -p11000 <google-workspace-id>@cp-lab.kaist.ac.kr`. Use it as a [proxy](https://www.redhat.com/sysadmin/ssh-proxy-bastion-proxyjump).
-- **Printer**: at Rm. 4432; `HP Color LaserJet Pro MFP M479fdw` or `10.12.255.2` in the WiFi network; AirPrint protocol
-    * You may also scan and send documents to your email address.
-- **Desktop**: Get a machine from Jeehoon. We encourage you to install the latest Ubuntu LTS.
-    * Configure the [kime](https://github.com/Riey/kime) Hangul input method in Ubuntu.
-- **Server** (Ubuntu 20.04)
-    * SSH command
-        + `ssh -p11005 <google-workspace-id>@cp-service.kaist.ac.kr` (Ryzen Threadripper 3990X)
-        + `ssh -p11010 <google-workspace-id>@cp-service.kaist.ac.kr` (Ryzen 5900X)
-        + `ssh -p11068 <google-workspace-id>@cp-lab.kaist.ac.kr` (SiFive HiFive Unmatched, RISC-V)
-    * Password: `<google-workspace-password>`
-        + Configure SSH keys and avoid password.
-    * Global home directory (network-mounted): `/kaist-cp-home/<google-workspace-id>`
-    * Local SSD directory (directly attached): `/local-home/<google-workspace-id>`. If it doesn't exist, run `sudo kaist-cp-refresh.sh`.
-    * Installing packages: `sudo kaist-cp-refresh.sh`
-      <br />
-      If you want to install additional packages, make a PR to [this repository](https://github.com/kaist-cp/infra-public/tree/master/sandbox).
+Please read [an internal document](https://cp-git.kaist.ac.kr/kaist-cp/kaist-cp).
 
 
 ## It's Done!
