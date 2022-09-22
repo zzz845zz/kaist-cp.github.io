@@ -1,14 +1,14 @@
-- title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
-  authors: [
-    "sungsoo.han",
-    "minseong.jang",
-    "jeehoon.kang",
-  ]
-  cofirst_authors: [1, 2]
-  venue: "The International Conference on Architectural Support for Programming Languages and Operating Systems"
-  venue_short: "ASPLOS"
-  year: 2023
-  status: "to appear"
+# - title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
+#   authors: [
+#     "sungsoo.han",
+#     "minseong.jang",
+#     "jeehoon.kang",
+#   ]
+#   cofirst_authors: [1, 2]
+#   venue: "The International Conference on Architectural Support for Programming Languages and Operating Systems"
+#   venue_short: "ASPLOS"
+#   year: 2023
+#   status: "to appear"
 
 - title: "Practical Detectability for Persistent Lock-Free Data Structures"
   authors: [
@@ -335,17 +335,3 @@
   year: 2012
 
   copy_publisher: https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i1p54
-
-# - title: "A 974GOPS/W Multi-level Parallel Architecture for Binary Weight Network Acceleration"
-#   authors: [
-#     "Rongdi Sun",
-#     "Peilin Liu",
-#     "Cecil Accetti",
-#     "Abid A. Naqvi",
-#     "haroon.ahmed",
-#   ]
-#   venue: "IEEE International Symposium on Circuits and Systems (ISCAS), Florence, Italy"
-#   venue_short: "ISCAS"
-#   year: 2018
-
-#   copy_publisher: https://ieeexplore.ieee.org/document/8351247
