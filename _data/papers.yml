@@ -1,3 +1,15 @@
+- title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
+  authors: [
+    "sungsoo.han",
+    "minseong.jang",
+    "jeehoon.kang",
+  ]
+  cofirst_authors: [1, 2]
+  venue: "The International Conference on Architectural Support for Programming Languages and Operating Systems"
+  venue_short: "ASPLOS"
+  year: 2023
+  status: "to appear"
+
 - title: "Practical Detectability for Persistent Lock-Free Data Structures"
   authors: [
     "kyeongmin.cho",
@@ -30,7 +42,6 @@
   venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
   venue_short: "PLDI"
   year: 2022
-  status: "to appear"
 
   copy_local: https://plv.mpi-sws.org/compass/paper.pdf
   website: https://plv.mpi-sws.org/compass/
