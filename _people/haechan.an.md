@@ -10,11 +10,11 @@ excerpt: "Haechan An's website"
 
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/haechan.an.jpg" alt="{{ person.name }}">
 
-I'm on my 9th semester as undergraduate at KAIST, [School of Computing](https://cs.kaist.ac.kr/). I have interests in theories of <b>programming languages</b> and program analysis. Also I care about writing clean and neat code, in general, <b>designing such abstractons</b>.
+I'm on my 10th semester as undergraduate at KAIST, [School of Computing](https://cs.kaist.ac.kr/). I have interests in theories of <b>programming languages</b> and program analysis. Also I care about writing clean and neat code, in general, <b>designing such abstractons</b>.
 
-Currently I'm working on designing useful [persistent memory libraries](https://cp.kaist.ac.kr/pmem).
+Currently I'm working on building [AI serving systems](https://cp.kaist.ac.kr/ai-system).
 
-Details of my experiences are at [my old webpage](https://anhaechan.github.io/).
+Details of my experiences are at [my personal webpage](https://anhaechan.github.io/).
 
 
 {% include person_contact.md person_id=person_id %}
