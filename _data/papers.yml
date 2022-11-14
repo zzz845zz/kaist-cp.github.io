@@ -1,14 +1,19 @@
-# - title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
-#   authors: [
-#     "sungsoo.han",
-#     "minseong.jang",
-#     "jeehoon.kang",
-#   ]
-#   cofirst_authors: [1, 2]
-#   venue: "The International Conference on Architectural Support for Programming Languages and Operating Systems"
-#   venue_short: "ASPLOS"
-#   year: 2023
-#   status: "to appear"
+- title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
+  authors: [
+    "sungsoo.han",
+    "minseong.jang",
+    "jeehoon.kang",
+  ]
+  cofirst_authors: [1, 2]
+  venue: "The International Conference on Architectural Support for Programming Languages and Operating Systems"
+  venue_short: "ASPLOS"
+  year: 2023
+  status: "to appear"
+
+  copy_local: https://drive.google.com/file/d/12GWV36ay8Fn6aNDX1Qgu4Yn_LpXLtPN3/view?usp=sharing
+  artifact_local:
+  - name: Development
+    url: https://github.com/kaist-cp/shakeflow
 
 - title: "Practical Detectability for Persistent Lock-Free Data Structures"
   authors: [
