@@ -235,7 +235,8 @@
   name: Chunmyong Park
   korean_name: 박천명
   status: alumni
-  role: PhD Student
+  role: Master Student
+  job: Supertone
   image: assets/images/people/chunmyong.park.jpeg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: cmpark0126
@@ -251,6 +252,7 @@
   korean_name: 한성수
   status: alumni
   role: Master Student
+  job: FuriosaAI
   image: assets/images/people/sungsoo.han.jpg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: lomotos10
@@ -262,6 +264,7 @@
   korean_name: 심성환
   status: alumni
   role: Master Student
+  job: FuriosaAI
   image: assets/images/people/sunghwan.shim.jpg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: gabriel4256
