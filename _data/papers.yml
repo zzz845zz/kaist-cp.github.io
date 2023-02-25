@@ -1,3 +1,19 @@
+- title: "A General Framework for Detectable, Persistent, Lock-Free Data Structures"
+  authors: [
+    "kyeongmin.cho",
+    "seungmin.jeon",
+    "Azalea Raad",
+    "jeehoon.kang",
+  ]
+  venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
+  venue_short: "PLDI"
+  year: 2023
+  status: "to appear"
+  tags: [
+    "memento",
+  ]
+  website: memento
+
 - title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
   authors: [
     "sungsoo.han",
@@ -8,31 +24,11 @@
   venue: "The International Conference on Architectural Support for Programming Languages and Operating Systems"
   venue_short: "ASPLOS"
   year: 2023
-  status: "to appear"
 
   copy_local: https://drive.google.com/file/d/17kBZxz7XgfQ4DjBwW0GvD-e0DHwK1N85/view?usp=sharing
   artifact_local:
   - name: Development
     url: https://github.com/kaist-cp/shakeflow
-
-- title: "Practical Detectability for Persistent Lock-Free Data Structures"
-  authors: [
-    "kyeongmin.cho",
-    "seungmin.jeon",
-    "jeehoon.kang",
-  ]
-  venue: "Submitted"
-  year: 2022
-  tags: [
-    "memento",
-  ]
-  copy_local: https://drive.google.com/file/d/1QU58FU-B_dxsMqzmNK6rCBzwwUcKtpLx/view?usp=sharing
-  artifact_local:
-  - name: Development
-    url: https://drive.google.com/file/d/1-lHiijtMuuEcj11g65Bm72vdOmlBu7vx/view?usp=sharing
-  - name: Evaluation results
-    url: https://drive.google.com/file/d/1CC5rrLHcynNWTrZKcJcN9azoasqbOSQv/view?usp=sharing
-  website: memento
 
 - title: "Compass: Strong and Compositional Library Specifications in Relaxed Memory Separation Logic"
   authors: [
