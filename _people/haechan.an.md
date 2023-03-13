@@ -10,11 +10,13 @@ excerpt: "Haechan An's website"
 
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/haechan.an.jpg" alt="{{ person.name }}">
 
-I'm on my 9th semester as undergraduate at KAIST, [School of Computing](https://cs.kaist.ac.kr/). I have interests in theories of <b>programming languages</b> and program analysis. Also I care about writing clean and neat code, in general, <b>designing such abstractons</b>.
+I am **Master's student at [KAIST School of Computing](https://cs.kaist.ac.kr/)**.
+The followings are my interests: **Programming language theories** including formal semantics, abstract interpretation, interactive theorem proving and concurrency; **Building complex systems** such as compilers in safe and usable languages like Rust; Additionally, applying **learning-based techniques** to the above area.
 
-Currently I'm working on designing useful [persistent memory libraries](https://cp.kaist.ac.kr/pmem).
+I've worked on building [AI serving systems](https://cp.kaist.ac.kr/ai-system).
+Currently, I'm finding research topics related to the automation of formal verification.
 
-Details of my experiences are at [my old webpage](https://anhaechan.github.io/).
+Details of my experiences are at [my personal webpage](https://anhaechan.github.io/).
 
 
 {% include person_contact.md person_id=person_id %}
