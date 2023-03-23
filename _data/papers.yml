@@ -1,4 +1,4 @@
-- title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
+- title: "Applying Hazard Pointers to More Concurrent Data Structures"
   authors: [
     "jaehwang.jung",
     "janggun.lee",
