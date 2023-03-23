@@ -1,3 +1,15 @@
+- title: "ShakeFlow: Functional Hardware Description with Latency-Insensitive Interface Combinators"
+  authors: [
+    "jaehwang.jung",
+    "janggun.lee",
+    "jeonghyeon.kim",
+    "jeehoon.kang",
+  ]
+  venue: "ACM Symposium on Parallelism in Algorithms and Architectures"
+  venue_short: "SPAA"
+  year: 2023
+  status: "accepted"
+
 - title: "A General Framework for Detectable, Persistent, Lock-Free Data Structures"
   authors: [
     "kyeongmin.cho",
