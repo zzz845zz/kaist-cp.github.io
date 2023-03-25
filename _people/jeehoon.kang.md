@@ -60,6 +60,7 @@ See the [lectures]({{ site.baseurl }}{% link pages/home.md %}#lectures) page.
   + [2020 POPL AEC](https://popl20.sigplan.org/)
 
 - Program Committee Members
+  + 2024: POPL
   + 2023: [ACM SRC](https://src.acm.org/)
   + 2022: PLDI, ESOP, CPP
   + 2021: [POPL](https://popl21.sigplan.org/), [OOPSLA](https://2021.splashcon.org/track/splash-2021-oopsla), [HOPE](https://icfp21.sigplan.org/home/hope-2021), PLOS
@@ -67,6 +68,7 @@ See the [lectures]({{ site.baseurl }}{% link pages/home.md %}#lectures) page.
   + 2019: [POPL AEC](https://popl19.sigplan.org/)
 
 - Others: 
+  + 2023: [APSEC](https://conf.researchr.org/home/apsec-2023) Student Research Competition Chair
   + 2022: [POPL](https://popl22.sigplan.org/series/POPL) Student Research Competition Co-Chair, CGO Proceedings Chair
   + 2021: [CGO](https://conf.researchr.org/home/cgo-2021) Proceedings Chair
   + 2020: [ICSE](https://conf.researchr.org/home/icse-2020) Virtualization Technology Chair
