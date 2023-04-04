@@ -20,7 +20,7 @@
   venue: "ACM SIGPLAN conference on Programming Languages Design and Implementation"
   venue_short: "PLDI"
   year: 2023
-  status: "conditionally accepted"
+  status: "accepted"
   tags: [
     "pmem",
     "memento",
