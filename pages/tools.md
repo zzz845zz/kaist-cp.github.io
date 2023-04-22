@@ -48,10 +48,10 @@ permalink: /tools
     + Check both `{firstname}.{lastname}@kaist.ac.kr` and `{firstname}.{lastname}@cp.kaist.ac.kr` email accounts.
       FYI, Jeehoon forwards emails from `{firstname}.{lastname}@kaist.ac.kr` to `{firstname}.{lastname}@cp.kaist.ac.kr` and check emails in Gmail.
 
-- [Drive, Docs, Spreadsheet, Slide, Form (Drive)](https://drive.google.com):
+- [Drive, Docs, Spreadsheet, Slide, Form (Google)](https://drive.google.com):
   Put all project-related files to shared Google Drive.
 
-- Chat ([Zulip](https://cp-chat.kaist.ac.kr))
+- [Chat (Zulip)](https://cp-chat.kaist.ac.kr)
 
     + First things first, say hi in [this topic](bhttps://cp-chat.kaist.ac.kr/#narrow/stream/112-general/topic/.EC.86.8C.EA.B0.9C).
 
@@ -69,7 +69,7 @@ permalink: /tools
 
     + Configure email notifications for mentions and issue/PR/MR comments.
 
-- Website
+- [Website]({{ site.baseurl }})
 
     + Fork [the website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
 
@@ -91,11 +91,15 @@ permalink: /tools
 
 - Development
 
-    + **Learn VSCode**. (If you prefer Vim or Emacs, there you go. But just FYI, the winner of the editor war---vim vs emacs---is vs(code).)
+    + Learn VSCode. 
+    
+      If insist on 적폐 editors like Vim or Emacs, I won't fight with you. But keep in your mind that the winner of the editor war---vim vs emacs---is vs(code).
 
-    + **Learn Git**. Here are good tutorials from [Atlassian](https://www.atlassian.com/git/tutorials) and [GitHub](https://lab.github.com/).
+    + Learn Git. 
+    
+      Here are good tutorials from [Atlassian](https://www.atlassian.com/git/tutorials) and [GitHub](https://lab.github.com/).
 
-    + **Learn SSH**.
+    + Learn SSH.
 
         * Generate your ed25519 SSH key: <https://www.ssh.com/academy/ssh/keygen>.
 
@@ -105,6 +109,6 @@ permalink: /tools
 
         * Use `ssh-agent`.
 
-    + **Study [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)** ([Korean translation](https://missing-semester-kr.github.io/)), except for "Editors (Vim)".
+    + Study [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) ([Korean translation](https://missing-semester-kr.github.io/)), except for "Editors (Vim)".
 
     + Use the development machines as described at the beginning of this page.
