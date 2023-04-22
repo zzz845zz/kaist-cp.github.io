@@ -8,32 +8,35 @@ permalink: /join
 Thank you for your interest in joining the lab!
 This document contains all the information you should know, so please read it carefully to proceed on.
 
-## Application
-
-Please follow the procedure.
+## Application Procedure
 
 - **Contact Jeehoon ASAP.** 
+
   There are nothing blocking you from contacting Jeehoon (e.g., GPA, experience, ...).
   You can also contact Jeehoon via [comments](https://cp.kaist.ac.kr/#contact)!
 
 - **Send an application to Jeehoon (`jeehoon.kang@kaist.ac.kr`)**. 
+
   Please prepare for a [Google Docs](https://docs.google.com) document and give the document's comment access to `jeehoon.kang@cp.kaist.ac.kr`.
   In the application, please describe:
       
-    + **The most interesting experience on computing (past).**
+    + *The most interesting experience on computing (past).*
       It can be about course projects, research or industry experience, or anything related to computing.
 
-    + **What you want to do in the lab (future).**
+    + *What you want to do in the lab (future).*
       I suggest you first read the lab's [research page]({{ site.baseurl }}{% link pages/home.md %}#research) and
       <!-- and a [recruit page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"} (Korean); -->
       see what's going on in this lab.
 
 - **Tell me when is convenient for you for a 30-minute online meeting.**
+
   Please consult [Jeehoon's calendar]({{ site.baseurl }}/jeehoon.kang#calendar) for his schedule.
 
 - **Create the `{firstname}.{lastname}@kaist.ac.kr` email account and tell me** (if you're a KAIST student).
+
     + You can add "virtual mail" in <mail.kaist.ac.kr> > Upper right-hand side gear > Settings > Mail > Virtual Mail > Add Mail.
-    + If it is already taken, add a random number at the end of the id, e.g., `{firstname}.{lastname}07@kaist.ac.kr`
+
+    + If it is already taken, add a random number at the end of the id, e.g., `{firstname}.{lastname}07@kaist.ac.kr`.
 
 - **Finish reading this document and do all the action items.**
 
@@ -49,11 +52,12 @@ Please follow the procedure.
     + Homework assignments of [KAIST CS431: Concurrent Programming](https://github.com/kaist-cp/cs492-concur).
       Lecture videos are uploaded to YouTube, and you can ask questions in the course repository's issue tracker.
 
-    + Homework Assignments of [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.
+    + Exercises of [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.
     
     + Reading the [Corundum](https://github.com/corundum/corundum) open-source FPGA-based NIC.
 
 - **You're also strongly encouraged to join the lab as an undergraduate intern**.
+
   Please use internship as an opportunity to see what's actually going on in the lab.
   We are widely open to all undergraduate students!
   Though I'm encouraging potential interns to finish **at least one** of the above tasks before joining the lab as an intern.

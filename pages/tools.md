@@ -18,8 +18,8 @@ permalink: /tools
   + GitHub: <https://github.com/kaist-cp/>
 - Development machines
   + Cloud: <https://8282.kaist.ac.kr/>
-  + Traditional: <https://cp-git.kaist.ac.kr/kaist-cp/kaist-cp/>
-    * Packages: <https://github.com/kaist-cp/infra-public/>
+  + Traditional: see <https://cp-git.kaist.ac.kr/kaist-cp/kaist-cp/> for the confidential information.
+    * Installing software: first send a PR to <https://github.com/kaist-cp/infra-public/>.
 - VPNs
   + Data center: <https://cp-vpn.kaist.ac.kr/>
   + Office: <https://cp-lab.kaist.ac.kr/>
@@ -93,7 +93,7 @@ permalink: /tools
 
     + Learn VSCode. 
     
-      If insist on 적폐 editors like Vim or Emacs, I won't fight with you. But keep in your mind that the winner of the editor war---vim vs emacs---is vs(code).
+      If you insist on 적폐 editors like Vim or Emacs, I won't fight with you. But keep in your mind that the winner of the editor war---vim vs emacs---is vs(code).
 
     + Learn Git. 
     
@@ -110,5 +110,6 @@ permalink: /tools
         * Use `ssh-agent`.
 
     + Study [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) ([Korean translation](https://missing-semester-kr.github.io/)), except for "Editors (Vim)".
+      Again, please use VSCode.
 
-    + Use the development machines as described at the beginning of this page.
+    + Use the development machines as [described here](#web-services).
