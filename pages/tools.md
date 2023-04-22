@@ -5,13 +5,13 @@ background: /assets/images/kaist.jpg
 permalink: /tools
 ---
 
-## Summary
-
-#### Web Services
+## Services
 
 - Calendar: <https://calendar.google.com/>
 - Email: <https://mail.google.com/>
-- Drive: <https://drive.google.com/>
+- Drive
+  + Google: <https://drive.google.com/>
+  + Nextcloud: <https://cp-nextcloud.kaist.ac.kr/>
 - Chat: <https://cp-chat.kaist.ac.kr/>
 - Git repositories
   + GitLab: <https://cp-git.kaist.ac.kr/>
@@ -23,12 +23,10 @@ permalink: /tools
 - VPNs
   + Data center: <https://cp-vpn.kaist.ac.kr/>
   + Office: <https://cp-lab.kaist.ac.kr/>
-
-#### Courses
-
-- CS431: <https://github.com/kaist-cp/cs431/>
-- CS420: <https://github.com/kaist-cp/cs420/>
-- CS220: <https://github.com/kaist-cp/cs220/>
+- Courses
+  + CS431: <https://github.com/kaist-cp/cs431/>
+  + CS420: <https://github.com/kaist-cp/cs420/>
+  + CS220: <https://github.com/kaist-cp/cs220/>
 
 ## Onboarding
 
@@ -50,6 +48,21 @@ permalink: /tools
 
 - [Drive, Docs, Spreadsheet, Slide, Form (Google)](https://drive.google.com):
   Put all project-related files to shared Google Drive.
+
+- [Drive (Nextcloud)](https://cp-nextcloud.kaist.ac.kr/)
+
+  I recommend you to set up an "external storage" to your home directory.
+  In [here](https://cp-nextcloud.kaist.ac.kr/settings/user/externalstorages), add an SFTP connection with the following configuration:
+
+    + Authentication: username and password
+
+    + Host: `10.30.0.2:2200`
+
+    + Root: `/kaist-cp-home/{google-workspace-id}`
+
+    + Username: `{google-workspace-id}`
+
+    + Password: `{google-workspace-password}`
 
 - [Chat (Zulip)](https://cp-chat.kaist.ac.kr)
 
