@@ -35,7 +35,8 @@ This document contains all the information you should know, so please read it ca
 
 - **Tell me when is convenient for you for a 30-minute online meeting.**
 
-  Please consult [Jeehoon's calendar]({{ site.baseurl }}/jeehoon.kang#calendar) for his schedule.
+  Please create a Google calendar event and invite `jeehoon.kang@cp.kaist.ac.kr` to the event.
+  Consult [Jeehoon's calendar]({{ site.baseurl }}/jeehoon.kang#calendar) for his schedule.
 
 - **Create the `{firstname}.{lastname}@kaist.ac.kr` email account and tell me** (if you're a KAIST student).
 
