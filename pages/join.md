@@ -43,7 +43,7 @@ This document contains all the information you should know, so please read it ca
 
     + If it is already taken, add a random number at the end of the id, e.g., `{firstname}.{lastname}07@kaist.ac.kr`.
 
-- **Finish reading this document and do all the action items.**
+- **Finish reading this document.**
 
 
 ## Requirements
