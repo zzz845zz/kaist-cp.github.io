@@ -28,6 +28,11 @@ This document contains all the information you should know, so please read it ca
       <!-- and a [recruit page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"} (Korean); -->
       see what's going on in this lab.
 
+    + *Your plan (future).*
+      When do you want to start an internship or apply for the graduate school?
+      How much time you can spend for an internship, e.g., 15 hours per week?
+      What's your expectation and long-term plan (after internship or graduate school)?
+
 - **Tell me when is convenient for you for a 30-minute online meeting.**
 
   Please consult [Jeehoon's calendar]({{ site.baseurl }}/jeehoon.kang#calendar) for his schedule.
