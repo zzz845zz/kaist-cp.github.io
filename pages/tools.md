@@ -17,7 +17,7 @@ permalink: /tools
   + GitLab: <https://cp-git.kaist.ac.kr/>
   + GitHub: <https://github.com/kaist-cp/>
 - Development machines
-  + Cloud: <https://8282.kaist.ac.kr/>
+  + Cloud: <https://cp-dev.kaist.ac.kr/>
   + Traditional: see <https://cp-git.kaist.ac.kr/kaist-cp/kaist-cp/> for the confidential information.
     * Installing software: first send a PR to <https://github.com/kaist-cp/infra-public/>.
 - VPNs
