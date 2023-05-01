@@ -22,6 +22,8 @@ permalink: /tools
     * Software installation: send a PR to <https://github.com/kaist-cp/infra-public/>.
   + New: <https://cp-dev.kaist.ac.kr/>
     * If you cannot create a workspace, please first log in on an old development machine to create your home directory.
+    * The `/home/www-$USER` directory is served at <https://cp-service.kaist.ac.kr/~$USER>. 
+      WARNING: it's open to the internet.
 - VPNs
   + Data center: <https://cp-vpn.kaist.ac.kr/>
   + Office: <https://cp-lab.kaist.ac.kr/>
