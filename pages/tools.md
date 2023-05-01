@@ -17,9 +17,11 @@ permalink: /tools
   + GitLab: <https://cp-git.kaist.ac.kr/>
   + GitHub: <https://github.com/kaist-cp/>
 - Development machines
-  + Cloud: <https://cp-dev.kaist.ac.kr/>
-  + Traditional: see <https://cp-git.kaist.ac.kr/kaist-cp/kaist-cp/> for the confidential information.
-    * Installing software: first send a PR to <https://github.com/kaist-cp/infra-public/>.
+  + Old
+    * Conection information: see <https://cp-git.kaist.ac.kr/kaist-cp/kaist-cp/>.
+    * Software installation: send a PR to <https://github.com/kaist-cp/infra-public/>.
+  + New: <https://cp-dev.kaist.ac.kr/>
+    * If you cannot create a workspace, please first log in on an old development machine to create your home directory.
 - VPNs
   + Data center: <https://cp-vpn.kaist.ac.kr/>
   + Office: <https://cp-lab.kaist.ac.kr/>
