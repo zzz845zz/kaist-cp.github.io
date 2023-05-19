@@ -18,7 +18,7 @@ permalink: /tools
   + GitHub: <https://github.com/kaist-cp/>
 - Development machines
   + Old
-    * Conection information: see <https://cp-git.kaist.ac.kr/kaist-cp/kaist-cp/>.
+    * Conection information: see <https://cp-git.kaist.ac.kr/kaist-cp/infra-internal/>.
     * Software installation: send a PR to <https://github.com/kaist-cp/infra-public/>.
   + New: <https://cp-dev.kaist.ac.kr/>
     * The `/home/$USER/local-home` directory is local/single SSD (not remote/replicated HDD like home's other directories).
