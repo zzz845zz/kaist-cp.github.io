@@ -27,8 +27,8 @@ permalink: /tools
     * The `/home/$USER/share/www` directory is served at <https://public.fearless.systems/$USER>.
       WARNING: it's open to the internet.
 - VPNs
-  + Data center: <https://cp-vpn.kaist.ac.kr/>
-  + Office: <https://cp-lab.kaist.ac.kr/>
+  + Rack (server room): <https://rack.fearless.systems/>
+  + Office: <https://office.fearless.systems/>
 - Courses
   + CS431: <https://github.com/kaist-cp/cs431/>
   + CS420: <https://github.com/kaist-cp/cs420/>
