@@ -11,7 +11,7 @@ permalink: /tools
 - Email: <https://mail.google.com/>
 - Drive
   + Google: <https://drive.google.com/>
-  + Nextcloud: <https://cp-nextcloud.kaist.ac.kr/>
+  + Nextcloud: <https://nextcloud.fearless.systems/>
 - Chat: <https://cp-chat.kaist.ac.kr/>
 - Git repositories
   + GitLab: <https://cp-git.kaist.ac.kr/>
