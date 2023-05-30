@@ -16,16 +16,12 @@ permalink: /tools
 - Git repositories
   + GitLab: <https://cp-git.kaist.ac.kr/>
   + GitHub: <https://github.com/kaist-cp/>
-- Development machines
-  + Old
-    * Conection information: see <https://cp-git.kaist.ac.kr/kaist-cp/infra-internal/>.
-    * Software installation: send a PR to <https://github.com/kaist-cp/infra-public/>.
-  + New: <https://dev.fearless.systems/>
-    * The `/home/$USER/local-home` directory is local/single SSD (not remote/replicated HDD like home's other directories).
-      WARNING: this directory is more likely to be lost, e.g., due to media failure.
-    * The `/home/$USER/share` directory is shared to the lab members at `/home/_share/$USER`.
-    * The `/home/$USER/share/www` directory is served at <https://public.fearless.systems/$USER>.
-      WARNING: it's open to the internet.
+- Development machines: <https://dev.fearless.systems/>
+  + The `/home/$USER/local-home` directory is local/single SSD (not remote/replicated HDD like home's other directories).
+    WARNING: this directory is more likely to be lost, e.g., due to media failure.
+  + The `/home/$USER/share` directory is shared to the lab members at `/home/_share/$USER`.
+  + The `/home/$USER/share/www` directory is served at <https://public.fearless.systems/$USER>.
+    WARNING: it's open to the internet.
 - VPNs
   + Rack (server room): <https://rack.fearless.systems/>
   + Office: <https://office.fearless.systems/>
