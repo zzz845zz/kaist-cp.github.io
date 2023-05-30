@@ -18,13 +18,14 @@ permalink: /tools
   + GitHub: <https://github.com/kaist-cp/>
 - Development machines: <https://dev.fearless.systems/>
   + The `/home/$USER/local-home` directory is local/single SSD (not remote/replicated HDD like home's other directories).
-    WARNING: this directory is more likely to be lost, e.g., due to media failure.
+    *WARNING*: this directory is more likely to be lost, e.g., due to media failure.
   + The `/home/$USER/share` directory is shared to the lab members at `/home/_share/$USER`.
   + The `/home/$USER/share/www` directory is served at <https://public.fearless.systems/$USER>.
-    WARNING: it's open to the internet.
+    *WARNING*: it's open to the internet.
 - VPNs
   + Rack (server room): <https://rack.fearless.systems/>
   + Office: <https://office.fearless.systems/>
+- Internal document: <https://cp-git.kaist.ac.kr/kaist-cp/infra-internal>
 - Courses
   + CS431: <https://github.com/kaist-cp/cs431/>
   + CS420: <https://github.com/kaist-cp/cs420/>
@@ -127,4 +128,4 @@ permalink: /tools
     + Study [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) ([Korean translation](https://missing-semester-kr.github.io/)), except for "Editors (Vim)".
       Again, please use VSCode.
 
-    + Use the development machines as [described here](#web-services).
+    + Use the development machines as [described here](#services).
