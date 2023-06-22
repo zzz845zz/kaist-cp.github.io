@@ -2,9 +2,9 @@
   name: Jeehoon Kang
   korean_name: 강지훈
   status: present
-  role: Assistant Professor, PI
+  role: Principal Investigator
   image: assets/images/people/jeehoon.kang.jpg
-  description: We go together!
+  # description: We go together!
   place: Rm. 4433, Bldg. E3-1, KAIST (+82-42-350-3578)
   github: jeehoonkang
   dblp: https://dblp.org/pers/hd/k/Kang:Jeehoon

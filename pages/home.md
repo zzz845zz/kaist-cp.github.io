@@ -96,62 +96,21 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 
   <div class="container text-left" style="margin-top: 10px; ">
     <div class="row">
-      <div class="col-2">
+      <div class="col-5 col-md-3">
         {% if person.image %}
         <img style="width: 100%; " src="{{ person.image | relative_url }}" />
         {% else %}
         <img style="width: 100%; " src="{{ '/assets/images/question-mark.png' | relative_url }}" />
         {% endif %}
       </div>
-      <div class="col-10">
-        <h5 id="{{ person.id }}">
-          {{ person.name }}
-          {% if person.role %}
-          <small class="text-muted">| {{ person.role }}</small>
-          {% endif %}
-        </h5>
-
-        <ul class="list-inline">
-          <li class="list-inline-item">
-            <a href="{{ person_url }}">:house:</a>
-          </li>
-
-          <li class="list-inline-item">
-            <a href="mailto:{{ mail_id }}@kaist.ac.kr">:love_letter:</a>
-          </li>
-
-          {% if person.twitter %}
-          <li class="list-inline-item">
-            <a href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter"></i></a>
-          </li>
-          {% endif %}
-
-          {% if person.github %}
-          <li class="list-inline-item">
-            <a href="https://github.com/{{ person.github }}">:octocat:</a>
-          </li>
-          {% endif %}
-
-          {% if person.orcid %}
-          <li class="list-inline-item">
-            <a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" style="width: 20px; " src="{{ '/assets/images/orcid.svg' | relative_url }}"></a>
-          </li>
-          {% endif %}
-
-          {% if person.dblp %}
-          <li class="list-inline-item">
-            <a href="{{ person.dblp }}">DBLP</a>
-          </li>
-          {% endif %}
-
-          {% if person.google_scholar %}
-          <li class="list-inline-item">
-            <a href="{{ person.google_scholar }}">Google Scholar</a>
-          </li>
-          {% endif %}
-        </ul>
-
-        {{ person.description | markdownify }}
+      <div class="col-7 col-md-9 h5" id="{{ person.id }}">
+        {{ person.name }}
+        {% if person.role %}
+        <br />
+        <small class="text-muted">{{ person.role }}</small>
+        {% endif %}
+        {% include person_ext_links.md person_id=person.id %}
+        <!-- {{ person.description | markdownify }} -->
       </div>
     </div>
   </div>
@@ -175,59 +134,18 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 {% assign mail_id = person.id %}
 {% endif %}
 
-  <div class="media team-person">
-    <div class="media-body">
-      <h5 id="{{ person.id }}">
+  <div class="container text-left">
+    <div class="row">
+      <div class="col-12" class="h5" id="{{ person.id }}">
         {{ person.name }}
-        {% if person.role %}
-        <small class="text-muted">| {{ person.role }}</small>
-        {% endif %}
+        <br />
+        <small class="text-muted">{{ person.role }}</small>
         {% if person.job %}
-        <small class="text-muted">| first occupation: {{ person.job }}</small>
+        <small class="text-muted"> (first occupation: {{ person.job }})</small>
         {% endif %}
-      </h5>
-
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="{{ person_url }}">:house:</a>
-        </li>
-
-        <li class="list-inline-item">
-          <a href="mailto:{{ mail_id }}@kaist.ac.kr">:love_letter:</a>
-        </li>
-
-        {% if person.twitter %}
-        <li class="list-inline-item">
-          <a href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter"></i></a>
-        </li>
-        {% endif %}
-
-        {% if person.github %}
-        <li class="list-inline-item">
-          <a href="https://github.com/{{ person.github }}">:octocat:</a>
-        </li>
-        {% endif %}
-
-        {% if person.orcid %}
-        <li class="list-inline-item">
-          <a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" style="width: 20px; " src="{{ '/assets/images/orcid.svg' | relative_url }}"></a>
-        </li>
-        {% endif %}
-
-        {% if person.dblp %}
-        <li class="list-inline-item">
-          <a href="{{ person.dblp }}">DBLP</a>
-        </li>
-        {% endif %}
-
-        {% if person.google_scholar %}
-        <li class="list-inline-item">
-          <a href="{{ person.google_scholar }}">Google Scholar</a>
-        </li>
-        {% endif %}
-      </ul>
-
-      {{ person.description | markdownify }}
+        {% include person_ext_links.md person_id=person.id %}
+        <!-- {{ person.description | markdownify }} -->
+      </div>
     </div>
   </div>
 
