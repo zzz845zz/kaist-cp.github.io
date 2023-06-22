@@ -16,4 +16,4 @@
   <a href="{{ person.dblp }}"><img class="dblp" style="width: 20px; " src="{{ '/assets/images/dblp.png' | relative_url }}"> DBLP</a>,
   <a href="{{ person.google_scholar }}"><img class="google" style="width: 20px; " src="{{ '/assets/images/google.png' | relative_url }}"> Google Scholar</a>
 - :office: Place: {{ person.place }}
-{% if person.keybase %}- :key: PGP key (keybase): [{{ person.keybase }}](https://keybase.io/{{person.keybase}}){% endif %}
+{% if person.keybase %}- :key: PGP key (<img class="keybase" style="width: 20px; " src="{{ '/assets/images/keybase.png' | relative_url }}"> keybase): [{{ person.keybase }}](https://keybase.io/{{person.keybase}}){% endif %}

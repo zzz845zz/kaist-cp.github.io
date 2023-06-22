@@ -28,11 +28,11 @@ thereby serving as the basis for the upcoming era of massive data processing.
 
 #### Experiences
 
-- Chief R&D Officer, Furiosa AI, September, 2017 - .
+- Chief R&D Officer, [FuriosaAI](https://furiosa.ai/), September, 2017 - .
   <br />
   (topic: deep learning accelerator and its compiler)
 
-- Intern (Researcher), MPI-SWS, September, 2015 - December, 2015
+- Intern (Researcher), [MPI-SWS](https://www.mpi-sws.org/), September, 2015 - December, 2015
   <br />
   (topic: relaxed-memory concurrency, advisor: Dr. [Derek Dreyer](https://people.mpi-sws.org/~dreyer/))
 
@@ -41,13 +41,13 @@ thereby serving as the basis for the upcoming era of massive data processing.
   (topic: machine translation)
 
 
-#### Publications
+#### Research
 
-See the [research]({{ site.baseurl }}{% link pages/home.md %}#research) and [publications]({{ site.baseurl }}{%
+See the [projects]({{ site.baseurl }}{% link pages/home.md %}#projects) and [publications]({{ site.baseurl }}{%
 link pages/home.md %}#publications) pages.
 
 
-#### Lectures
+#### Teaching
 
 See the [lectures]({{ site.baseurl }}{% link pages/home.md %}#lectures) page.
 

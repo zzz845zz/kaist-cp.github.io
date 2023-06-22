@@ -18,8 +18,8 @@ contact Jeehoon ASAP.**
 
 <!-- Welcome to Concurrency and Parallelism Laboratory at [KAIST](https://www.kaist.ac.kr) [School of Computing](https://cs.kaist.ac.kr)! -->
 
-## Research
-<div id="research"></div>
+## Projects
+<div id="projects"></div>
 
 **In the era of big data, artificial intelligence, and internet of things**, humankind requires more and
 more computing resources, but they are becoming more and more scarce due to the slowing of Dennard
@@ -36,7 +36,6 @@ the workloads while providing easy programming environment at the same time; and
 verify** such abstraction layers so that the users can use the them safely and fearlessly.
 
 
-### Projects
 
 Specifically, we are working on *design* and *verification* of concurrent and parallel systems:
 

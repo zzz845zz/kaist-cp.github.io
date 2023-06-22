@@ -39,6 +39,10 @@ p.abstract-paragraph + p.abstract-paragraph {
   {% assign link = "[doi](https://doi.org/" | append: paper.doi | append: ")" %}
   {% assign paper_links = paper_links | push: link %}
 {% endif %}
+{% if paper.handle %}
+  {% assign link = "[handle](https://hdl.handle.net/" | append: paper.handle | append: ")" %}
+  {% assign paper_links = paper_links | push: link %}
+{% endif %}
 {% if paper.copy_local %}
   {% assign link = "[local](" | append: paper.copy_local | append: ")" %}
   {% assign paper_links = paper_links | push: link %}
