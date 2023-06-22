@@ -10,41 +10,33 @@ This document contains all the information you should know, so please read it ca
 
 ## Application Procedure
 
-- **Contact Jeehoon ASAP.** 
+- **Don't hesitate to contact [Jeehoon]({{ site.baseurl }}/jeehoon.kang).** 
 
   There are nothing blocking you from contacting Jeehoon (e.g., GPA, experience, ...).
   You can also contact Jeehoon via [comments](https://cp.kaist.ac.kr/#contact)!
 
-- **Send an application to Jeehoon (`jeehoon.kang@kaist.ac.kr`)**. 
+- **Create a `{firstname}.{lastname}{prefix}@kaist.ac.kr` email account** (if you're a KAIST student).
 
-  Please prepare for a [Google Docs](https://docs.google.com) document and give the document's comment access to `jeehoon.kang@cp.kaist.ac.kr`.
-  In the application, please describe:
-      
-    + *The most interesting experience on computing (past).*
-      It can be about course projects, research or industry experience, or anything related to computing.
-
-    + *What you want to do in the lab (future).*
-      I suggest you first read the lab's [research page]({{ site.baseurl }}{% link pages/home.md %}#research) and
-      <!-- and a [recruit page](https://www.facebook.com/groups/kaistcomputerscience/permalink/2970178453084074){:target="_blank"} (Korean); -->
-      see what's going on in this lab.
-
-    + *Your plan (future).*
-      When do you want to start an internship or apply for the graduate school?
-      How much time you can spend for an internship, e.g., 15 hours per week?
-      What's your expectation and long-term plan (after internship or graduate school)?
-
-- **Tell me when is convenient for you for a 30-minute online meeting.**
-
-  Please create a Google calendar event and invite `jeehoon.kang@cp.kaist.ac.kr` to the event.
-  Consult [Jeehoon's calendar]({{ site.baseurl }}/jeehoon.kang#calendar) for his schedule.
-
-- **Create the `{firstname}.{lastname}@kaist.ac.kr` email account and tell me** (if you're a KAIST student).
+    + `{prefix}` should preferably be empty.
+      If it is already taken, add a random number at the end of the id, e.g., `{firstname}.{lastname}42@kaist.ac.kr`.
 
     + You can add "virtual mail" in <mail.kaist.ac.kr> > Upper right-hand side gear > Settings > Mail > Virtual Mail > Add Mail.
 
-    + If it is already taken, add a random number at the end of the id, e.g., `{firstname}.{lastname}07@kaist.ac.kr`.
+- **Submit a [Google Form](https://forms.gle/CX1fqaev1ed5i6ZQ6)**.
 
-- **Finish reading this document.**
+- **Invite Jeehoon to a 30-minute Google Meet meeting.**
+
+  Please create a Google calendar event and invite [jeehoon.kang@cp.kaist.ac.kr](mailto:jeehoon.kang@cp.kaist.ac.kr) to the event.
+  Consult [Jeehoon's calendar]({{ site.baseurl }}/jeehoon.kang#calendar) for his schedule.
+
+- **Send an email to Jeehoon ([jeehoon.kang@kaist.ac.kr](mailto:jeehoon.kang@kaist.ac.kr))**.
+
+  + Your email address should be of the form `{firstname}.{lastname}{prefix}@kaist.ac.kr` (if you're a KAIST student).
+
+  + Tell me that you already submitted a Google Form and invited me to a Google Meet meeting.
+
+- **Finish reading this document** while waiting for Jeehoon's reply.
+
 
 
 ## Requirements
@@ -225,4 +217,4 @@ Please read a [dedicated document]({{ site.baseurl }}{% link pages/tools.md %}).
 ## It's Done!
 
 Please check this document again to make sure you've done all action items.
-Then send a Zulip PM to Jeehoon that you did so.
+Then after joining the lab, send a Zulip DM to Jeehoon that you did so.

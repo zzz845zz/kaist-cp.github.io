@@ -13,7 +13,7 @@ permalink: /
 **We're actively recruiting motivated students of all levels
 interested in designing and verifying concurrent and parallel systems.** If you're interested,
 please **read this [instruction]({{ site.baseurl }}/join) and
-contact Jeehoon ASAP.**
+contact [Jeehoon]({{ site.baseurl }}/jeehoon.kang) ASAP.**
 
 
 <!-- Welcome to Concurrency and Parallelism Laboratory at [KAIST](https://www.kaist.ac.kr) [School of Computing](https://cs.kaist.ac.kr)! -->
