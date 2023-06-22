@@ -9,7 +9,8 @@
 
 #### Contact
 
-- Email: [{{ mail_id }}@kaist.ac.kr](mailto:{{ mail_id }}@kaist.ac.kr)
-- GitHub: [{{ person.github }}](https://github.com/{{ person.github }})
-- Bibliography: [DBLP]({{ person.dblp }}), [Google Scholar]({{ person.google_scholar }})
-- Place: {{ person.place }}
+- :love_letter: Email: [{{ mail_id }}@kaist.ac.kr](mailto:{{ mail_id }}@kaist.ac.kr)
+- :octocat: GitHub: [{{ person.github }}](https://github.com/{{ person.github }})
+- :page_facing_up: Bibliography: {% if person.orcid %}<a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" style="width: 20px; " src="{{ '/assets/images/orcid.svg' | relative_url }}"> ORCID</a>, {% endif %}[DBLP]({{ person.dblp }}), [Google Scholar]({{ person.google_scholar }})
+- :office: Place: {{ person.place }}
+{% if person.keybase %}- :key: PGP key (keybase): [{{ person.keybase }}](https://keybase.io/{{person.keybase}}){% endif %}

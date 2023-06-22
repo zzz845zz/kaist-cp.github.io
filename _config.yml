@@ -1,4 +1,4 @@
-remote_theme: peterdesmet/petridish@1.1
+remote_theme: peterdesmet/petridish@3.0
 
 # SITE SETTINGS
 title: KAIST Concurrency and Parallelism Laboratory   # Title in top navigation bar (navbar) and <head>
@@ -18,12 +18,13 @@ github_username: kaist-cp               # Social icon in footer
 posts_on_home: 3                        # Show x number of latest posts on homepage, can be 0
 tweets_on_home: true                    # Show Twitter feed of twitter_username on homepage
 archive_permalink: /blog/               # Permalink of page using archive.html layout, required when using post categories
-logo: /assets/img/petri-dish_1f9eb.png  # Logo in navbar, will be displayed with 30px height
 colors:
   links: "#007bff"                      # Color for links: use a readable color that contrasts well with dark text
   banner: "#007bff"                     # Background color for page banners: use color that contrasts well with white
   footer: "#6c757d"                     # Background color for footer: use color that contrasts well with white
+font_serif: false
 rounded_corners: true                   # Enable (default) rounded corners on boxes and buttons
+logo: /assets/theme/images/petri-dish_1f9eb.png  # Logo in navbar, will be displayed with 30px height
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -31,6 +32,7 @@ plugins:                                # If you build your site on gh-pages, on
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jemoji
 exclude:
   - README.md
   - Gemfile

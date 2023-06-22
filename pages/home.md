@@ -68,7 +68,8 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 
   + Persistent memory library (with ETRI)
   + Strong specification of concurrent data structures (with MPI-SWS)
-  + Strong specification of concurrent garbage collectors
+  + 
+  Strong specification of concurrent garbage collectors
   + Compilers for concurrent programs
 
 
@@ -93,49 +94,65 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 {% assign mail_id = person.id %}
 {% endif %}
 
-  <div class="media team-person">
-    {% if person.image %}
-    <img class="mr-3" style="width: 15%;" src="{{ person.image | relative_url }}">
-    {% else %}
-    <img class="mr-3" style="width: 15%;" src="{{ site.baseurl }}assets/images/question-mark.png">
-    {% endif %}
-    <div class="media-body">
-      <h5 id="{{ person.id }}">
-        {{ person.name }}
-        {% if person.role %}
-        <small class="text-muted">| {{ person.role }}</small>
+  <div class="container text-left" style="margin-top: 10px; ">
+    <div class="row">
+      <div class="col-2">
+        {% if person.image %}
+        <img style="width: 100%; " src="{{ person.image | relative_url }}" />
+        {% else %}
+        <img style="width: 100%; " src="{{ '/assets/images/question-mark.png' | relative_url }}" />
         {% endif %}
-      </h5>
+      </div>
+      <div class="col-10">
+        <h5 id="{{ person.id }}">
+          {{ person.name }}
+          {% if person.role %}
+          <small class="text-muted">| {{ person.role }}</small>
+          {% endif %}
+        </h5>
 
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="{{ person_url }}"><i class="fa fa-home"></i></a>
-        </li>
+        <ul class="list-inline">
+          <li class="list-inline-item">
+            <a href="{{ person_url }}">:house:</a>
+          </li>
 
-        {% if person.orcid %}
-        <li class="list-inline-item">
-          <a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" src="{{ '/assets/theme/img/orcid.png' | relative_url }}"></a>
-        </li>
-        {% endif %}
+          <li class="list-inline-item">
+            <a href="mailto:{{ mail_id }}@kaist.ac.kr">:love_letter:</a>
+          </li>
 
-        <li class="list-inline-item">
-          <a href="mailto:{{ mail_id }}@kaist.ac.kr"><i class="fa fa-envelope"></i></a>
-        </li>
+          {% if person.twitter %}
+          <li class="list-inline-item">
+            <a href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter"></i></a>
+          </li>
+          {% endif %}
 
-        {% if person.twitter %}
-        <li class="list-inline-item">
-          <a href="https://twitter.com/{{ person.twitter }}"><i class="fa fa-twitter"></i></a>
-        </li>
-        {% endif %}
+          {% if person.github %}
+          <li class="list-inline-item">
+            <a href="https://github.com/{{ person.github }}">:octocat:</a>
+          </li>
+          {% endif %}
 
-        {% if person.github %}
-        <li class="list-inline-item">
-          <a href="https://github.com/{{ person.github }}"><i class="fa fa-github"></i></a>
-        </li>
-        {% endif %}
-      </ul>
+          {% if person.orcid %}
+          <li class="list-inline-item">
+            <a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" style="width: 20px; " src="{{ '/assets/images/orcid.svg' | relative_url }}"></a>
+          </li>
+          {% endif %}
 
-      {{ person.description | markdownify }}
+          {% if person.dblp %}
+          <li class="list-inline-item">
+            <a href="{{ person.dblp }}">DBLP</a>
+          </li>
+          {% endif %}
+
+          {% if person.google_scholar %}
+          <li class="list-inline-item">
+            <a href="{{ person.google_scholar }}">Google Scholar</a>
+          </li>
+          {% endif %}
+        </ul>
+
+        {{ person.description | markdownify }}
+      </div>
     </div>
   </div>
 
@@ -172,17 +189,11 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 
       <ul class="list-inline">
         <li class="list-inline-item">
-          <a href="{{ person_url }}"><i class="fa fa-home"></i></a>
+          <a href="{{ person_url }}">:house:</a>
         </li>
 
-        {% if person.orcid %}
         <li class="list-inline-item">
-          <a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" src="{{ '/assets/theme/img/orcid.png' | relative_url }}"></a>
-        </li>
-        {% endif %}
-
-        <li class="list-inline-item">
-          <a href="mailto:{{ mail_id }}@kaist.ac.kr"><i class="fa fa-envelope"></i></a>
+          <a href="mailto:{{ mail_id }}@kaist.ac.kr">:love_letter:</a>
         </li>
 
         {% if person.twitter %}
@@ -193,7 +204,25 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 
         {% if person.github %}
         <li class="list-inline-item">
-          <a href="https://github.com/{{ person.github }}"><i class="fa fa-github"></i></a>
+          <a href="https://github.com/{{ person.github }}">:octocat:</a>
+        </li>
+        {% endif %}
+
+        {% if person.orcid %}
+        <li class="list-inline-item">
+          <a href="https://orcid.org/{{ person.orcid }}"><img class="orcid" style="width: 20px; " src="{{ '/assets/images/orcid.svg' | relative_url }}"></a>
+        </li>
+        {% endif %}
+
+        {% if person.dblp %}
+        <li class="list-inline-item">
+          <a href="{{ person.dblp }}">DBLP</a>
+        </li>
+        {% endif %}
+
+        {% if person.google_scholar %}
+        <li class="list-inline-item">
+          <a href="{{ person.google_scholar }}">Google Scholar</a>
         </li>
         {% endif %}
       </ul>
@@ -214,30 +243,36 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 ## Lectures
 <div id="lectures"></div>
 
-- [CS220: Programming Principles (2022, 2021 Fall)](https://cp-git.kaist.ac.kr/cs220/cs220)
+- [CS220: Programming Principles (2023-2021 Fall)](https://cp-git.kaist.ac.kr/cs220/cs220)
 - [CS230: System Programming (2021 Spring)](https://cp-git.kaist.ac.kr/cs230/cs230)
 - [CS420: Compiler Design (2023, 2022, 2020 Spring)](https://github.com/kaist-cp/cs420)
-- [CS431: Concurrent Programming (2022-2019 Fall)](https://github.com/kaist-cp/cs431)
+- [CS431: Concurrent Programming (2023-2019 Fall)](https://github.com/kaist-cp/cs431)
 - [CS500: Design and Analysis of Algorithm (2019 Spring)](https://cp-git.kaist.ac.kr/jeehoon.kang/cs500)
 
 
 ## Contact
 <div id="contact"></div>
 
-- **Address**: Rm. 4433 (Jeehoon) and Rm. 4441 (students), Bldg. E3-1
+- :office: **Place**:
   <br />
-  School of Computing, KAIST
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rm. 4433 (Jeehoon) and Rm. 4441 (students), Bldg. E3-1
   <br />
-  291 Daehak-ro, Yuseong-gu
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School of Computing, KAIST
   <br />
-  Daejeon 34141, Korea
-- **Phone**: +82-42-350-3578 (Jeehoon), +82-42-350-7878 (Students)
-- [**Helpdesk**]({{ site.baseurl }}{% link pages/helpdesk.md %})
-- **Comments**: Do you want to talk to us here? Feel free to leave a comment!
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;291 Daehak-ro, Yuseong-gu
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Daejeon 34141, Korea
+- :phone: **Phone**:
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+82-42-350-3578 (Jeehoon)
+  <br />
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+82-42-350-7878 (Students)
+- :scream: [**Helpdesk**]({{ site.baseurl }}{% link pages/helpdesk.md %})
+- :speaking_head: **Comments**: Do you want to talk to us here? Feel free to leave a comment!
   <script src="https://utteranc.es/client.js"
     repo="kaist-cp/kaist-cp.github.io.comments"
     issue-term="pathname"
-    theme="preferred-color-scheme"
+    theme="github-light"
     crossorigin="anonymous"
     async>
   </script>

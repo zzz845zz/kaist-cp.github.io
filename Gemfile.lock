@@ -263,6 +263,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-remote-theme
   jekyll-sitemap
+  jemoji
   minima (~> 2.0)
   tzinfo-data
   webrick (~> 1.8)
