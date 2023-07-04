@@ -91,9 +91,13 @@ See the [lectures]({{ site.baseurl }}{% link pages/home.md %}#lectures) page.
 
 #### Awards and Honors
 
+- 황규영 학술진흥기금 커리어 어워드, KAIST 전산학부, 2023.
+
+- Distinguished Paper Award, ACM SIGPLAN Symposium on Principles of Programming Languages (POPL), 2022.
+
 - Doctoral Dissertation Award, Dept. of Computer Science and Engineering, Seoul National University, 2019.
 
-- Distinguished Paper Award, ACM SIGPLAN conference on Programming Languages Design and Implementation (PLDI), 2017.
+- Distinguished Paper Award, ACM SIGPLAN Conference on Programming Languages Design and Implementation (PLDI), 2017.
 
 <!-- - 23rd place, ACM International Collegiate Programming Contest (ICPC) World Finals, 2008. -->
 
