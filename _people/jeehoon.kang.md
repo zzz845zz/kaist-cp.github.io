@@ -59,7 +59,7 @@ See the [lectures]({{ site.baseurl }}{% link pages/home.md %}#lectures) page.
   + [2020 POPL AEC](https://popl20.sigplan.org/)
 
 - Program Committee Members
-  + 2024: POPL
+  + 2024: [POPL](https://popl24.sigplan.org/), [PLDI](https://pldi24.sigplan.org/)
   + 2023: [ACM SRC](https://src.acm.org/), [APLAS](https://conf.researchr.org/home/aplas-2023)
   + 2022: [PLDI](http://pldi22.sigplan.org/), [ESOP](https://etaps.org/2022/esop), [CPP](https://popl22.sigplan.org/home/CPP-2022)
   + 2021: [POPL](https://popl21.sigplan.org/), [OOPSLA](https://2021.splashcon.org/track/splash-2021-oopsla), [HOPE](https://icfp21.sigplan.org/home/hope-2021), [PLOS](https://plos-workshop.org/2021/)
