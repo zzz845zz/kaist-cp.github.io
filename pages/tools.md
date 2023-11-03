@@ -12,9 +12,9 @@ permalink: /tools
 - Drive
   + Google: <https://drive.google.com/>
   + Nextcloud: <https://nextcloud.fearless.systems/>
-- Chat: <https://cp-chat.kaist.ac.kr/>
+- Chat: <https://chat.fearless.systems/>
 - Git repositories
-  + GitLab: <https://cp-git.kaist.ac.kr/>
+  + GitLab: <https://git.fearless.systems/>
   + GitHub: <https://github.com/kaist-cp/>
 - Development machines: <https://dev.fearless.systems/>
   + The `/home/$USER/local-home` directory is local/single SSD (not remote/replicated HDD like home's other directories).
@@ -25,7 +25,7 @@ permalink: /tools
 - VPNs
   + Rack (server room): <https://rack.fearless.systems/>
   + Office: <https://office.fearless.systems/>
-- Internal document: <https://cp-git.kaist.ac.kr/kaist-cp/infra-internal>
+- Internal document: <https://git.fearless.systems/kaist-cp/infra-internal>
 - Courses
   + CS431: <https://github.com/kaist-cp/cs431/>
   + CS420: <https://github.com/kaist-cp/cs420/>
@@ -52,10 +52,10 @@ permalink: /tools
 - [Drive, Docs, Spreadsheet, Slide, Form (Google)](https://drive.google.com):
   Put all project-related files to shared Google Drive.
 
-- [Drive (Nextcloud)](https://cp-nextcloud.kaist.ac.kr/)
+- [Drive (Nextcloud)](https://nextcloud.fearless.systems/)
 
   I recommend you to set up an "external storage" to your home directory.
-  In [here](https://cp-nextcloud.kaist.ac.kr/settings/user/externalstorages), add an SFTP connection with the following configuration:
+  In [here](https://nextcloud.fearless.systems/settings/user/externalstorages), add an SFTP connection with the following configuration:
 
     + Authentication: username and password
 
@@ -67,15 +67,15 @@ permalink: /tools
 
     + Password: `{google-workspace-password}`
 
-- [Chat (Zulip)](https://cp-chat.kaist.ac.kr)
+- [Chat (Zulip)](https://chat.fearless.systems)
 
-    + First things first, say hi in [this topic](bhttps://cp-chat.kaist.ac.kr/#narrow/stream/112-general/topic/.EC.86.8C.EA.B0.9C).
+    + First things first, say hi in [this topic](bhttps://chat.fearless.systems/#narrow/stream/112-general/topic/.EC.86.8C.EA.B0.9C).
 
     + It is our primary method of communication.
 
 - Git repositories
 
-    + [GitLab](https://cp-git.kaist.ac.kr): browse projects to see what's interesting.
+    + [GitLab](https://git.fearless.systems): browse projects to see what's interesting.
 
     + GitHub: we're at the [`kaist-cp` organization](https://github.com/kaist-cp).
       Display your real name in your public profile (Settings > Profile > Name).
