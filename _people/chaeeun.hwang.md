@@ -9,7 +9,7 @@ excerpt: "Chaeeun Hwang's website"
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
 I am an **Undergraduate Student at [KAIST School of Computing](https://cs.kaist.ac.kr)**. 
-I wanted to study computer systems more deeply through various languages, so I joined [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr).
+I wanted to study computer systems more deeply through various languages, so I joined [Concurrency and Parallelism Laboratory](https://www.fearless.systems).
 
 {% include person_contact.md person_id=person_id %}
 

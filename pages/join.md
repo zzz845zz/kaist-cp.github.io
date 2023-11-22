@@ -13,7 +13,7 @@ This document contains all the information you should know, so please read it ca
 - **Don't hesitate to contact [Jeehoon]({{ site.baseurl }}/jeehoon.kang).** 
 
   There are nothing blocking you from contacting Jeehoon (e.g., GPA, experience, ...).
-  You can also contact Jeehoon via [comments](https://cp.kaist.ac.kr/#contact)!
+  You can also contact Jeehoon via [comments](https://www.fearless.systems/#contact)!
 
 - **Create a `{firstname}.{lastname}{prefix}@kaist.ac.kr` email account** (if you're a KAIST student).
 

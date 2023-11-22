@@ -14,7 +14,7 @@ I am a **research scientist at [CASYS KAIST](https://casyslab.kaist.ac.kr/)** su
 I received an M.S. degree in 2023 and a B.S. degree in 2021, both from KAIST.
 My primary research area includes accelerated systems for ML training and hardware-software co-design for ML applications.
 
-During my undergraduate studies, I had the privilege of participating in the [rv6](https://github.com/kaist-cp/rv6) project and being supervised by [Prof. Jeehoon Kang](https://cp.kaist.ac.kr/jeehoon.kang/).
+During my undergraduate studies, I had the privilege of participating in the [rv6](https://github.com/kaist-cp/rv6) project and being supervised by [Prof. Jeehoon Kang](https://www.fearless.systems/jeehoon.kang/).
 
 Please be aware that this page is no longer updated since August 2023. For the latest information about me, kindly visit [my personal webpage](https://sites.google.com/view/jungwookim).
 

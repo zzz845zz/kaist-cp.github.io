@@ -9,7 +9,7 @@ excerpt: "Taewoo An's website"
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
 I am an **Undergraduate Student at [KAIST School of Computing](https://cs.kaist.ac.kr)**.
-I am interested in HPC and mechanism of software and hardware inside it. To study concurrency system deeply, I joined [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr).
+I am interested in HPC and mechanism of software and hardware inside it. To study concurrency system deeply, I joined [Concurrency and Parallelism Laboratory](https://www.fearless.systems).
 
 {% include person_contact.md person_id=person_id %}
 

@@ -8,7 +8,7 @@ excerpt: "Jiseung Hong's website"
 {%- assign person_id = "jiseung.hong" %}
 {%- assign person = site.data.people | where:"id",person_id | sample %}
 
-I am a undergraduate student at KAIST SoC(School of Computing). I am currently going through indivisual study at **[Concurrency and Parallelism Laboratory.](https://cp.kaist.ac.kr)** I am joining the project hafnium verification with prof. Jeehoon Kang, Sanguk Park and more.
+I am a undergraduate student at KAIST SoC(School of Computing). I am currently going through indivisual study at **[Concurrency and Parallelism Laboratory.](https://www.fearless.systems)** I am joining the project hafnium verification with prof. Jeehoon Kang, Sanguk Park and more.
 
 
 #### Contact

@@ -10,7 +10,7 @@ excerpt: "Janggun Lee's website"
 
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/janggun.lee.jpg" alt="{{ person.name }}">
 
-I am a **Master Student at KAIST [School of Computing](https://cs.kaist.ac.kr)** at [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr).
+I am a **Master Student at KAIST [School of Computing](https://cs.kaist.ac.kr)** at [Concurrency and Parallelism Laboratory](https://www.fearless.systems).
 
 My interest lies in formal verfication low-level concurrent data structures and systems.
 I am especially interested in modular and automatic verification of them using separation logic such as [Iris](https://iris-project.org).

@@ -12,7 +12,7 @@ excerpt: "Chunmyong Park's website"
 
 I am a **Ph.D. Student at [Concurrency and Parallelism Laboratory]({{ site.url }}), [KAIST School of Computing](https://cs.kaist.ac.kr)**. I am delighted to be advised by [Prof. Jeehoon Kang]({{ site.baseurl }}{% include person_url.md person_id="jeehoon.kang" %}).
 
-My research interests are in constructing the AI serving systems using heterogeneous processors such as CPU, GPU, NPU, etc. In particular, I am focused on designing resource managers and schedulers for the system to better serve real-world workloads. I am currently working with [FuriosaAI](https://www.furiosa.ai/) for this research. If you want to know more about this research topic, please refer to this [link](https://cp.kaist.ac.kr/ai-system).
+My research interests are in constructing the AI serving systems using heterogeneous processors such as CPU, GPU, NPU, etc. In particular, I am focused on designing resource managers and schedulers for the system to better serve real-world workloads. I am currently working with [FuriosaAI](https://www.furiosa.ai/) for this research. If you want to know more about this research topic, please refer to this [link](https://www.fearless.systems/ai-system).
 
 
 {% include person_contact.md person_id=person_id %}

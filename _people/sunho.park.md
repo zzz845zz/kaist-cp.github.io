@@ -11,7 +11,7 @@ excerpt: "Sunho Park's website"
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/sunho.park.jpg" alt="{{ person.name }}">
 
 I am an **Undergraduate Student at [KAIST School of Computing](https://cs.kaist.ac.kr) and [Department of Mathematical Sciences](https://mathsci.kaist.ac.kr)**.
-I am interested in developing good algorithms to achieve higher efficiency by concurrency and building system programs using Rust, so I contacted [Concurrency and Parallelism Laboratory](https://cp.kaist.ac.kr).
+I am interested in developing good algorithms to achieve higher efficiency by concurrency and building system programs using Rust, so I contacted [Concurrency and Parallelism Laboratory](https://www.fearless.systems).
 
 {% include person_contact.md person_id=person_id %}
 
