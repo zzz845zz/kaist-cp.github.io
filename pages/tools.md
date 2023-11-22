@@ -87,21 +87,7 @@ permalink: /tools
 
 - [Website]({{ site.baseurl }})
 
-    + Fork [the website repository](https://github.com/kaist-cp/kaist-cp.github.io) and clone it.
-
-    + Install dependencies and run a local server to test as follows:
-
-      ```bash
-      # Make sure Ruby is installed.
-      $ bundle exec jekyll serve
-      ```
-
-    + Add your information (e.g., name, status, GitHub ID) to `people.yml`.
-
-    + Create a new file `{firstname}.{lastname}.md` under the directory `_people/`. See `_people/jeehoon.kang.md` for reference.
-      Your website is `https://cp.kaist.ac.kr/{firstname}.{lastname}`.
-
-    + Commit your changes and send a PR.
+    + Create your website by sending a PR to [the website repository](https://github.com/kaist-cp/kaist-cp.github.io).
 
     + Keep maintaining your website.
 
