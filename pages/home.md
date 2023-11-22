@@ -184,7 +184,6 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+82-42-350-3578 (Jeehoon)
   <br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+82-42-350-7878 (Students)
-- :scream: [**Helpdesk**]({{ site.baseurl }}{% link pages/helpdesk.md %})
 - :speaking_head: **Comments**: Do you want to talk to us here? Feel free to leave a comment!
   <script src="https://utteranc.es/client.js"
     repo="kaist-cp/kaist-cp.github.io.comments"

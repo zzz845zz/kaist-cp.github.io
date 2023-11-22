@@ -60,8 +60,7 @@ This document contains all the information you should know, so please read it ca
   We are widely open to all undergraduate students!
   Though I'm encouraging potential interns to finish **at least one** of the above tasks before joining the lab as an intern.
   Then you'll start research projects right after joining the lab.
-  <!-- You can also ask questions in the [Helpdesk]({{ site.baseurl }}{% link pages/helpdesk.md %}). -->
-  <!-- Everyone is strongly encouraged to work on them as an undergraduate intern in the lab. -->
+
 
 
 ## General Advice
