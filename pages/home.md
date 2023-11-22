@@ -81,6 +81,9 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 ## People
 <div id="people"></div>
 
+<div class="container text-left">
+<div class="row g-3">
+
 {% for person in site.data.people %}
 {% if person.status == "present" %}
 
@@ -93,33 +96,35 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 {% assign mail_id = person.id %}
 {% endif %}
 
-  <div class="container text-left" style="margin-top: 10px; ">
-    <div class="row">
-      <div class="col-5 col-md-3">
-        {% if person.image %}
-        <img style="width: 100%; " src="{{ person.image | relative_url }}" />
-        {% else %}
-        <img style="width: 100%; " src="{{ '/assets/images/question-mark.png' | relative_url }}" />
-        {% endif %}
-      </div>
-      <div class="col-7 col-md-9 h5" id="{{ person.id }}">
-        {{ person.name }}
-        {% if person.role %}
-        <br />
-        <small class="text-muted">{{ person.role }}</small>
-        {% endif %}
-        {% include person_ext_links.md person_id=person.id %}
-        <!-- {{ person.description | markdownify }} -->
-      </div>
-    </div>
+  <div class="col-5 col-md-2">
+    {% if person.image %}
+    <img style="width: 100%; " src="{{ person.image | relative_url }}" />
+    {% else %}
+    <img style="width: 100%; " src="{{ '/assets/images/question-mark.png' | relative_url }}" />
+    {% endif %}
+  </div>
+  <div class="col-7 col-md-4 h5" id="{{ person.id }}">
+    {{ person.name }}
+    {% if person.role %}
+    <br />
+    <small class="text-muted">{{ person.role }}</small>
+    {% endif %}
+    {% include person_ext_links.md person_id=person.id %}
+    <!-- {{ person.description | markdownify }} -->
   </div>
 
 {% endif %}
 {% endfor %}
 
+</div>
+</div>
+
 <br />
 
 ### Alumni
+
+<div class="container text-left">
+<div class="row g-3">
 
 {% for person in site.data.people %}
 {% if person.status == "alumni" %}
@@ -133,28 +138,25 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
 {% assign mail_id = person.id %}
 {% endif %}
 
-  <div class="container text-left">
-    <div class="row">
-      <div class="col-12" class="h5" id="{{ person.id }}">
-        {{ person.name }}
-        <br />
-        <small class="text-muted">{{ person.role }}</small>
-        {% if person.job %}
-        <small class="text-muted"> (first occupation: {{ person.job }})</small>
-        {% endif %}
-        {% include person_ext_links.md person_id=person.id %}
-        <!-- {{ person.description | markdownify }} -->
-      </div>
-    </div>
+  <div class="col-md-6 h5" id="{{ person.id }}">
+    {{ person.name }}, <small class="text-muted">{{ person.role }}</small>
+    {% if person.job %}
+    <br />
+    <small class="text-muted h6"> (first occupation: {{ person.job }})</small>
+    {% endif %}
+    {% include person_ext_links.md person_id=person.id %}
+    <!-- {{ person.description | markdownify }} -->
   </div>
 
 {% endif %}
 {% endfor %}
 
+</div>
+</div>
+
 <br />
 
 
-<!-- TODO: alumni? -->
 
 
 ## Lectures
@@ -184,11 +186,11 @@ Specifically, we are working on *design* and *verification* of concurrent and pa
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+82-42-350-3578 (Jeehoon)
   <br />
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+82-42-350-7878 (Students)
-- :speaking_head: **Comments**: Do you want to talk to us here? Feel free to leave a comment!
+- :speaking_head: **Comments**:
   <script src="https://utteranc.es/client.js"
     repo="kaist-cp/kaist-cp.github.io.comments"
     issue-term="pathname"
     theme="github-light"
-    crossorigin="anonymous"
+        crossorigin="anonymous"
     async>
   </script>
