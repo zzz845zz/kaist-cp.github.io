@@ -7,29 +7,32 @@ permalink: /tools
 
 ## Services
 
-- Calendar: <https://calendar.google.com/>
-- Email: <https://mail.google.com/>
+- Calendar: <https://calendar.google.com>
+- Email: <https://mail.google.com>
 - Drive
-  + Google: <https://drive.google.com/>
-  + Nextcloud: <https://nextcloud.fearless.systems/>
-- Chat: <https://chat.fearless.systems/>
-- Git repositories
-  + GitLab: <https://git.fearless.systems/>
-  + GitHub: <https://github.com/kaist-cp/>
-- Development machines: <https://dev.fearless.systems/>
+  + Google: <https://drive.google.com>
+  + Seafile: <https://drive.fearless.systems>
+- Chat
+  + Zulip (Message): <https://chat.fearless.systems>
+  + Jitsi Meet (Voice/Video): <https://jitsi.fearless.systems>
+- Git
+  + GitLab: <https://git.fearless.systems>
+  + GitHub: <https://github.com/kaist-cp>
+- Development machines: <https://dev.fearless.systems>
   + The `/home/$USER/local-home` directory is local/single SSD (not remote/replicated HDD like home's other directories).
     *WARNING*: this directory is more likely to be lost, e.g., due to media failure.
   + The `/home/$USER/share` directory is shared to the lab members at `/home/_share/$USER`.
   + The `/home/$USER/share/www` directory is served at <https://public.fearless.systems/$USER>.
     *WARNING*: it's open to the internet.
 - VPNs
-  + Rack (server room): <https://rack.fearless.systems/>
-  + Office: <https://office.fearless.systems/>
+  + Server room: <https://rack.fearless.systems>
+  + Office: <https://office.fearless.systems>
 - Internal document: <https://git.fearless.systems/kaist-cp/infra-internal>
 - Courses
-  + CS431: <https://github.com/kaist-cp/cs431/>
-  + CS420: <https://github.com/kaist-cp/cs420/>
-  + CS220: <https://github.com/kaist-cp/cs220/>
+  + Development machines: <https://cloud.fearless.systems>
+  + CS431: <https://github.com/kaist-cp/cs431>
+  + CS420: <https://github.com/kaist-cp/cs420>
+  + CS220: <https://github.com/kaist-cp/cs220>
 
 ## Onboarding
 
@@ -52,26 +55,15 @@ permalink: /tools
 - [Drive, Docs, Spreadsheet, Slide, Form (Google)](https://drive.google.com):
   Put all project-related files to shared Google Drive.
 
-- [Drive (Nextcloud)](https://nextcloud.fearless.systems/)
-
-  I recommend you to set up an "external storage" to your home directory.
-  In [here](https://nextcloud.fearless.systems/settings/user/externalstorages), add an SFTP connection with the following configuration:
-
-    + Authentication: username and password
-
-    + Host: `10.30.0.2:2200`
-
-    + Root: `/kaist-cp-home/{google-workspace-id}`
-
-    + Username: `{google-workspace-id}`
-
-    + Password: `{google-workspace-password}`
+- [Drive (Seafile)](https://drive.fearless.systems)
 
 - [Chat (Zulip)](https://chat.fearless.systems)
 
-    + First things first, say hi in [this topic](https://chat.fearless.systems/#narrow/stream/112-general/topic/.EC.86.8C.EA.B0.9C).
+    + Say hi in [this topic](https://chat.fearless.systems/#narrow/stream/112-general/topic/.EC.86.8C.EA.B0.9C) as soon as possible.
 
     + It is our primary method of communication.
+
+    + While writing a message, you may click the Video button to create a [Jitsi Meet](https://jitsi.fearless.systems) video call.
 
 - Git repositories
 
@@ -95,7 +87,8 @@ permalink: /tools
 
     + Learn VSCode. 
     
-      If you insist on 적폐 editors like Vim or Emacs, I won't fight with you. But keep in your mind that the winner of the editor war---vim vs emacs---is vs(code).
+      If you insist on 적폐 editors like Vim or Emacs, I won't fight with you. 
+      But keep in your mind that the winner of the editor war---vim vs emacs---is vs(code).
 
     + Learn Git. 
     
@@ -107,7 +100,7 @@ permalink: /tools
 
         * Authorize the key in servers: <https://www.ssh.com/academy/ssh/copy-id>. From now on, you must never write down password every time.
 
-        * Configure your local SSH config: <https://linuxize.com/post/using-the-ssh-config-file/>
+        * Configure your local SSH config: <https://linuxize.com/post/using-the-ssh-config-file>
 
         * Use `ssh-agent`.
 
