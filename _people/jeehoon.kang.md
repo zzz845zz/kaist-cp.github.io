@@ -14,9 +14,9 @@ title: Jeehoon Kang (강지훈)
 
 I'm a **Tenure-Track Assistant Professor at [KAIST School of Computing](https://cs.kaist.ac.kr)** and the **Principal Investigator of [Concurrency and Parallelism Laboratory](https://www.fearless.systems)**.
 I'm also an **Adjunct Faculty at [KAIST Graduate School of AI Semiconductor](https://aisemi.kaist.ac.kr/)**.
-I received my Ph.D. from Seoul National University under the supervision of [Prof. Chung-Kil Hur](https://sf.snu.ac.kr/gil.hur).
+I received my Ph.D. in Computer Science from Seoul National University under the supervision of [Prof. Chung-Kil Hur](https://sf.snu.ac.kr/gil.hur) and the guidance of [Prof. Kwangkeun Yi](http://kwangkeunyi.snu.ac.kr/).
 
-I'm designing and verifying concurrent and parallel systems, from microarchitectures to programming languages and algorithms, that greatly improve performance and reduce power consumption,
+I'm designing and verifying concurrent and parallel systems, from micro-architectures to programming languages and algorithms, that greatly improve performance and reduce power consumption,
 thereby serving as the basis for the upcoming era of massive data processing.
 
 
