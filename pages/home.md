@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Concurrency and Parallelism
+title: KAIST Concurrency and Parallelism
 description: We design and verify innovative concurrent and parallel systems.
 background: /assets/images/kaist.jpg
 permalink: /
