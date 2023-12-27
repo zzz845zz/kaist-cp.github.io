@@ -305,6 +305,7 @@
   korean_name: 한예지
   status: alumni
   role: B.S.
+  job: Software Foundations Laboratory, SNU
   image: assets/images/people/yeji.han.jpeg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: yj-han
@@ -359,7 +360,7 @@
   korean_name: 김정우
   status: alumni
   role: B.S.
-  job: Computer Architecture and Systems Lab, KAIST
+  job: Computer Architecture and Systems Laboratory, KAIST
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: kimjungwow
   educations: ["(2021) B.S. in Computer Science. KAIST."]
