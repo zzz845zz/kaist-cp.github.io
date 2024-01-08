@@ -156,7 +156,7 @@
   name: Taewoo Kim
   korean_name: 김태우
   status: present
-  role: B.S. Student
+  role: M.S. Student
   image: assets/images/people/taewoo.kim.jpg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: travis1829
@@ -168,7 +168,7 @@
   name: Sunho Park
   korean_name: 박선호
   status: present
-  role: B.S. Student
+  role: M.S. Student
   image: assets/images/people/sunho.park.jpg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: kingdoctor123
@@ -180,7 +180,7 @@
   name: Jaewoo Kim
   korean_name: 김재우
   status: present
-  role: B.S. Student
+  role: M.S. Student
   image: assets/images/people/jaewoo.kim.jpg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: Jaewookim08
@@ -192,7 +192,7 @@
   name: Jeonghyeon Kim
   korean_name: 김정현
   status: present
-  role: B.S. Student
+  role: M.S. Student
   image: assets/images/people/jeonghyeon.kim.jpg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: powergee
@@ -203,7 +203,7 @@
   name: Gieun Jeong
   korean_name: 정기은
   status: present
-  role: B.S. Student
+  role: M.S. Student
   image: assets/images/people/gieun.jeong.jpg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: jgiriboy
@@ -215,7 +215,7 @@
 - id: kisoo.kim
   name: Kisoo Kim
   korean_name: 김기수
-  status: present
+  status: external
   role: B.S. Student
   image: assets/images/people/kisoo.kim.jpeg
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
