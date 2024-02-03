@@ -164,6 +164,18 @@
   copy_local: https://plv.mpi-sws.org/compass/paper.pdf
   website: https://plv.mpi-sws.org/compass/
 
+- title: "Continuous verification of system of systems with collaborative MAPE-K pattern and probability model slicing"
+  authors: [
+    "Jiyoung Song",
+    "jeehoon.kang",
+    "Sangwon Hyun",
+    "Eunkyoung Jee",
+    "Doo-Hwan Bae",
+  ]
+  venue: "Information and Software Technology"
+  year: 2022
+  doi: 10.1016/j.infsof.2022.106904
+
 - title: "Simuliris: A Separation Logic Framework for Verifying Concurrent Program Optimizations"
   authors: [
     "Lennard Gäher",
