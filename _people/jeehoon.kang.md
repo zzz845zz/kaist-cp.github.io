@@ -13,8 +13,8 @@ If this interests you, please **review these [instructions]({{ site.baseurl }}/j
 
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/jeehoon.kang.jpg" alt="{{ person.name }}">
 
-I am a **Tenure-Track Assistant Professor at the [KAIST School of Computing](https://cs.kaist.ac.kr)** and the **Principal Investigator at the [Concurrency and Parallelism Laboratory](https://www.fearless.systems)**.
-Additionally, I serve as an **Adjunct Faculty member at the [KAIST Graduate School of AI Semiconductor](https://aisemi.kaist.ac.kr/)**.
+I am a **Tenure-Track Associate Professor at the [KAIST School of Computing](https://cs.kaist.ac.kr)** and the **Principal Investigator at the [Concurrency and Parallelism Laboratory](https://www.fearless.systems)**.
+Additionally, I serve as an **Adjunct Faculty member at the [Graduate School of AI Semiconductor](https://aisemi.kaist.ac.kr/)** and the [Department of Semiconductor System Engineering](https://sse.kaist.ac.kr/).
 My Ph.D. in Computer Science was earned at Seoul National University, supervised by [Prof. Chung-Kil Hur](https://sf.snu.ac.kr/gil.hur). I was also advised by [Prof. Kwangkeun Yi](http://kwangkeunyi.snu.ac.kr/).
 
 My work is centered around designing and verifying concurrent and parallel systems. These systems range from micro-architectures to programming languages and algorithms, aiming to substantially enhance performance and reduce power consumption. This work is crucial for the impending era of extensive data processing.
