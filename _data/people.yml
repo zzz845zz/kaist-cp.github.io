@@ -206,7 +206,11 @@
   place: Rm. 4441, Bldg. E3-1, KAIST (+82-42-350-7878)
   github: powergee
   orcid: 0009-0000-7070-3578
-  educations: ["(2022) B.S. in Computer Science. University of Seoul."]
+  educations:
+    [
+      "(2024 - Current) M.S. student in AI Semiconductor. KAIST (supervisor: Prof. [Jeehoon Kang](https://www.fearless.systems/jeehoon.kang/)).",
+      "(2022) B.S. in Computer Science. University of Seoul."
+    ]
 
 - id: gieun.jeong
   name: Gieun Jeong
