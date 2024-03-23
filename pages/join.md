@@ -33,16 +33,15 @@ This document contains all the information you need, so please read it thoroughl
 
 ## Requirements
 
-- **All new graduate students must complete at least two of the following before joining the lab**:
+- **All new graduate students must complete at least two of the following before applying for the lab**:
     + Homework from [KAIST CS420: Compiler Design](https://github.com/kaist-cp/cs420). Lectures are on YouTube; questions can be asked in the course repository's issue tracker.
     + Homework from [KAIST CS431: Concurrent Programming](https://github.com/kaist-cp/cs492-concur). Lectures are on YouTube; questions can be asked in the course repository's issue tracker.
     + Exercises from [Software Foundations](https://softwarefoundations.cis.upenn.edu/) Volumes 1 and 2.
     + Studying the [Corundum](https://github.com/corundum/corundum) open-source FPGA-based NIC.
 
-- **Undergraduate interns are highly encouraged to join the lab**.
-  Use the internship to experience lab life. 
-  Ideally, complete **at least one** of the above tasks before joining. 
+- **Undergraduate interns must complete at least one of the above before applying for the lab**.
   This will allow you to start research projects immediately upon joining.
+  Also, use the internship to experience lab life. 
 
 
 ## General Advice
