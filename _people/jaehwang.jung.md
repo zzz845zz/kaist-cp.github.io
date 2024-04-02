@@ -11,9 +11,8 @@ excerpt: "Jaehwang Jung's website"
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/jaehwang.jung.jpg" alt="{{ person.name }}">
 
 I am a **PhD student at [Concurrency and Parallelism Laboratory]({{ site.url }}), [KAIST School of Computing](https://cs.kaist.ac.kr)**.
-I am mainly interested in verifying programs using concurrent separation logic.
-Specifically, I'm focusing on concurrent programs with
-a complex interaction of libraries and manual memory management on weak memory models.
+I have been working on design and verification of algorithms for concurrency.
+Specifically, I am interested in memory management algorithms for non-blocking concurrency and separation logics for weak memory models.
 
 {% include person_contact.md person_id=person_id %}
 
