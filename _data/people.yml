@@ -43,7 +43,7 @@
   orcid: 0000-0001-6099-2644
   educations:
     [
-      "(2020 - Current) Ph.D. student in Computer Science. KAIST (supervisor: Prof. [Jeehoon Kang](https://www.fearless.systems/jeehoon.kang/)).",
+      "(2025, expected) Ph.D. in Computer Science. KAIST (supervisor: Prof. [Jeehoon Kang]({{ site.baseurl }}/jeehoon.kang/)).",
       "(2020) B.S. in Computer Science. KAIST.",
     ]
 

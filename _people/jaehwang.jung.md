@@ -10,9 +10,12 @@ excerpt: "Jaehwang Jung's website"
 
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/jaehwang.jung.jpg" alt="{{ person.name }}">
 
+**I am expected to graduate with a PhD in Feb. 2025.
+I am looking for a position in a Korean organization (industry or academia) that can host a 전문연구요원.**
+
 I am a **PhD student at [Concurrency and Parallelism Laboratory]({{ site.url }}), [KAIST School of Computing](https://cs.kaist.ac.kr)**.
-I have been working on design and verification of algorithms for concurrency.
-Specifically, I am interested in memory management algorithms for non-blocking concurrency and separation logics for weak memory models.
+I have been working on design and verification of algorithms for concurrency,
+especially on memory management algorithms for non-blocking concurrency and separation logics for weak memory models.
 
 {% include person_contact.md person_id=person_id %}
 
