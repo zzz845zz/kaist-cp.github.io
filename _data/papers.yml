@@ -1,3 +1,39 @@
+- title: "Expediting Hazard Pointers with Bounded Critical Sections"
+  authors: [
+    "jeonghyeon.kim",
+    "jaehwang.jung",
+    "jeehoon.kang",
+  ]
+  venue: "ACM Symposium on Parallelism in Algorithms and Architectures"
+  venue_short: "SPAA"
+  year: 2024
+  status: "to appear"
+  tags: [
+    "gc",
+  ]
+  website: /gc
+
+  abstract:
+    "Reclamation schemes for concurrent data structures tackle the challenge of
+    synchronizing memory accesses and reclamation. Early schemes faced a
+    tradeoff between robustness and efficiency: hazard pointers (HP) bounds the
+    number of unreclaimed nodes, but it is inefficient due to per-node
+    protection; and RCU sacrifices robustness for efficiency as a single thread
+    may block the entire reclamation. Recent schemes attempt to break the
+    tradeoff by sending signals to blocking threads to abort their operations.
+    However, they are (1) inefficient due to starvation in long-running
+    operations and frequent signals, and (2) inapplicable to a wide class of
+    data structures.
+    <br />
+    We design a novel reclamation scheme that overcomes the above limitations.
+    To address the long-running operations and applicability, we propose
+    <em>HP-RCU</em>, integrating RCU-expedited traversal that alternates between HP and
+    RCU phases. To additionally ensure robustness against stalled threads, we
+    develop <em>HP-BRCU</em> by modularly replacing RCU with bounded RCU (BRCU) that
+    efficiently bounds the duration of RCU phases by rarely sending signals. We
+    show that HP-BRCU is robust, widely applicable, and as efficient as RCU,
+    outperforming robust schemes across various workloads."
+
 - title: "Concurrent Immediate Reference Counting"
   authors: [
     "jaehwang.jung",
