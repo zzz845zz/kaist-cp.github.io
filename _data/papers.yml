@@ -1,4 +1,4 @@
-- title: "Expediting Hazard Pointers with Bounded Critical Sections"
+- title: "Expediting Hazard Pointers with Bounded RCU Critical Sections"
   authors: [
     "jeonghyeon.kim",
     "jaehwang.jung",
