@@ -10,7 +10,7 @@ excerpt: "Seungmin Jeon's website"
 
 <img align="right" style="width: 30%; padding-left: 3%;" src="{{ site.baseurl }}/assets/images/people/seungmin.jeon.jpg" alt="{{ person.name }}">
 
-I am a **Master Student at KAIST [School of Computing](https://cs.kaist.ac.kr)** at [Concurrency and Parallelism Laboratory](https://www.fearless.systems). 
+I am a **Ph.D Student at KAIST [Graduate School of AI Semiconductor, KAIST](https://aisemi.kaist.ac.kr/)** at [Concurrency and Parallelism Laboratory](https://www.fearless.systems).
 
 My research focuses on enhancing the computing ecosystem for cutting-edge hardware, such as quantum computers and persistent memory.
 
